@@ -5,7 +5,10 @@ seo-title: Markering gebruiken voor het schrijven van Adobe-documentatie
 description: dit artikel bevat de grondbeginselen en referentiegegevens van de opmaaktaal die wordt gebruikt voor het schrijven van artikelen .
 seo-description: Dit artikel bevat de basisbeginselen en referentiegegevens van de opmaaktaal die wordt gebruikt voor het schrijven van artikelen voor Adobe-documentatie.
 translation-type: tm+mt
-source-git-commit: 883f9d7a9a232fdb69db09d5e9409575c7f3bdd0
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '1377'
+ht-degree: 1%
 
 ---
 
@@ -105,6 +108,7 @@ U kunt ook lijsten insluiten in lijsten en inhoud toevoegen tussen lijstitems.
    >[!NOTE]
    >
    >This is note text.
+
 1. Do another step.
 ```
 
@@ -124,6 +128,7 @@ Weergegeven:
    >[!NOTE]
    >
    >Dit is notitietekst.
+
 1. Doe nog een stap.
 
 ### Tabellen
@@ -275,22 +280,26 @@ Over het algemeen moeten notenblokken spaarzaam worden gebruikt omdat ze verstor
 
 ```markdown
 >[!NOTE]
+>
 >This is a standard NOTE block.
 ```
 
 Weergegeven:
 
 >[!NOTE]
+>
 >Dit is een standaardblok van de NOOT.
 
 ```markdown
 >[!TIP]
+>
 >This is a standard tip.
 ```
 
 Weergegeven:
 
 >[!TIP]
+>
 >Dit is een standaardtip.
 
 ### Video&#39;s
@@ -318,8 +327,8 @@ De component &quot;Meer als dit&quot; in AEM wordt aan het einde van een artikel
 Weergegeven:
 
 >[!MORELIKETHIS]
->* [Artikel 1](https://helpx.adobe.com/support/analytics.html)
->* [Artikel 2](https://helpx.adobe.com/support/audience-manager.html)
+>* [Artikel 1](https://helpx.adobe.com/nl/support/analytics.html)
+>* [Artikel 2](https://helpx.adobe.com/nl/support/audience-manager.html)
 
 
 ### DNL - Niet lokaliseren - en UICONTROL
