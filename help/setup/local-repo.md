@@ -4,7 +4,10 @@ seo-title: Git-opslagplaats lokaal instellen voor Adobe-documentatie
 description: Dit artikel biedt richtlijnen voor het maken van uw lokale Git-opslagplaats en het bijdragen aan Adobe-documentatie, waaronder het proces voor het forken en klonen.
 seo-description: Dit artikel biedt richtlijnen voor het maken van uw lokale Git-opslagplaats en het bijdragen aan Adobe-documentatie, waaronder het proces voor het forken en klonen.
 translation-type: tm+mt
-source-git-commit: a88b7d5e6f61ae95facb17eb62b6f0fad5e296e9
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '682'
+ht-degree: 0%
 
 ---
 
@@ -58,8 +61,9 @@ Een persoonlijke vork is vereist omdat alle hoofddocumentatieruimten alleen-leze
 
    Sommige opslagruimten kunnen groot zijn. Kies een locatie met beschikbare schijfruimte.
 
-   > [!NOTE]
-   > Kies geen lokaal mappad dat is genest in een andere locatie in de map van de it-opslagplaats. Hoewel het acceptabel is om de gekloonde mappen aan elkaar te koppelen, leidt het nesten van git-mappen in elkaar tot fouten bij het bijhouden van het bestand.
+   >[!NOTE]
+   >
+   >Kies geen lokaal mappad dat is genest in een andere locatie in de map van de it-opslagplaats. Hoewel het acceptabel is om de gekloonde mappen aan elkaar te koppelen, leidt het nesten van git-mappen in elkaar tot fouten bij het bijhouden van het bestand.
 
 ## Een lokale kloon maken van de opslagplaats
 
