@@ -5,7 +5,10 @@ seo-title: Installeer Git en GitHub authoring tools voor Adobe-documentatie
 description: Dit artikel helpt u downloadt en de cliënthulpmiddelen installeert u voor Git/GitHub en voor het uitgeven van de dossiers van de Prijsverhoging zult nodig hebben.
 seo-description: Dit artikel helpt u de cliënthulpmiddelen downloaden en installeren u voor Git/GitHub en voor het uitgeven van de dossiers van de Prijsverhoging voor de documentatie van Adobe zult nodig hebben.
 translation-type: tm+mt
-source-git-commit: a88b7d5e6f61ae95facb17eb62b6f0fad5e296e9
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '378'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,8 @@ source-git-commit: a88b7d5e6f61ae95facb17eb62b6f0fad5e296e9
 *In dit artikel worden de stappen beschreven voor het interactief installeren van Git-clientgereedschappen en het bewerken van gereedschappen.*
 
 >[!NOTE]
-> Als u slechts kleine veranderingen in een artikel aanbrengt, te hoeven u *niet* om de stappen in dit artikel te voltooien. U kunt gewoon wijzigingen aanbrengen in uw webbrowser.
+>
+>Als u slechts kleine veranderingen in een artikel aanbrengt, te hoeven u *niet* om de stappen in dit artikel te voltooien. U kunt gewoon wijzigingen aanbrengen in uw webbrowser.
 >
 > Belangrijke medewerkers worden aangeraden deze stappen uit te voeren, zodat u de workflow [voor](local-repo.md)belangrijke wijzigingen kunt gebruiken. Zelfs als u schrijfmachtigingen hebt in de hoofdopslagplaats, raden wij u ten zeerste aan (en deze handleiding gaat ervan uit) dat u de opslagplaats forceert en kloont, zodat u lees- en schrijfmachtigingen hebt om de voorgestelde wijzigingen in uw vork op te slaan.
 
