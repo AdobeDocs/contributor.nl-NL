@@ -4,7 +4,10 @@ seo-title: Overzicht van de Contribute-handleiding voor de technische documentat
 description: In de handleiding wordt beschreven hoe u suggesties en toevoegingen kunt toevoegen aan de documentatiesite van Adobe.
 seo-description: In de handleiding wordt beschreven hoe u een bijdrage kunt leveren aan de technische documentatie van [!UICONTROL Adobe Experience Cloud].
 translation-type: tm+mt
-source-git-commit: afcd9363375adbc21a0e9a027d3f5ce59e08cd70
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 0%
 
 ---
 
@@ -13,9 +16,9 @@ source-git-commit: afcd9363375adbc21a0e9a027d3f5ce59e08cd70
 
 ## Wat is collectieve documentatie
 
-In 2019 gaat alle technische documentatie en inschakelingsinhoud voor Adobe Experience Cloud over naar een nieuw platform op basis van open-sourcingprincipes. Hierbij worden de oplossingen Github, Markdown en Adobe Experience Cloud gebruikt, waaronder Adobe Experience Manager, Analytics, Launch en Target.
+In 2019 gaat alle technische documentatie en de inhoud voor Adobe Experience Cloud over naar een nieuw platform, gebaseerd op open-sourcefontages, met gebruik van de oplossingen Github, Markdown en Adobe Experience Cloud, waaronder Adobe Experience Manager, Analytics, Launch en Target.
 
-Dit open-sourcemodel verbetert de kwaliteit van de inhoud en de communicatie tussen klanten, documentatieteams en productteams. Op elke pagina kunt u nu het nut van de inhoud beoordelen, problemen met het logbestand bekijken en zelfs inhoudsuggesties leveren als Git pull-aanvragen (PR&#39;s). De documentatieteams van Adobe houden dagelijks toezicht op de bijdragen en problemen en brengen waar nodig updates, aanpassingen en aanpassingen aan.
+Dit open-sourcemodel verbetert de kwaliteit van de inhoud en de communicatie tussen klanten, documentatieteams en productteams. Op elke pagina kunt u nu het nut van inhoud beoordelen, problemen met het logbestand bekijken en zelfs inhoudssuggesties leveren als Git pull-aanvragen (PR&#39;s). De documentatieteams van Adobe houden dagelijks toezicht op de bijdragen en problemen en brengen waar nodig updates, aanpassingen en aanpassingen aan.
 
 ## Werken met collectieve documentatie
 
@@ -44,8 +47,9 @@ Het maken van snelle bewerkingen is een goede manier om kleine fouten en omissie
 1. Klik **`Edit this page`** op de juiste kolom om naar het prijsonderdrukkbrondossier op GitHub te gaan.
 1. Klik op het potloodpictogram om het artikel te bewerken.
 
-   > [!NOTE]
-   > Als het potloodpictogram grijs uit is, moet u login aan uw rekening GitHub, of een nieuwe rekening tot stand brengen.
+   >[!NOTE]
+   >
+   >Als het potloodpictogram grijs uit is, moet u login aan uw rekening GitHub, of een nieuwe rekening tot stand brengen.
 
    ![Locatie van het potloodpictogram](assets/edit-icon.png)
 
@@ -54,7 +58,9 @@ Het maken van snelle bewerkingen is een goede manier om kleine fouten en omissie
 
    ![voorstellen, wijziging](assets/submit-pull-request.png)
 
-   >[!NOTE] Als u een foutbericht krijgt over het ondertekenen van een licentieovereenkomst voor contribuanten (CLA), klikt u op **Details** om de licentieovereenkomst te openen. Onderteken de overeenkomst, indien acceptabel. Vervolgens sluit u het verzoek en opent u het verzoek en gaat u verder.
+   >[!NOTE]
+   >
+   >Als u een foutbericht krijgt over het ondertekenen van een licentieovereenkomst voor contribuanten (CLA), klikt u op **Details** om de licentieovereenkomst te openen. Onderteken de overeenkomst, indien acceptabel. Vervolgens sluit u het verzoek en opent u het verzoek en gaat u verder.
 
 Dat is alles wat er aan te pas komt. Bedankt! De leden van het documentatieteam zullen uw trekkrachtverzoek herzien en samenvoegen.
 
@@ -66,8 +72,9 @@ Een andere gemakkelijke manier om ons op de hoogte te brengen van een probleem m
 
    ![](assets/git_log_issue.png)
 
-   > [!NOTE]
-   > U zult aan login aan uw rekening moeten GitHub, of een nieuwe rekening creëren, om een kwestie te registreren.
+   >[!NOTE]
+   >
+   >U zult aan login aan uw rekening moeten GitHub, of een nieuwe rekening creëren, om een kwestie te registreren.
 
    Als u op deze koppeling klikt, kunt u een snel ticket bij ons aanmelden via de interface van Github Issue.
 
