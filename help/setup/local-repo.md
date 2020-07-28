@@ -1,10 +1,10 @@
 ---
 title: Git-opslagplaats lokaal instellen
 seo-title: Git-opslagplaats lokaal instellen voor Adobe-documentatie
-description: Dit artikel biedt richtlijnen voor het maken van uw lokale Git-opslagplaats en het bijdragen aan Adobe-documentatie, waaronder het proces voor het forken en klonen.
-seo-description: Dit artikel biedt richtlijnen voor het maken van uw lokale Git-opslagplaats en het bijdragen aan Adobe-documentatie, waaronder het proces voor het forken en klonen.
+description: Dit artikel biedt richtlijnen voor het maken van uw lokale Git-opslagplaats en het bijdragen aan Adobe-documentatie, waaronder het proces van forken en klonen.
+seo-description: Dit artikel biedt richtlijnen voor het maken van uw lokale Git-opslagplaats en het bijdragen aan Adobe-documentatie, waaronder het proces van forken en klonen.
 translation-type: tm+mt
-source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+source-git-commit: d69ca7ee25e2a79151779687ef58d67a800f92e6
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 0%
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 In dit artikel worden de stappen beschreven voor het instellen van een git-opslagplaats op uw lokale computer, met de bedoeling om bij te dragen aan de documentatie van Adobe. Medewerkers kunnen een lokaal gekloonde opslagplaats gebruiken om nieuwe artikelen toe te voegen, bestaande artikelen ingrijpend te bewerken of illustraties te wijzigen.
 
-> [!IMPORTANT]
-> Als u slechts kleine veranderingen in een artikel aanbrengt, te hoeven u *niet* om de stappen in dit artikel te voltooien. U kunt eenvoudig op het pictogram Bewerken klikken en tekst bewerken in uw browser.
+>[!IMPORTANT]
+>Als u slechts kleine veranderingen in een artikel aanbrengt, te hoeven u *niet* om de stappen in dit artikel te voltooien. U kunt eenvoudig op het pictogram Bewerken klikken en tekst bewerken in uw browser.
 
 ## Overzicht
 
-Om bij te dragen aan de documentatie van Adobe, kunt u de aangewezen bewaarplaats in uw eigen rekening vorkHub zodat u lees-schrijf toestemmingen hebt. Vervolgens kunt u Markdown-bestanden lokaal maken en bewerken door de corresponderende documentatieopslagplaats te klonen. Vervolgens gebruikt u pull-aanvragen om wijzigingen samen te voegen (te verzenden) in de alleen-lezen centrale gedeelde opslagplaats.
+Om aan de documentatie van Adobe bij te dragen, kunt u de aangewezen bewaarplaats in uw eigen rekening forkGitHub zodat u lees/schrijf toestemmingen hebt. Vervolgens kunt u Markdown-bestanden lokaal maken en bewerken door de corresponderende documentatieopslagplaats te klonen. Vervolgens gebruikt u pull-aanvragen om wijzigingen samen te voegen (te verzenden) in de alleen-lezen centrale gedeelde opslagplaats.
 
 * Bepaal de juiste opslagplaats
 * Maak de gegevensopslagplaats aan uw rekening van GitHub
@@ -35,7 +35,7 @@ U vork de aangewezen bewaarplaats in uw eigen rekening GitHub zodat u gelezen/sc
 
 1. Als u niet zeker weet welke repository u moet gebruiken, gaat u naar het artikel met uw webbrowser. Selecteer de koppeling **Bewerken** (potloodpictogram) rechtsboven in het artikel. (Als u geen Edit verbinding ziet, is die inhoud nog niet beschikbaar in GitHub.)
 
-Als u een bijdrage wilt leveren aan de documentatie van Adobe, kunt u Markeringen lokaal maken en bewerken door de corresponderende documentatieopslagplaats te klonen. Vervolgens gebruikt u trekkingsverzoeken om wijzigingen samen te voegen in de alleen-lezen centrale gedeelde opslagplaats.
+Als u een bijdrage wilt leveren aan de Adobe-documentatie, kunt u Markeringen lokaal maken en bewerken door de corresponderende documentatieopslagplaats te klonen. Vervolgens gebruikt u trekkingsverzoeken om wijzigingen samen te voegen in de alleen-lezen centrale gedeelde opslagplaats.
 
 <!---
 ![GitHub Triangle](/assets/git-and-github-initial-setup.png)
