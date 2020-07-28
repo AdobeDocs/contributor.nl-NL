@@ -1,11 +1,14 @@
 ---
 lastModified: 2018-06-28T00:00:00Z
 title: Koppelingen gebruiken in documentatie
-seo-title: Koppelingen gebruiken in de Adobe Git/Markdown-documentatie
+seo-title: Koppelingen gebruiken in de documentatie bij Adobe Git/Markering
 description: In dit artikel vindt u richtlijnen voor het maken van koppelingen naar inhoud en afbeeldingen.
-seo-description: In dit artikel vindt u richtlijnen voor het maken van koppelingen naar inhoud en afbeeldingen in Adobe-documentatie.
+seo-description: In dit artikel vindt u richtlijnen voor het maken van koppelingen naar inhoud en afbeeldingen voor Adobe-documentatie.
 translation-type: tm+mt
-source-git-commit: 9060d24142e0f03283b42a2a4bbc638abe2952aa
+source-git-commit: 73ec3b8b63769a192ee16bec2720930ea6a9aaed
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 0%
 
 ---
 
@@ -14,8 +17,8 @@ source-git-commit: 9060d24142e0f03283b42a2a4bbc638abe2952aa
 
 In dit artikel wordt het gebruik van hyperlinks in documentatiepagina&#39;s beschreven. Koppelingen zijn eenvoudig toe te voegen aan markering met een aantal verschillende conventies. Koppelingen wijzen gebruikers naar inhoud op dezelfde pagina, wijzen naar andere aangrenzende pagina&#39;s of wijzen naar externe sites en URL&#39;s.
 
-> [!IMPORTANT]
-> Idealiter zouden alle koppelingen beveiligde verbindingen (`https` vs `http`) moeten zijn wanneer het doel dit ondersteunt (wat de overgrote meerderheid zou moeten doen).
+>[!IMPORTANT]
+>Idealiter zouden alle koppelingen beveiligde verbindingen (`https` vs `http`) moeten zijn wanneer het doel dit ondersteunt (wat de overgrote meerderheid zou moeten doen).
 
 ## Koppeling naar URL&#39;s
 
