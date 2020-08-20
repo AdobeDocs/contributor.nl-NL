@@ -1,13 +1,13 @@
 ---
 lastModified: 2018-06-28T00:00:00Z
 title: Hoe te om Markdown voor het schrijven van documentatie te gebruiken
-seo-title: Markering gebruiken voor het schrijven van Adobe-documentatie
+seo-title: Hoe te om Markdown voor het schrijven van Adobe documentatie te gebruiken
 description: dit artikel bevat de grondbeginselen en referentiegegevens van de opmaaktaal die wordt gebruikt voor het schrijven van artikelen .
-seo-description: Dit artikel bevat de basisbeginselen en referentiegegevens van de opmaaktaal die wordt gebruikt voor het schrijven van artikelen voor Adobe-documentatie.
+seo-description: dit artikel bevat de grondbeginselen en referentiegegevens van de opmaaktaal die wordt gebruikt voor het schrijven van artikelen voor Adobe - documentatie .
 translation-type: tm+mt
-source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+source-git-commit: 27ba164070996d192c84493d83232484d2badb28
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1329'
 ht-degree: 1%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 1%
 
 # Hoe te om Markdown voor het schrijven van technische documentatie te gebruiken
 
-De artikelen in de technische documentatie van Adobe zijn geschreven in een lichte opmaaktaal die [Markdown](https://daringfireball.net/projects/markdown/)wordt genoemd, die zowel gemakkelijk te lezen als gemakkelijk te leren is.
+De artikelen in de technische documentatie van Adobe zijn geschreven in een lichte opmaaktaal die [Markdown](https://daringfireball.net/projects/markdown/)wordt genoemd, zowel gemakkelijk te lezen als gemakkelijk te leren.
 
-Aangezien wij de inhoud van het Docs van Adobe in GitHub opslaan, kan het een versie van Markering gebruiken genoemd [GitHub die Markering (GFM)](https://help.github.com/categories/writing-on-github/)gearomatiseerd, die extra functionaliteit voor gemeenschappelijke het formatteren behoeften verstrekt. Bovendien heeft Adobe Markdown op een aantal manieren uitgebreid om bepaalde aan Help gerelateerde functies zoals notities, tips en ingesloten video&#39;s te ondersteunen.
+Aangezien wij de inhoud van Docs van Adobe in GitHub opslaan, kan het een versie van Markering gebruiken genoemd [GitHub Gearomatiseerde Prijsverhoging (GFM)](https://help.github.com/categories/writing-on-github/), die extra functionaliteit voor gemeenschappelijke het formatteren behoeften verstrekt. Bovendien heeft Adobe Markdown op een aantal manieren uitgebreid om bepaalde aan Help gerelateerde functies zoals notities, tips en ingesloten video&#39;s te ondersteunen.
 
 ## Grondbeginselen van markeringen
 
@@ -133,7 +133,7 @@ Weergegeven:
 
 ### Tabellen
 
-Tabellen maken geen deel uit van de kernspecificatie Markering, maar Adobe biedt wel een ruime ondersteuning voor deze tabellen. Markering ondersteunt geen lijsten met meerdere regels in cellen. U kunt het beste voorkomen dat meerdere regels in tabellen worden gebruikt. U kunt tabellen maken door het verticale streepje (|) te gebruiken om kolommen en rijen te definiëren. Bij deze optie wordt de kolomkop gemaakt, bij elke kolom worden de leidingen van elkaar gescheiden. Neem een lege regel voor de tabel op, zodat deze correct wordt weergegeven.
+Tabellen maken geen deel uit van de kernspecificatie Markering, maar Adobe ondersteunt ze tot op zekere hoogte. Markering ondersteunt geen lijsten met meerdere regels in cellen. U kunt het beste voorkomen dat meerdere regels in tabellen worden gebruikt. U kunt tabellen maken door het verticale streepje (|) te gebruiken om kolommen en rijen te definiëren. Bij deze optie wordt de kolomkop gemaakt, bij elke kolom worden de leidingen van elkaar gescheiden. Neem een lege regel voor de tabel op, zodat deze correct wordt weergegeven.
 
 ```markdown
 | Header | Another header | Yet another header |
@@ -187,7 +187,7 @@ Raadpleeg het artikel [Koppelingen](linking.md) in deze handleiding voor koppeli
 
 Weergegeven:
 
-![Adobe](assets/no-localize/adobe_standard_logo.png "LogoHover-tekst")
+![Adobe-](assets/no-localize/adobe_standard_logo.png "LogoHover-tekst")
 
 ### Codeblokken
 
@@ -221,11 +221,6 @@ function test() {
  console.log("notice the blank line before this function?");
 ```
 
-U kunt eigenschappen opgeven voor codeblokken om regelnummers uit te schakelen (standaard ingeschakeld) of om een regelomloop toe te voegen (standaard uitgeschakeld). Gebruik {line-numbers=&quot;no&quot;} en {line-wrap=&quot;yes&quot;}. Deze eigenschappen zijn aangepaste Markeringen-extensies.
-
-\`\`\` javascript {line-numbers=&quot;no&quot;}function test() {console.log(&quot;bewaar de lege regel voor deze functie?&quot;);
-\`\`\`
-
 ### Definitielijsten
 
 Een definitielijst is een extensie Markdown die de component Definitielijst in AEM ondersteunt. Een definitielijst bestaat uit een term en de bijbehorende definitie.
@@ -255,7 +250,7 @@ Opmerkingen (opmerkingen) worden niet weergegeven in de voor het publiek toegank
 
 ## Extensies voor aangepaste markeringen
 
-In Adobe-artikelen wordt de standaardopmaak voor de meeste artikelen gebruikt, zoals alinea&#39;s, koppelingen, lijsten en koppen. Voor een rijkere opmaak kunnen artikelen uitgebreide opmaakfuncties gebruiken, zoals:
+Adobe-artikelen gebruiken standaardmarkeringen voor de meeste artikelopmaak, zoals alinea&#39;s, koppelingen, lijsten en koppen. Voor een rijkere opmaak kunnen artikelen uitgebreide opmaakfuncties gebruiken, zoals:
 
 * Notitieblokken
 * Ingesloten video&#39;s
