@@ -5,7 +5,7 @@ seo-title: GitHub-bijdrageworkflow voor belangrijke wijzigingen in Adobe-documen
 description: in dit artikel wordt uitgelegd hoe u de workflow voor belangrijke bijdragen kunt gebruiken om Adobe-documentatie bij te werken .
 seo-description: in dit artikel wordt uitgelegd hoe u de workflow voor belangrijke bijdragen kunt gebruiken om Adobe-documentatie bij te werken .
 translation-type: tm+mt
-source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+source-git-commit: c788a71cecf7b69698b649b6053e6740bcc22730
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 0%
@@ -16,8 +16,8 @@ ht-degree: 0%
 # GitHub-bijdrageworkflow voor grote wijzigingen
 
 <!--
-> [!IMPORTANT]
-> All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../../code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../../contributing.md) article.
+>[!IMPORTANT]
+>All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../../code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../../contributing.md) article.
 >
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
 --->
@@ -37,7 +37,7 @@ Alvorens u begint, herzien sommige termijnen Git/GitHub die in dit werkschema wo
 | oorsprong | De naam die is toegewezen aan de verbinding tussen uw lokale opslagplaats en de opslagplaats waaruit deze is gekloond. In deze workflow staat de oorsprong voor de verbinding met uw vork. Het wordt soms gebruikt als een moniker voor de oorspronkelijke repository zelf, zoals in &quot;Herinner me om uw veranderingen in oorsprong te duwen.&quot; |
 | upstream | Net als de oorspronkelijke externe server is upstream een benoemde verbinding met een andere repository. In deze workflow vertegenwoordigt upstream de verbinding tussen uw lokale opslagplaats en de hoofdopslagplaats, waaruit uw vork is gemaakt. Het wordt soms gebruikt als moniker voor de stroomopwaartse bewaarplaats zelf, zoals in &quot;Herinner me om de veranderingen van upstream terug te trekken.&quot; |
 
-Als u met de concepten Git en GitHub zoals een bewaarplaats of een tak onbekend bent, gelieve eerst [Git en de fundamentele waarden](git-fundamentals.md)van GitHub te herzien.
+Als u met de concepten Git en GitHub zoals een bewaarplaats of een tak onbekend bent, gelieve eerst de fundamentele waarden [van](git-fundamentals.md)Git en van GitHub te herzien.
 
 ## Workflow
 
