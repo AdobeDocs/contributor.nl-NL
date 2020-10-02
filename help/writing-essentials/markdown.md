@@ -5,9 +5,9 @@ seo-title: Hoe te om Markdown voor het schrijven van Adobe documentatie te gebru
 description: dit artikel bevat de grondbeginselen en referentiegegevens van de opmaaktaal die wordt gebruikt voor het schrijven van artikelen .
 seo-description: dit artikel bevat de grondbeginselen en referentiegegevens van de opmaaktaal die wordt gebruikt voor het schrijven van artikelen voor Adobe - documentatie .
 translation-type: tm+mt
-source-git-commit: 27ba164070996d192c84493d83232484d2badb28
+source-git-commit: 4ebbbde3337183a19fd3a59ae091b621a092e6f8
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1322'
 ht-degree: 1%
 
 ---
@@ -302,12 +302,12 @@ Weergegeven:
 Ingesloten video&#39;s worden niet native gerenderd in Markdown, maar u kunt deze extensie Markdown gebruiken.
 
 ```markdown
->[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 ```
 
 Weergegeven:
 
->[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 
 ### Meer als dit
 
