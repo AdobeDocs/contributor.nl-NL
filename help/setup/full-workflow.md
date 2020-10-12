@@ -5,9 +5,9 @@ seo-title: GitHub-bijdrageworkflow voor belangrijke wijzigingen in Adobe-documen
 description: in dit artikel wordt uitgelegd hoe u de workflow voor belangrijke bijdragen kunt gebruiken om Adobe-documentatie bij te werken .
 seo-description: in dit artikel wordt uitgelegd hoe u de workflow voor belangrijke bijdragen kunt gebruiken om Adobe-documentatie bij te werken .
 translation-type: tm+mt
-source-git-commit: c788a71cecf7b69698b649b6053e6740bcc22730
+source-git-commit: 6ec1d13f80698cb5963c07656ef8183db735ff75
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -75,5 +75,3 @@ Wanneer de trekkingsaanvraag emissievrij is en afgemeld, worden uw wijzigingen w
 ### Publiceren
 
 Vergeet niet dat uw pull-verzoek moet worden samengevoegd met een PR-controleur voordat de wijzigingen kunnen worden opgenomen in de volgende geplande publicatiereeks. Een volledige aanvraag wordt doorgaans in de volgorde van indiening beoordeeld of samengevoegd. Als voor uw pull-verzoek samenvoeging voor een specifieke publicatiereeks is vereist, moet u vooraf met uw PR-controleur werken om ervoor te zorgen dat samenvoegen plaatsvindt voordat de publicatie wordt uitgevoerd.
-
-Nadat uw bijdragen zijn goedgekeurd en samengevoegd, worden deze door het publicatieproces docs.microsoft.com opgehaald. Afhankelijk van het team dat de opslagplaats beheert waaraan u bijdraagt, kunnen de publicatietijden variëren.
