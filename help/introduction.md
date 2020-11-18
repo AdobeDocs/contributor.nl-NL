@@ -4,9 +4,9 @@ seo-title: Overzicht van de handleiding voor contribuanten voor technische docum
 description: In de handleiding wordt beschreven hoe u suggesties en toevoegingen kunt toevoegen aan de documentatiesite Adobe.
 seo-description: In de handleiding wordt beschreven hoe u een bijdrage kunt leveren aan de [!UICONTROL Adobe Experience Cloud] technische documentatie.
 translation-type: tm+mt
-source-git-commit: c788a71cecf7b69698b649b6053e6740bcc22730
+source-git-commit: 8943af2fdf406b2e33db037bb60dfea97df2959a
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,10 @@ Het maken van snelle bewerkingen is een goede manier om kleine fouten en omissie
 1. Onderteken, indien acceptabel, de licentieovereenkomst voor [contribuanten (CLA)](http://opensource.adobe.com/cla.html) .
 
    U hoeft slechts één keer een Adobe CLA in te dienen.
-1. Klik **`Edit this page`** op de juiste kolom om naar het prijsonderdrukkbrondossier op GitHub te gaan.
+1. Klik het **`Edit this page`** pictogram in de juiste kolom om naar het van de prijsverhogingsbron dossier op GitHub te gaan.
+
+   ![Dit paginapictogram bewerken](/help/assets/git_edit.png)
+
 1. Klik op het potloodpictogram om het artikel te bewerken.
 
    >[!NOTE]
@@ -68,13 +71,13 @@ Dat is alles wat er aan te pas komt. Bedankt! De leden van het documentatieteam 
 
 Een andere gemakkelijke manier om ons op de hoogte te brengen van een probleem met een stuk inhoud is om een probleem te registreren.
 
-1. Als er een probleem optreedt met inhoud, klikt u rechtsonder op een pagina op de `Log an Issue` koppeling. Zie onderstaande afbeelding:
+1. Als er een probleem optreedt met een stuk inhoud, klikt u op het **`Log an Issue`** pictogram in de rechterkolom.
 
    ![](assets/git_log_issue.png)
 
    >[!NOTE]
    >
-   >U zult aan login aan uw rekening moeten GitHub, of een nieuwe rekening creëren, om een kwestie te registreren.
+   >U zult aan login aan uw rekening GitHub moeten, of een nieuwe rekening creëren, om een kwestie te registreren.
 
    Als u op deze koppeling klikt, kunt u een snel ticket bij ons aanmelden via de interface van Github Issue.
 
