@@ -2,10 +2,10 @@
 title: Taalondersteuning voor Adobe Experience Cloud-productdocumentatie
 description: In de handleiding wordt beschreven hoe u suggesties en toevoegingen kunt toevoegen aan de documentatiesite Adobe.
 translation-type: tm+mt
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+source-git-commit: fe6adf7414680d4835a6402be2e8d1a5547cc7d8
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 2%
+source-wordcount: '828'
+ht-degree: 1%
 
 ---
 
@@ -30,15 +30,13 @@ U kunt de Adobe Experience Cloud-productdocumentatie in de meeste talen weergeve
 
    ![Vertaalde pagina](assets/french.png)
 
-<!--
-   In cases where your language version is not yet available, Adobe can automatically translate your content. Adobe's automatic translation service displays a message at the top of the page in a blue field:
+   Als uw taalversie nog niet beschikbaar is, kan Adobe uw inhoud automatisch vertalen. Adobe boven aan
 
-   ![Translation message](assets/machine-translation-message.png)
+   ![Vertaalbericht](assets/machine-translation-message.png)
 
-   The content may be rendered in your language automatically, or you can click a link to trigger the translation. (This scenario may occur when you have clicked on the hyperlink to return to the English source from the translated page. It gives you the option of viewing the translated page on-demand.) You can at any time return to the English source.
+   De inhoud wordt mogelijk automatisch in uw taal weergegeven of u kunt op een koppeling klikken om de vertaling te activeren. (Dit scenario kan voorkomen wanneer u op hyperlink hebt geklikt om aan de Engelse bron van de vertaalde pagina terug te keren. Hiermee kunt u de vertaalde pagina op aanvraag bekijken.) U kunt op elk ogenblik aan de Engelse bron terugkeren.
 
-   Occasionally, the English source content might have been recently updated and published before the translations were completed. Upon clicking on your language in the dropdown menu, you will see a notification — in the light-blue horizontal bar at the top of the page — informing that the page was automatically translated from the previous version, with updated content to be available soon. You will be offered the choice to view the most recent English source content in a new browser window, if you prefer.
--->
+   Soms is de Engelse broninhoud onlangs bijgewerkt en gepubliceerd voordat de vertalingen zijn voltooid. Nadat u in het vervolgkeuzemenu op uw taal hebt geklikt, verschijnt er een melding — in de lichtblauwe horizontale balk boven aan de pagina — dat de pagina automatisch is vertaald vanuit de vorige versie, met bijgewerkte inhoud die binnenkort beschikbaar is. U kunt desgewenst de meest recente Engelse broninhoud in een nieuw browservenster weergeven.
 
 ## Waarom automatische vertaling gebruiken
 
