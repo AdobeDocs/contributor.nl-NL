@@ -1,10 +1,11 @@
 ---
 title: De documentatie van Git en GitHub essentiële
-seo-title: De documentatie van Git en GitHub essentiële
-description: In dit artikel wordt een overzicht gegeven van de Git-, GitHub-opslagplaats en van de manier waarop inhoud wordt geordend, en conventies voor naamgeving die worden gebruikt voor Adobe-documentatie.
-seo-description: in dit artikel wordt een overzicht gegeven van de git , de github - opslagplaats en de organisatie van de inhoud en de naamgevingsconventies die worden gebruikt voor documentatie bij Adobe .
+description: Dit artikel verklaart een overzicht van Git, bewaarplaats GitHub, en hoe de inhoud wordt georganiseerd, en noemende overeenkomsten die voor de documentatie van Adobe worden gebruikt.
 translation-type: tm+mt
-source-git-commit: a88b7d5e6f61ae95facb17eb62b6f0fad5e296e9
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+workflow-type: tm+mt
+source-wordcount: '660'
+ht-degree: 0%
 
 ---
 
@@ -17,9 +18,9 @@ Als u alleen kleine, alleen-tekst wijzigingen in artikelen wilt aanbrengen, hoef
 
 Als medewerker aan de documentatieinhoud van Adobe, kunt u met veelvoudige hulpmiddelen en processen in wisselwerking staan. U kunt parallel met andere contribuanten aan hetzelfde project werken, mogelijk dezelfde inhoud, zelfs tegelijkertijd. Dit wordt allen toegelaten door de software van Git en van GitHub.
 
-Git is een opensource versiecontrolesysteem dat samenwerking toestaat. Meerdere contribuanten kunnen werken aan bestanden die in *opslagruimten* wonen.
+Git is een opensource versiecontrolesysteem dat samenwerking toestaat. Meerdere contribuanten kunnen werken aan bestanden die in *repositories* leven.
 
-GitHub is een webgebaseerde hostingservice voor Git-opslagruimten, zoals die welke worden gebruikt voor het opslaan van [docs.adobe.com](https://docs.adobe.com) -inhoud. Voor om het even welk project, gastheren GitHub de belangrijkste bewaarplaats, waarvan de contribuanten exemplaren voor hun eigen werk kunnen maken.
+GitHub is een webgebaseerde hostingservice voor Git-opslagruimten, zoals die welke worden gebruikt om [docs.adobe.com](https://docs.adobe.com)-inhoud op te slaan. Voor om het even welk project, gastheren GitHub de belangrijkste bewaarplaats, waarvan de contribuanten exemplaren voor hun eigen werk kunnen maken.
 
 ## Git
 
@@ -27,8 +28,8 @@ Git heeft een unieke workflow en terminologie voor bijdragen die het gedistribue
 
 Git gebruikt ook een gelaagde structuur om inhoud voor een project op te slaan en te beheren:
 
-- *Bewaarplaats*: Dit is ook wel een *repo* genoemd, de hoogste opslageenheid. Een gegevensopslagruimte bevat een of meer vertakkingen.
-- *Vertakking*: Alle opslagruimten bevatten een standaardvertakking (doorgaans &quot;master&quot; genoemd) en een of meer vertakkingen die bestemd zijn om weer in de hoofdvertakking te worden samengevoegd. De hoofdvertakking fungeert als de huidige versie en bron waaruit inhoud wordt gepubliceerd. Het is het bovenliggende element waarvan alle andere vertakkingen in de repository worden gemaakt.
+- *Bewaarplaats*: Dit is ook wel een  *repo* genoemd, de hoogste opslageenheid. Een gegevensopslagruimte bevat een of meer vertakkingen.
+- *Vertakking*: Alle opslagruimten bevatten een standaardvertakking (doorgaans &quot;master&quot; genoemd) en een of meer vertakkingen die bestemd zijn om weer in de master vertakking te worden samengevoegd. De master vertakking fungeert als de huidige versie en bron waaruit de inhoud wordt gepubliceerd. Het is het bovenliggende element waarvan alle andere vertakkingen in de repository worden gemaakt.
 
 Medewerkers werken met Git samen om opslagruimten op zowel het lokale niveau als het niveau van GitHub bij te werken en te manipuleren:
 
@@ -37,19 +38,19 @@ Medewerkers werken met Git samen om opslagruimten op zowel het lokale niveau als
 
 ## GitHub
 
-Alle werkschema&#39;s beginnen en eindigen op het niveau GitHub, waar de belangrijkste bewaarplaats voor om het even welk de documentatieproject van Adobe wordt opgeslagen. De kopieën die contribuanten voor eigen gebruik maken, worden verspreid over meerdere computers. Deze exemplaren worden uiteindelijk in de belangrijkste bewaarplaats GitHub van het project samengebracht.
+Alle werkschema&#39;s beginnen en eindigen op het niveau GitHub, waar de belangrijkste bewaarplaats voor om het even welk Adobe documentatieproject wordt opgeslagen. De kopieën die contribuanten voor eigen gebruik maken, worden verspreid over meerdere computers. Deze exemplaren worden uiteindelijk in de belangrijkste bewaarplaats GitHub van het project samengebracht.
 
 ### Directoryorganisatie
 
-De standaard-/hoofdvertakking van een project fungeert als de huidige versie van de inhoud voor het project. De inhoud in de hoofdvertakking - en takken die van het worden gecreeerd - richt zich op de organisatie van de artikelonderwerpen. Submappen worden gebruikt voor het ordenen van inhoud en afbeeldingselementen.
+De standaard/master vertakking van een project fungeert als de huidige versie van de inhoud voor het project. De inhoud in de master vertakking - en takken die van het worden gecreeerd - richt zich op de organisatie van de artikelonderwerpen. Submappen worden gebruikt voor het ordenen van inhoud en afbeeldingselementen.
 
-Doorgaans kunt u een hoofdmap van de hoofdmap van de opslagplaats vinden. `help` De artikelmap bevat een set submappen. Artikelen in de submappen worden opgemaakt als Markeringen voor bestanden met de extensie *.md* .
+Doorgaans vindt u een hoofdmap `help` van de hoofdmap van de opslagplaats. De artikelmap bevat een set submappen. Artikelen in de submappen worden opgemaakt als Markeringsbestanden die de extensie *.md* gebruiken.
 
 Binnen de wortel van deze folder, kunt u algemene artikelen vinden die op de algemene dienst of het product betrekking hebben. En typisch, kunt u een andere reeks subdirectories dan vinden die de eigenschappen/de diensten of gemeenschappelijke scenario&#39;s aanpassen.
 
 ### Map Middelen
 
-De gidsen van de gebruiker bevatten `/assets` subfolders voor beelddossiers die binnen een folder van verwijzingen worden voorzien.
+De gidsen van de gebruiker bevatten `/assets` subdirectories voor beelddossiers die binnen een folder van verwijzingen worden voorzien.
 
 <!---
 ### Markdown file template
@@ -65,6 +66,6 @@ For convenience, the root directory of each repository typically contains a Mark
 
 ## Pull-aanvragen
 
-Een *trekkingsverzoek* biedt een handige manier voor een medewerker om een set wijzigingen voor te stellen die op de standaardvertakking worden toegepast. De veranderingen (die ook als *komma* worden bekend) worden opgeslagen in de tak van een contribuant, zodat kan GitHub het effect van het *samenvoegen* van hen in de standaardtak eerst modelleren. Een pull-verzoek fungeert ook als een mechanisme om de contribuant feedback te geven van een build/validatieproces, de controleur van de pull-aanvraag, om mogelijke problemen of vragen op te lossen voordat de wijzigingen worden samengevoegd in de standaardvertakking.
+Een *pull request* verstrekt een geschikte manier voor een medewerker om een reeks veranderingen voor te stellen die op de standaardtak zullen worden toegepast. De veranderingen (die ook als *komma* worden bekend) worden opgeslagen in de tak van een contribuant, zodat kan GitHub het effect van *het samenvoegen* hen in de standaardtak eerst modelleren. Een pull-verzoek fungeert ook als een mechanisme om de contribuant feedback te geven van een build/validatieproces, de controleur van de pull-aanvraag, om mogelijke problemen of vragen op te lossen voordat de wijzigingen worden samengevoegd in de standaardvertakking.
 
-Er zijn twee manieren om door trekpleverzoek bij te dragen, afhankelijk van de grootte van veranderingen die u wilt voorstellen. Wij zullen dit in detail later, in de GitHub- werkschemagesectie [](local-repo.md) van deze gids behandelen.
+Er zijn twee manieren om door trekpleverzoek bij te dragen, afhankelijk van de grootte van veranderingen die u wilt voorstellen. Wij zullen dit in detail later, in de [GitHub werkschema](local-repo.md) sectie van deze gids behandelen.
