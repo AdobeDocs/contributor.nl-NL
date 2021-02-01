@@ -1,13 +1,10 @@
 ---
-lastModified: 2018-06-28T00:00:00Z
 title: GitHub-bijdrageworkflow voor grote wijzigingen
-seo-title: GitHub-bijdrageworkflow voor belangrijke wijzigingen in Adobe-documentatie
 description: in dit artikel wordt uitgelegd hoe u de workflow voor belangrijke bijdragen kunt gebruiken om Adobe-documentatie bij te werken .
-seo-description: in dit artikel wordt uitgelegd hoe u de workflow voor belangrijke bijdragen kunt gebruiken om Adobe-documentatie bij te werken .
 translation-type: tm+mt
-source-git-commit: 6ec1d13f80698cb5963c07656ef8183db735ff75
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -37,26 +34,26 @@ Alvorens u begint, herzien sommige termijnen Git/GitHub die in dit werkschema wo
 | oorsprong | De naam die is toegewezen aan de verbinding tussen uw lokale opslagplaats en de opslagplaats waaruit deze is gekloond. In deze workflow staat de oorsprong voor de verbinding met uw vork. Het wordt soms gebruikt als een moniker voor de oorspronkelijke repository zelf, zoals in &quot;Herinner me om uw veranderingen in oorsprong te duwen.&quot; |
 | upstream | Net als de oorspronkelijke externe server is upstream een benoemde verbinding met een andere repository. In deze workflow vertegenwoordigt upstream de verbinding tussen uw lokale opslagplaats en de hoofdopslagplaats, waaruit uw vork is gemaakt. Het wordt soms gebruikt als moniker voor de stroomopwaartse bewaarplaats zelf, zoals in &quot;Herinner me om de veranderingen van upstream terug te trekken.&quot; |
 
-Als u met de concepten Git en GitHub zoals een bewaarplaats of een tak onbekend bent, gelieve eerst de fundamentele waarden [van](git-fundamentals.md)Git en van GitHub te herzien.
+Als u met de concepten Git en GitHub zoals een bewaarplaats of een tak onbekend bent, gelieve eerst [Git en GitHub fundamentals](git-fundamentals.md) te herzien.
 
 ## Workflow
 
 >[!IMPORTANT]
-> Als u niet reeds hebt, moet u de stappen in de sectie van de [Opstelling](github-signup.md) voltooien.
+> Als u niet reeds hebt, moet u de stappen in [sectie ](github-signup.md) voltooien.
 
 In deze workflow worden wijzigingen doorgevoerd in een herhalingscyclus. Beginnend van de lokale bewaarplaats van uw apparaat, stromen zij terug naar uw vork GitHub, in de belangrijkste bewaarplaats GitHub, en terug plaatselijk terug aangezien u veranderingen van andere contribuanten opneemt.
 
 ### GitHub-stroom gebruiken
 
-Rappel van de fundamentele [waarden](git-fundamentals.md) vanGit en GitHub dat een bewaarplaats van de Git een master tak, plus om het even welke extra werk-in ontwikkeling takken bevat die niet in master zijn geïntegreerd. Als u een reeks logisch verwante wijzigingen doorvoert, kunt u het beste een *werkende vertakking* maken om uw wijzigingen via de workflow te beheren. Wij verwijzen hier naar het als werkende tak omdat het een werkruimte is om veranderingen te herhalen/te verfijnen, tot zij terug in de master tak kunnen worden geïntegreerd.
+Rappel van [Git en GitHub fundamentals](git-fundamentals.md) dat een bewaarplaats van de Git een master tak, plus om het even welke extra werk in uitvoering takken bevat die niet in master zijn geïntegreerd. Wanneer u een reeks logisch verwante veranderingen introduceert, is het beste praktijken om *werkende tak* te creëren om uw veranderingen door het werkschema te beheren. Wij verwijzen hier naar het als werkende tak omdat het een werkruimte is om veranderingen te herhalen/te verfijnen, tot zij terug in de master tak kunnen worden geïntegreerd.
 
 Door gerelateerde wijzigingen in een specifieke vertakking te isoleren, kunt u deze wijzigingen onafhankelijk beheren en introduceren en kunt u ze op een specifieke releasetijd in de publicatiecyclus toepassen. Afhankelijk van het type werk dat u doet, kunt u in feite eenvoudig met verschillende werkvertakkingen in uw opslagplaats belanden. Het is niet ongebruikelijk om aan veelvoudige takken tezelfdertijd te werken, elk die een verschillend project vertegenwoordigen.
 
 >[!NOTE]
 >
->Het aanbrengen van wijzigingen in de master vertakking *is geen goede praktijk*. Veronderstel dat u de master tak gebruikt om een reeks veranderingen voor een vastgestelde eigenschapversie voor te stellen. U voltooit de wijzigingen en wacht op de release ervan. Ondertussen hebt u een dringend verzoek om iets te repareren, dus brengt u de wijziging aan in een bestand in de master vertakking en publiceert u de wijziging. In dit voorbeeld publiceert u per ongeluk zowel de correctie *als* de wijzigingen die u op een bepaalde datum voor de release had opgeslagen.
+>Het aanbrengen van uw veranderingen in de master tak *is geen goede praktijk*. Veronderstel dat u de master tak gebruikt om een reeks veranderingen voor een vastgestelde eigenschapversie voor te stellen. U voltooit de wijzigingen en wacht op de release ervan. Ondertussen hebt u een dringend verzoek om iets te repareren, dus brengt u de wijziging aan in een bestand in de master vertakking en publiceert u de wijziging. In dit voorbeeld publiceert u per ongeluk zowel de correctie *als* de wijzigingen die u op een bepaalde datum voor release hebt aangehouden.
 
-De volgende stap bestaat uit het maken van een nieuwe werkende vertakking in uw lokale opslagplaats om de voorgestelde wijzigingen vast te leggen. Elke client is anders, dus raadpleeg de Help voor uw voorkeursclient. U kunt een overzicht van het proces in de GitHub Gids op [GitHub stroom](https://guides.github.com/introduction/flow/)zien.
+De volgende stap bestaat uit het maken van een nieuwe werkende vertakking in uw lokale opslagplaats om de voorgestelde wijzigingen vast te leggen. Elke client is anders, dus raadpleeg de Help voor uw voorkeursclient. U kunt een overzicht van het proces in de GitHub Gids op [GitHub flow](https://guides.github.com/introduction/flow/) zien.
 
 ## Verwerking van aanvraag volledig uitvoeren
 
