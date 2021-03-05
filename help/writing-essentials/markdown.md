@@ -2,9 +2,9 @@
 title: Hoe te om Markdown voor het schrijven van documentatie te gebruiken
 description: dit artikel bevat de grondbeginselen en referentiegegevens van de opmaaktaal die wordt gebruikt voor het schrijven van artikelen .
 translation-type: tm+mt
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+source-git-commit: b8090869aa7b5a2ab62f7af09e1b5e289d8a392b
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1491'
 ht-degree: 1%
 
 ---
@@ -176,6 +176,8 @@ Weergegeven:
 
 ![Adobe-](assets/no-localize/adobe_standard_logo.png "LogoHover-tekst")
 
+**NOTA:** Voor beelden die niet zouden moeten worden gelokaliseerd, creeer een afzonderlijke  `do-not-localize` omslag in de activa omslag. Afbeeldingen zonder tekst of afbeeldingen die alleen voorbeeldinhoud bevatten, worden daar gewoonlijk geplaatst. Hiermee verwijdert u alle &#39;ruis&#39; uit de map met middelen en vermindert u het aantal vragen.
+
 ### Codeblokken
 
 Markering ondersteunt de plaatsing van codeblokken, zowel inline in een zin als als een apart &#39;afgezonderd&#39; blok tussen zinnen. Zie [Native ondersteuning van markeringen voor codeblokken](https://daringfireball.net/projects/markdown/syntax#precode) voor meer informatie
@@ -290,33 +292,44 @@ Weergegeven:
 >* [Artikel 2](https://helpx.adobe.com/nl/support/audience-manager.html)
 
 
-### DNL - Niet lokaliseren - en UICONTROL
+### UICONTROL en DNL
 
-In sommige gevallen moeten bepaalde delen van de inhoud in een artikel alleen in het Engels worden gemarkeerd.
-Woorden, woordgroepen en andere elementen moeten in onze vertaalsystemen worden gedeclareerd en zorgen voor de mogelijkheid om een gecontroleerde lexicon te beheren.
+Al onze Help-inhoud voor Markdown is gelokaliseerd met behulp van in eerste instantie automatische vertaling. Als de hulp nooit is gelokaliseerd, dan houden wij de machinevertaling. Als de Help-inhoud echter in het verleden is gelokaliseerd, fungeert de machinaal vertaalde inhoud als plaatsaanduiding tijdens het vertalen van de inhoud.
 
-Voor woorden of uitdrukkingen die niet zouden moeten worden gelokaliseerd, gebruik de `[!DNL]` uitbreiding om het woord of de sectie te verpakken.
+**``**
 
-Voor elementen in de gebruikersinterface en menu&#39;s van een oplossing, gebruiken wij de `` uitbreiding.
+Tijdens het vertalen van machines worden items die zijn getagd met ``, gecontroleerd in een lokalisatiedatabase voor de juiste vertaling. Als de UI niet gelokaliseerd is, zal deze markering het systeem toestaan om de verwijzing UI in het Engels voor die bepaalde taal (d.w.z. te verlaten. Analytische verwijzingen in het Italiaans).
 
 **Voorbeeld:**
 
-In [!DNL Adobe Target] kunt u uw tests direct op een [!DNL Target]-Toegelaten pagina tot stand brengen.
+1. Ga naar het **[!UICONTROL Run Process]** scherm.
+1. Kies **[!UICONTROL File > Print > Print All]** om alle bestanden op uw server af te drukken.
+1. Het dialoogvenster [!UICONTROL Processing Rules] wordt weergegeven.
 
 **Bron:**
 
 ```markdown
-In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-enabled page.
+1. Go to the **[!UICONTROL Run Process]** screen.
+1. Choose **[!UICONTROL File > Print > Print All]** to print all the files on your server.
+1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**Voorbeeld**
+**OPMERKING:** Van de drie coderingsopties is dit de meest cruciale optie voor een hoge kwaliteit en is dit verplicht.
 
-Gebruik [!UICONTROL Visual Experience Composer] in [!DNL Target] om uw test direct op een pagina tot stand te brengen.
+**`[!DNL]`**
+
+In de regel gebruiken we een lijst &#39;Niet vertalen&#39; om de machinevertalingsprogramma&#39;s te vertellen wat ze in het Engels moeten houden. De meest voorkomende items zijn de lange namen van oplossingen, zoals &quot;Adobe Analytics&quot;, &quot;Adobe Campaign&quot; en &quot;Adobe Target&quot;. Er kunnen zich echter gevallen voordoen waarin de motor gedwongen moet worden het Engels te gebruiken, omdat de term in kwestie op een specifieke of algemene manier kan worden gebruikt. Dit zou het meest voor de hand liggende geval zijn: korte namen voor oplossingen zoals &quot;Analytics&quot;, &quot;Campaign&quot;, &quot;Target&quot; enz. Het zou voor een machine moeilijk zijn om te begrijpen dat dit oplossingsnamen en geen algemene termen zijn. De tag kan ook worden gebruikt voor namen/functies van derden die altijd in het Engels overblijven of voor kortere tekstgedeelten zoals woordgroepen of zinnen die in het Engels moeten blijven staan.
+
+**Voorbeeld:**
+
+* Met [!DNL Target] kunt u A/B tests tot stand brengen om het optimale te vinden
+* Adobe Analytics is een krachtige oplossing voor het verzamelen van analyses op uw site. [!DNL Analytics] kan u ook helpen bij het rapporteren om die gegevens gemakkelijk te kunnen samenvatten.
 
 **Bron:**
 
 ```markdown
-Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your test directly on a page.
+* With [!DNL Target], you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
 ```
 
 ## Gotchas en probleemoplossing
