@@ -1,14 +1,14 @@
 ---
 title: De documentatie van Git en GitHub essentiële
 description: Dit artikel verklaart een overzicht van Git, bewaarplaats GitHub, en hoe de inhoud wordt georganiseerd, en noemende overeenkomsten die voor de documentatie van Adobe worden gebruikt.
+exl-id: 2b2ec764-4201-4bcd-802d-a034d6675793
 translation-type: tm+mt
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+source-git-commit: 1b1678b33059f4bc8f7aff4690f1d775e6aee2d6
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
 
 ---
-
 
 # De documentatie van Git en GitHub essentiële
 
@@ -52,7 +52,8 @@ Binnen de wortel van deze folder, kunt u algemene artikelen vinden die op de alg
 
 De gidsen van de gebruiker bevatten `/assets` subdirectories voor beelddossiers die binnen een folder van verwijzingen worden voorzien.
 
-<!---
+<!--
+
 ### Markdown file template
 
 For convenience, the root directory of each repository typically contains a Markdown template file named `template.md`. You can use this template file as a "starter file" if you need to create a new article for submission to the repository. The file contains:
@@ -62,6 +63,7 @@ For convenience, the root directory of each repository typically contains a Mark
 - General **instructions on the use of Markdown extensions**, which you can use for various types of alerts.
 - Examples of **embedding video** by using an iframe.
 - General **instructions on the use of docs.adobe.com extensions**, which you can use for special controls such as buttons and selectors.
+
 -->
 
 ## Pull-aanvragen
