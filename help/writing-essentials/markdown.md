@@ -1,14 +1,13 @@
 ---
 title: Hoe te om Markdown voor het schrijven van documentatie te gebruiken
 description: dit artikel bevat de grondbeginselen en referentiegegevens van de opmaaktaal die wordt gebruikt voor het schrijven van artikelen .
-translation-type: tm+mt
-source-git-commit: b8090869aa7b5a2ab62f7af09e1b5e289d8a392b
+exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
+source-git-commit: 4104aa1481263dabe20f2e3a117944f55a6fd800
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1504'
 ht-degree: 1%
 
 ---
-
 
 # Hoe te om Markdown voor het schrijven van technische documentatie te gebruiken
 
@@ -182,7 +181,7 @@ Weergegeven:
 
 Markering ondersteunt de plaatsing van codeblokken, zowel inline in een zin als als een apart &#39;afgezonderd&#39; blok tussen zinnen. Zie [Native ondersteuning van markeringen voor codeblokken](https://daringfireball.net/projects/markdown/syntax#precode) voor meer informatie
 
-Gebruik backtikken ( \`) om inline-codestijlen in een alinea te maken. Als u een specifiek codeblok met meerdere regels wilt maken, voegt u drie backtikken (\`\&#39;\&#39;) toe vóór en na het codeblok (een &quot;afgezonderd codeblok&quot; in Markdown genoemd en alleen een &quot;codeblok&quot;-component in AEM). Voor afgezonderde codeblokken voegt u de codetaal toe na de eerste set backtikken, zodat de syntaxis van de code correct wordt gemarkeerd met Markering. Voorbeeld: \`\`\\javascript
+&amp;Achtertikken gebruiken ( amp;grave; ) om inline-codestijlen in een alinea te maken. Als u een specifiek codeblok met meerdere regels wilt maken, voegt u drie backtikken (&amp;grave;&amp;grave;&amp;grave;) toe vóór en na het codeblok (een &#39;afgezonderd codeblok&#39; in Markdown en alleen een &#39;codeblok&#39;-component in AEM). Voor afgezonderde codeblokken voegt u de codetaal toe na de eerste set backtikken, zodat de syntaxis van de code correct wordt gemarkeerd met Markering. Voorbeeld: &amp;grave;&amp;grave;&amp;grave;javascript
 
 Voorbeelden:
 
@@ -195,15 +194,6 @@ Weergegeven:
 Dit is `inline code` binnen een alinea met tekst.
 
 Dit is een afgezonderd codeblok:
-
-```markdown
-\```javascript
-function test() {
- console.log("notice the blank line before this function?");
-\```
-```
-
-Weergegeven:
 
 ```javascript
 function test() {
