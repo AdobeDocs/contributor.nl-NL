@@ -11,9 +11,9 @@ ht-degree: 1%
 
 # Hoe te om Markdown voor het schrijven van technische documentatie te gebruiken
 
-Artikelen met technische Adobe-documentatie worden geschreven in een lichte opmaaktaal met de naam [Markdown](https://daringfireball.net/projects/markdown/). Dit is zowel gemakkelijk te lezen als gemakkelijk te leren.
+De artikelen in de technische documentatie van Adobe zijn geschreven in een lichte opmaaktaal die [Markering](https://daringfireball.net/projects/markdown/), wat zowel gemakkelijk leesbaar als gemakkelijk te leren is.
 
-Aangezien wij de inhoud van Adobe Docs in GitHub opslaan, kan het een versie van Markting gebruiken genoemd [GitHub Gearomatiseerde Prijsverhoging (GFM)](https://help.github.com/categories/writing-on-github/), die extra functionaliteit voor gemeenschappelijke het formatteren behoeften verstrekt. Bovendien heeft Adobe Markdown op een aantal manieren uitgebreid om bepaalde aan Help gerelateerde functies zoals notities, tips en ingesloten video&#39;s te ondersteunen.
+Aangezien wij de inhoud van Docs van Adobe in GitHub opslaan, kan het een versie van Markdown gebruiken geroepen [GitHub Flavoed Markdown (GFM)](https://help.github.com/categories/writing-on-github/), die aanvullende functionaliteit biedt voor algemene opmaakbehoeften. Bovendien heeft Adobe Markdown op een aantal manieren uitgebreid om bepaalde aan Help gerelateerde functies zoals notities, tips en ingesloten video&#39;s te ondersteunen.
 
 ## Basisprincipes voor markdown
 
@@ -33,7 +33,7 @@ Als u een kop wilt maken, gebruikt u een hash-teken (#) aan het begin van een re
 
 Een alinea vereist geen speciale syntaxis in Markdown.
 
-Als u tekst wilt opmaken als **bold**, plaatst u de tekst in twee sterretjes. Als u tekst wilt opmaken als *cursief*, plaatst u de tekst in één sterretje:
+Tekst opmaken als **vet**, plaatst u deze in twee sterretjes. Tekst opmaken als *cursief*, plaatst u deze in één sterretje:
 
 ```markdown
    This text is **bold**.
@@ -49,7 +49,7 @@ This is not \*italicized\* type.
 
 ### Genummerde lijsten en lijsten met opsommingstekens
 
-Als u genummerde lijsten wilt maken, begint u met een regel met `1.` of `1)`, maar gebruikt u niet beide indelingen in dezelfde lijst. U hoeft de getallen niet op te geven. GitHub doet dat voor jou.
+Als u genummerde lijsten wilt maken, begint u met een regel met `1.` of `1)`, maar gebruik beide indelingen niet in dezelfde lijst. U hoeft de getallen niet op te geven. GitHub doet dat voor jou.
 
 ```markdown
 1. This is step 1.
@@ -139,13 +139,13 @@ Eenvoudige tabellen werken naar behoren in Markering. Tabellen die meerdere alin
 
 Zie voor meer informatie over het maken van tabellen:
 
-* [Informatie organiseren met tabellen](https://help.github.com/articles/organizing-information-with-tables/)
-* De webapp [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)
+* GitHub [Informatie organiseren met tabellen](https://help.github.com/articles/organizing-information-with-tables/)
+* De [Generator van tabellen voor opmaak](https://www.tablesgenerator.com/markdown_tables) webapp
 * [HTML-tabellen converteren naar Markering](https://jmalarcon.github.io/markdowntables/)
 
 ### Koppelingen
 
-De syntaxis van de Prijsverhoging voor een gealigneerde verbinding bestaat uit het `[link text]` gedeelte, dat de tekst is die hyperlinked zal zijn, door het `(file-name.md)` gedeelte wordt gevolgd, dat URL of dossiernaam is die met wordt verbonden:
+De syntaxis Markdown voor een gealigneerde verbinding bestaat uit `[link text]` deel, dat de tekst is die zal worden hyperlinked, gevolgd door `(file-name.md)` gedeelte, dat de URL of bestandsnaam is waarnaar wordt gekoppeld:
 
 `[link text](file-name.md)`
 
@@ -163,7 +163,7 @@ Gebruik relatieve koppelingen voor koppelingen naar artikelen (kruisverwijzingen
 See [Overview example article](../../overview.md)
 ```
 
-Zie het artikel [Koppelingen](linking.md) van deze handleiding voor het koppelen van syntaxis voor meer informatie over koppelingen.
+Zie voor meer informatie over koppelen de [Koppelingen](linking.md) artikel van deze handleiding voor het koppelen van syntaxis.
 
 ### Afbeeldingen
 
@@ -173,15 +173,15 @@ Zie het artikel [Koppelingen](linking.md) van deze handleiding voor het koppelen
 
 Weergegeven:
 
-![Adobe-](assets/no-localize/adobe_standard_logo.png "LogoHover-tekst")
+![Adobe Logo](assets/no-localize/adobe_standard_logo.png "Tekst boven")
 
-**NOTA:** Voor beelden die niet zouden moeten worden gelokaliseerd, creeer een afzonderlijke  `do-not-localize` omslag in de activa omslag. Afbeeldingen zonder tekst of afbeeldingen die alleen voorbeeldinhoud bevatten, worden daar gewoonlijk geplaatst. Hiermee verwijdert u alle &#39;ruis&#39; uit de map met middelen en vermindert u het aantal vragen.
+**OPMERKING:** Voor afbeeldingen die niet moeten worden gelokaliseerd, maakt u een aparte `do-not-localize` in de map assets. Afbeeldingen zonder tekst of afbeeldingen die alleen voorbeeldinhoud bevatten, worden daar gewoonlijk geplaatst. Hiermee verwijdert u alle &#39;ruis&#39; uit de map met middelen en vermindert u het aantal vragen.
 
 ### Codeblokken
 
-Markering ondersteunt de plaatsing van codeblokken, zowel inline in een zin als als een apart &#39;afgezonderd&#39; blok tussen zinnen. Zie [Native ondersteuning van markeringen voor codeblokken](https://daringfireball.net/projects/markdown/syntax#precode) voor meer informatie
+Markering ondersteunt de plaatsing van codeblokken, zowel inline in een zin als als een apart &#39;afgezonderd&#39; blok tussen zinnen. Zie voor meer informatie [Eigen ondersteuning van markeringen voor codeblokken](https://daringfireball.net/projects/markdown/syntax#precode)
 
-&amp;Achtertikken gebruiken ( amp;grave; ) om inline-codestijlen in een alinea te maken. Als u een specifiek codeblok met meerdere regels wilt maken, voegt u drie backtikken (&amp;grave;&amp;grave;&amp;grave;) toe vóór en na het codeblok (een &#39;afgezonderd codeblok&#39; in Markdown en alleen een &#39;codeblok&#39;-component in AEM). Voor afgezonderde codeblokken voegt u de codetaal toe na de eerste set backtikken, zodat de syntaxis van de code correct wordt gemarkeerd met Markering. Voorbeeld: &amp;grave;&amp;grave;&amp;grave;javascript
+Achtertikken gebruiken (&amp;grave; ) om inline-codestijlen in een alinea te maken. Als u een specifiek codeblok met meerdere regels wilt maken, voegt u drie backtikken (&amp;grave;&amp;grave;) voor en na het codeblok toe (dit wordt een &quot;afgezonderd codeblok&quot; in Markdown genoemd en alleen een &quot;codeblok&quot;-component in AEM). Voor afgezonderde codeblokken voegt u de codetaal toe na de eerste set backtikken, zodat de syntaxis van de code correct wordt gemarkeerd met Markering. Voorbeeld: &amp;grave;&amp;grave; Javascript
 
 Voorbeelden:
 
@@ -191,7 +191,7 @@ This is `inline code` within a paragraph of text.
 
 Weergegeven:
 
-Dit is `inline code` binnen een alinea met tekst.
+Dit is `inline code` in een alinea met tekst.
 
 Dit is een afgezonderd codeblok:
 
@@ -209,7 +209,7 @@ Adobe-artikelen gebruiken standaardmarkeringen voor de meeste artikelopmaak, zoa
 * Niet lokaliseren
 * Componenteigenschappen, zoals een andere kop-id toewijzen aan een kop
 
-Gebruik het blokcitaat van de Prijsverhoging ( >) aan het begin van elke lijn om een uitgebreide component, zoals een nota samen te voegen. Als u subcomponenten binnen componenten moet gebruiken, voeg een extra niveau van blokcitaten (> >) voor die subcomponentensectie toe. Een NOTITIE in een DONOTLOCALIZE-sectie moet bijvoorbeeld beginnen met >    >.
+Gebruik het blokcitaat van de Prijsverhoging ( >) aan het begin van elke lijn om een uitgebreide component, zoals een nota samen te voegen. Als u subcomponenten binnen componenten moet gebruiken, voeg een extra niveau van blokcitaten (> >) voor die subcomponentensectie toe. Een NOTITIE in een DONOTLOCALIZE-sectie moet bijvoorbeeld beginnen met > >.
 
 Enkele gebruikelijke opmaakelementen, zoals koppen en codeblokken, bevatten uitgebreide eigenschappen. Als u de standaardeigenschappen moet wijzigen, voegt u de parameters tussen de franse accolades /{ /} toe na de component. Uitgebreide eigenschappen worden in context beschreven.
 
@@ -288,13 +288,13 @@ Al onze Help-inhoud voor Markdown is gelokaliseerd met behulp van in eerste inst
 
 **``**
 
-Tijdens het vertalen van machines worden items die zijn getagd met ``, gecontroleerd in een lokalisatiedatabase voor de juiste vertaling. Als de UI niet gelokaliseerd is, zal deze markering het systeem toestaan om de verwijzing UI in het Engels voor die bepaalde taal (d.w.z. te verlaten. Analytische verwijzingen in het Italiaans).
+Tijdens machinevertaling, items getagd met `` worden gecontroleerd aan de hand van een lokalisatiedatabase voor de juiste vertaling. Als de UI niet gelokaliseerd is, zal deze markering het systeem toestaan om de verwijzing UI in het Engels voor die bepaalde taal (d.w.z. te verlaten. Analytische verwijzingen in het Italiaans).
 
 **Voorbeeld:**
 
-1. Ga naar het **[!UICONTROL Run Process]** scherm.
+1. Ga naar de **[!UICONTROL Run Process]** scherm.
 1. Kies **[!UICONTROL File > Print > Print All]** om alle bestanden op uw server af te drukken.
-1. Het dialoogvenster [!UICONTROL Processing Rules] wordt weergegeven.
+1. De [!UICONTROL Processing Rules] wordt weergegeven.
 
 **Bron:**
 
@@ -312,7 +312,7 @@ In de regel gebruiken we een lijst &#39;Niet vertalen&#39; om de machinevertalin
 
 **Voorbeeld:**
 
-* Met [!DNL Target] kunt u A/B tests tot stand brengen om het optimale te vinden
+* Met [!DNL Target]kunt u A/B-tests maken om de optimale
 * Adobe Analytics is een krachtige oplossing voor het verzamelen van analyses op uw site. [!DNL Analytics] kan u ook helpen bij het rapporteren om die gegevens gemakkelijk te kunnen samenvatten.
 
 **Bron:**
@@ -351,13 +351,13 @@ Hier volgen de coderingen voor de &quot;slimme&quot; versies van deze leestekens
 
 ### Hoekhaken
 
-Als u punthaken in tekst (geen code) in uw dossier-bijvoorbeeld gebruikt om placeholder te wijzen-moet u de punthaken manueel coderen. Anders denkt Markdown dat het een HTML-tag moet zijn.
+Als u punthaken in tekst (geen code) in uw dossier-bijvoorbeeld gebruikt om placeholder te wijzen-moet u de punthaken manueel coderen. Anders denkt Markdown dat ze een HTML-tag moeten zijn.
 
-Codeer `<script name>` bijvoorbeeld als `&lt;script name&gt;`
+Coderen `<script name>` als `&lt;script name&gt;`
 
 ### Ampersanden in titels
 
-Ampersands (&amp;) zijn niet toegestaan in titels. Gebruik in plaats daarvan &quot;en&quot; of gebruik de `&amp;`-codering.
+Ampersands (&amp;) zijn niet toegestaan in titels. Gebruik in plaats hiervan &quot;en&quot; of gebruik de `&amp;` coderen.
 
 ## Zie ook
 
