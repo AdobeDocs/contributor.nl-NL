@@ -2,9 +2,9 @@
 title: Hoe te om Markdown voor het schrijven van documentatie te gebruiken
 description: dit artikel bevat de grondbeginselen en referentiegegevens van de opmaaktaal die wordt gebruikt voor het schrijven van artikelen .
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 4104aa1481263dabe20f2e3a117944f55a6fd800
+source-git-commit: 9e70d10dc1ba27b593de7febf32a3ba3910bfe21
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1489'
 ht-degree: 1%
 
 ---
@@ -181,7 +181,7 @@ Weergegeven:
 
 Markering ondersteunt de plaatsing van codeblokken, zowel inline in een zin als als een apart &#39;afgezonderd&#39; blok tussen zinnen. Zie voor meer informatie [Eigen ondersteuning van markeringen voor codeblokken](https://daringfireball.net/projects/markdown/syntax#precode)
 
-Achtertikken gebruiken (&amp;grave; ) om inline-codestijlen in een alinea te maken. Als u een specifiek codeblok met meerdere regels wilt maken, voegt u drie backtikken (&amp;grave;&amp;grave;) voor en na het codeblok toe (dit wordt een &quot;afgezonderd codeblok&quot; in Markdown genoemd en alleen een &quot;codeblok&quot;-component in AEM). Voor afgezonderde codeblokken voegt u de codetaal toe na de eerste set backtikken, zodat de syntaxis van de code correct wordt gemarkeerd met Markering. Voorbeeld: &amp;grave;&amp;grave; Javascript
+Achtertikken gebruiken (`` ` ``) om inline-codestijlen in een alinea te maken. Als u een specifiek codeblok met meerdere regels wilt maken, voegt u drie achtertikken toe (` ``` `) voor en na het codeblok (in Markdown een &quot;fenced codeblok&quot; genoemd en alleen een &quot;code block&quot; component in AEM). Voor afgezonderde codeblokken voegt u de codetaal toe na de eerste set backtikken, zodat de syntaxis van de code correct wordt gemarkeerd met Markering. Voorbeeld: ` ```javascript`
 
 Voorbeelden:
 
