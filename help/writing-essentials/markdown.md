@@ -1,10 +1,10 @@
 ---
 title: Hoe te om Markdown voor het schrijven van documentatie te gebruiken
-description: dit artikel bevat de grondbeginselen en referentiegegevens van de opmaaktaal die wordt gebruikt voor het schrijven van artikelen .
+description: Leer de grondbeginselen van Markdown authoring. Zoek naar informatie voor de taal Markering die wordt gebruikt voor het schrijven van artikelen.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 9e70d10dc1ba27b593de7febf32a3ba3910bfe21
+source-git-commit: e9cd46132a673d5acd1e3db2f05a9c3c8e5bc30b
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1500'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ De artikelen in de technische documentatie van Adobe zijn geschreven in een lich
 Aangezien wij de inhoud van Docs van Adobe in GitHub opslaan, kan het een versie van Markdown gebruiken geroepen [GitHub Flavoed Markdown (GFM)](https://help.github.com/categories/writing-on-github/), die aanvullende functionaliteit biedt voor algemene opmaakbehoeften. Bovendien heeft Adobe Markdown op een aantal manieren uitgebreid om bepaalde aan Help gerelateerde functies zoals notities, tips en ingesloten video&#39;s te ondersteunen.
 
 ## Basisprincipes voor markdown
+
+In de volgende secties worden de grondbeginselen van het ontwerpen in Markdown beschreven.
 
 ### Koppen
 
