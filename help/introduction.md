@@ -4,14 +4,14 @@ seo-title: Contributor guide overview for Adobe Experience Cloud technical docum
 description: In de handleiding wordt beschreven hoe u suggesties en toevoegingen kunt toevoegen aan de documentatiesite Adobe.
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: 5a9bbe0663a1efa8a683e892a42faed18f072e8a
+source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
 
-# Medewerkershandleiding voor Adobe-documentatie
+# Handleiding voor contribuanten voor Adobe-documentatie
 
 In deze handleiding wordt beschreven hoe u een bijdrage kunt leveren aan de Adobe Enterprise Help op het Experience League.
 
@@ -45,7 +45,7 @@ Het maken van snelle bewerkingen is een goede manier om kleine fouten en omissie
 1. Onderteken de [Licentieovereenkomst voor contribuanten (CLA)](http://opensource.adobe.com/cla.html) indien aanvaardbaar.
 
    U hoeft slechts één keer een Adobe CLA in te dienen.
-1. Klik op de knop **`Edit this page`** pictogram in de juiste kolom om naar het van de prijsverhogingsbron dossier op GitHub te gaan.
+1. Klikken **[!UICONTROL Edit this page]** in de juiste kolom om naar het van de prijsverhogingsbron dossier op GitHub te gaan.
 
    ![Dit paginapictogram bewerken](/help/assets/git_edit.png)
 
@@ -57,42 +57,48 @@ Het maken van snelle bewerkingen is een goede manier om kleine fouten en omissie
 
    ![Locatie van het potloodpictogram](assets/edit-icon.png)
 
-1. Breng de gewenste wijzigingen aan in de webeditor. U kunt op de knop **Wijzigingen voorvertonen** om de opmaak van de wijziging te controleren.
-1. Blader naar de onderkant van de pagina nadat u de wijziging(en) hebt aangebracht. Voer een titel en beschrijving in voor je PR en klik op **Bestand wijzigen voorstellen** zoals weergegeven in de volgende afbeelding:
+1. Breng de gewenste wijzigingen aan in de webeditor.
+
+   U kunt op de knop **[!UICONTROL Preview changes]** om de opmaak van de wijziging te controleren.
+1. Blader naar de onderkant van de pagina nadat u de wijzigingen hebt aangebracht.
+
+   Voer een titel en beschrijving in voor uw PR en klik vervolgens op **[!UICONTROL Propose file change]** zoals weergegeven in de volgende afbeelding:
 
    ![voorstellen, wijziging](assets/submit-pull-request.png)
 
    >[!NOTE]
    >
-   >Als u een foutbericht krijgt over het ondertekenen van een licentieovereenkomst voor contribuanten (CLA), klikt u op **Details** de licentieovereenkomst te openen. Onderteken de overeenkomst, indien acceptabel. Vervolgens sluit u het verzoek en opent u het verzoek en gaat u verder.
+   >Als u een foutbericht krijgt over het ondertekenen van een licentieovereenkomst voor contribuanten (CLA), klikt u op **[!UICONTROL Details]** de licentieovereenkomst te openen. Onderteken de overeenkomst, indien acceptabel. Vervolgens sluit u het verzoek en opent u het verzoek en gaat u verder.
 
-Dat is alles wat er aan te pas komt. Bedankt! De leden van het documentatieteam zullen uw trekkrachtverzoek herzien en samenvoegen.
+Dat is alles wat er aan te pas komt. De leden van het documentatieteam zullen uw trekkrachtverzoek herzien en samenvoegen. Bedankt!
 
 ## Een probleem aanmelden
 
-Een andere gemakkelijke manier om ons op de hoogte te brengen van een probleem met een stuk inhoud is om een probleem te registreren.
+Een andere gemakkelijke manier om ons op de hoogte te brengen van een probleem met een stuk inhoud is gebruik te maken **[!UICONTROL Log an Issue]**.
 
-1. Als u een probleem met een stuk inhoud ziet, klikt u op de knop **`Log an Issue`** in de rechterkolom.
+1. Als u een probleem met een stuk inhoud ziet, klikt u op de knop **[!UICONTROL Log an Issue]** in de rechterkolom.
 
    ![](assets/git_log_issue.png)
 
    >[!NOTE]
    >
-   >U zult aan login aan uw rekening GitHub moeten, of een nieuwe rekening creëren, om een kwestie te registreren.
+   >Om een kwestie te registreren, moet u login aan uw rekening GitHub, of een rekening creëren.
 
-   Als u op deze koppeling klikt, kunt u een snel ticket bij ons aanmelden via de interface van Github Issue.
+   Als u op deze koppeling klikt, kunt u een snel ticket aanmelden bij het Experience League via de interface voor Github Issue.
 
-1. De URL van de pagina met de uitgave wordt automatisch ingevuld in het beschrijvingsveld. Vul de titel in, schrijf een korte beschrijving van de kwestie, en klik dan *Nieuwe uitgave verzenden*.
+   De URL van de pagina met de uitgave wordt automatisch ingevuld in het beschrijvingsveld.
+
+1. Vul de titel in, schrijf een korte beschrijving van de kwestie, en klik dan *Nieuwe uitgave verzenden*.
 
    ![](assets/git_issue_example.png)
 
-Als u een uitgave indient, wordt het inhoudsteam voor deze pagina direct op de hoogte gebracht van wie de actie kan ondernemen. Als we de inhoud hebben bijgewerkt, geven we dit via de interface Github Issues door en sturen we u een e-mail wanneer deze wordt bijgewerkt of gesloten.
+Als u een uitgave verzendt, wordt het inhoudsteam op de hoogte gebracht van deze pagina, die uw probleem kan verhelpen. Als we de inhoud hebben bijgewerkt, geven we dit via de interface Github Issues door en sturen we u een e-mail wanneer deze wordt bijgewerkt of gesloten.
 
 ## GitHub-machtigingen begrijpen
 
 De GitHub die UI uitgeeft past aan uw bewaarplaatstoestemmingen aan. De voorgaande afbeeldingen zijn accuraat voor contribuanten die geen schrijfmachtigingen hebben voor de doelopslagplaats. GitHub leidt automatisch tot een vork van de doelbewaarplaats in uw rekening. Als u toegang tot de doelbewaarplaats hebt schrijven, leidt GitHub tot een nieuwe tak in de doelrepo.
 
-Adobe gebruikt trekkingsverzoeken voor alle veranderingen, zelfs voor contribuanten die schrijftoegang hebben. De meeste opslagplaatsen hebben de `master` vertakking beveiligd zodat updates moeten worden ingediend als pull-aanvragen.
+Adobe gebruikt trekkingsverzoeken voor alle veranderingen, zelfs voor contribuanten die schrijftoegang hebben. De meeste opslagplaatsen hebben de `main` vertakking beveiligd zodat updates moeten worden ingediend als pull-aanvragen.
 
 De bewerkervaring in de browser is het meest geschikt voor kleine of niet-frequente wijzigingen. Als u een grote bijdrage levert of geavanceerde Git-functies gebruikt, raden we u aan [forceer de repo en werk lokaal](setup/full-workflow.md).
 
@@ -100,4 +106,4 @@ De bewerkervaring in de browser is het meest geschikt voor kleine of niet-freque
 
 Met een oplossing die zo groot als Adobe wordt geplaatst, is de documentatie altijd een werk lopend. Als u fouten ontdekt, registreer een kwestie, als u suggesties op materiaal hebt te vertellen gelieve ons. Vertel ons welke informatie u zocht. Laat ons weten of u niet kon vinden wat u nodig had, of als u moeite had om uw taak te voltooien, gelieve ons te vertellen hoe wij u kunnen helpen onze oplossingen leren.
 
-Dank van het Collaborative Documentation team en alle schrijvers en inhoudsproducenten in het [!UICONTROL Adobe Experience Cloud].
+Dank van het Collaborative Documentation team en alle schrijvers en inhoudsproducenten in Experience League.

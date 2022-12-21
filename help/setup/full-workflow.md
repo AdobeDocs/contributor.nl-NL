@@ -1,14 +1,13 @@
 ---
 title: GitHub-bijdrageworkflow voor grote wijzigingen
-description: in dit artikel wordt uitgelegd hoe u de workflow voor belangrijke bijdragen kunt gebruiken om Adobe-documentatie bij te werken .
-translation-type: tm+mt
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+description: Leer hoe u kunt bijdragen aan de documentatie van Adobe op Experience League.
+exl-id: ad467ad4-abd2-4166-8659-e29c48d268ec
+source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
-
 
 # GitHub-bijdrageworkflow voor grote wijzigingen
 
@@ -34,30 +33,30 @@ Alvorens u begint, herzien sommige termijnen Git/GitHub die in dit werkschema wo
 | oorsprong | De naam die is toegewezen aan de verbinding tussen uw lokale opslagplaats en de opslagplaats waaruit deze is gekloond. In deze workflow staat de oorsprong voor de verbinding met uw vork. Het wordt soms gebruikt als een moniker voor de oorspronkelijke repository zelf, zoals in &quot;Herinner me om uw veranderingen in oorsprong te duwen.&quot; |
 | upstream | Net als de oorspronkelijke externe server is upstream een benoemde verbinding met een andere repository. In deze workflow vertegenwoordigt upstream de verbinding tussen uw lokale opslagplaats en de hoofdopslagplaats, waaruit uw vork is gemaakt. Het wordt soms gebruikt als moniker voor de stroomopwaartse bewaarplaats zelf, zoals in &quot;Herinner me om de veranderingen van upstream terug te trekken.&quot; |
 
-Als u met de concepten Git en GitHub zoals een bewaarplaats of een tak onbekend bent, gelieve eerst [Git en GitHub fundamentals](git-fundamentals.md) te herzien.
+Als u met de concepten Git en GitHub zoals een bewaarplaats of tak onbekend bent, gelieve eerst te herzien [Git- en GitHub-basisbegrippen](git-fundamentals.md).
 
 ## Workflow
 
 >[!IMPORTANT]
-> Als u niet reeds hebt, moet u de stappen in [sectie ](github-signup.md) voltooien.
+> Als u dit nog niet hebt gedaan, moet u de stappen in het dialoogvenster [Instellen](github-signup.md) sectie.
 
 In deze workflow worden wijzigingen doorgevoerd in een herhalingscyclus. Beginnend van de lokale bewaarplaats van uw apparaat, stromen zij terug naar uw vork GitHub, in de belangrijkste bewaarplaats GitHub, en terug plaatselijk terug aangezien u veranderingen van andere contribuanten opneemt.
 
 ### GitHub-stroom gebruiken
 
-Rappel van [Git en GitHub fundamentals](git-fundamentals.md) dat een bewaarplaats van de Git een master tak, plus om het even welke extra werk in uitvoering takken bevat die niet in master zijn geïntegreerd. Wanneer u een reeks logisch verwante veranderingen introduceert, is het beste praktijken om *werkende tak* te creëren om uw veranderingen door het werkschema te beheren. Wij verwijzen hier naar het als werkende tak omdat het een werkruimte is om veranderingen te herhalen/te verfijnen, tot zij terug in de master tak kunnen worden geïntegreerd.
+Herstellen vanaf [Git- en GitHub-basisbegrippen](git-fundamentals.md) dat een Git-opslagplaats een hoofdvertakking bevat, plus eventuele extra werk-in-uitvoering vertakkingen die niet in hoofd zijn geïntegreerd. Wanneer u een reeks logisch verwante veranderingen introduceert, is het beste praktijken om tot een *werktak* om uw wijzigingen te beheren via de workflow. Wij verwijzen hier naar het als werkende tak omdat het een werkruimte is om veranderingen te herhalen/te verfijnen, tot zij terug in de belangrijkste tak kunnen worden geïntegreerd.
 
 Door gerelateerde wijzigingen in een specifieke vertakking te isoleren, kunt u deze wijzigingen onafhankelijk beheren en introduceren en kunt u ze op een specifieke releasetijd in de publicatiecyclus toepassen. Afhankelijk van het type werk dat u doet, kunt u in feite eenvoudig met verschillende werkvertakkingen in uw opslagplaats belanden. Het is niet ongebruikelijk om aan veelvoudige takken tezelfdertijd te werken, elk die een verschillend project vertegenwoordigen.
 
 >[!NOTE]
 >
->Het aanbrengen van uw veranderingen in de master tak *is geen goede praktijk*. Veronderstel dat u de master tak gebruikt om een reeks veranderingen voor een vastgestelde eigenschapversie voor te stellen. U voltooit de wijzigingen en wacht op de release ervan. Ondertussen hebt u een dringend verzoek om iets te repareren, dus brengt u de wijziging aan in een bestand in de master vertakking en publiceert u de wijziging. In dit voorbeeld publiceert u per ongeluk zowel de correctie *als* de wijzigingen die u op een bepaalde datum voor release hebt aangehouden.
+>Wijzigingen aanbrengen in de hoofdvertakking *is geen goede praktijk*. Veronderstel dat u de belangrijkste tak gebruikt om een reeks veranderingen voor een vastgestelde eigenschapversie voor te stellen. U voltooit de wijzigingen en wacht op de release ervan. Ondertussen hebt u een dringend verzoek om iets te repareren, dus brengt u de wijziging aan in een bestand in de hoofdvertakking en publiceert u de wijziging. In dit voorbeeld publiceert u per ongeluk beide oplossingen *en* de wijzigingen die u op een bepaalde datum voor release hebt gebruikt.
 
-De volgende stap bestaat uit het maken van een nieuwe werkende vertakking in uw lokale opslagplaats om de voorgestelde wijzigingen vast te leggen. Elke client is anders, dus raadpleeg de Help voor uw voorkeursclient. U kunt een overzicht van het proces in de GitHub Gids op [GitHub flow](https://guides.github.com/introduction/flow/) zien.
+De volgende stap bestaat uit het maken van een nieuwe werkende vertakking in uw lokale opslagplaats om de voorgestelde wijzigingen vast te leggen. Elke client is anders, dus raadpleeg de Help voor uw voorkeursclient. U kunt een overzicht van het proces in de GitHub Gids op zien [GitHub-stroom](https://guides.github.com/introduction/flow/).
 
 ## Verwerking van aanvraag volledig uitvoeren
 
-U kunt voorgestelde wijzigingen verzenden door deze te bundelen in een nieuw pull-verzoek (PR) dat wordt toegevoegd aan de PR-wachtrij van de doelopslagplaats. Een trektrekkingsverzoek laat het samenwerkingsmodel van GitHub toe, door te vragen om de veranderingen van uw werkende tak worden getrokken en in een andere tak worden samengevoegd. In de meeste gevallen is die andere vertakking de standaard/master vertakking in de hoofdopslagplaats.
+U kunt voorgestelde wijzigingen verzenden door deze te bundelen in een nieuw pull-verzoek (PR) dat wordt toegevoegd aan de PR-wachtrij van de doelopslagplaats. Een trektrekkingsverzoek laat het samenwerkingsmodel van GitHub toe, door te vragen om de veranderingen van uw werkende tak worden getrokken en in een andere tak worden samengevoegd. In de meeste gevallen is die andere vertakking de standaard/hoofdvertakking in de hoofdopslagplaats.
 
 ### Validatie
 

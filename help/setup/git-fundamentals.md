@@ -2,8 +2,7 @@
 title: De documentatie van Git en GitHub essentiële
 description: Dit artikel verklaart een overzicht van Git, bewaarplaats GitHub, en hoe de inhoud wordt georganiseerd, en noemende overeenkomsten die voor de documentatie van Adobe worden gebruikt.
 exl-id: 2b2ec764-4201-4bcd-802d-a034d6675793
-translation-type: tm+mt
-source-git-commit: 1b1678b33059f4bc8f7aff4690f1d775e6aee2d6
+source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
@@ -18,9 +17,9 @@ Als u alleen kleine, alleen-tekst wijzigingen in artikelen wilt aanbrengen, hoef
 
 Als medewerker aan de documentatieinhoud van Adobe, kunt u met veelvoudige hulpmiddelen en processen in wisselwerking staan. U kunt parallel met andere contribuanten aan hetzelfde project werken, mogelijk dezelfde inhoud, zelfs tegelijkertijd. Dit wordt allen toegelaten door de software van Git en van GitHub.
 
-Git is een opensource versiecontrolesysteem dat samenwerking toestaat. Meerdere contribuanten kunnen werken aan bestanden die in *repositories* leven.
+Git is een opensource versiecontrolesysteem dat samenwerking toestaat. Meerdere contribuanten kunnen werken aan bestanden in *bewaarplaatsen*.
 
-GitHub is een webgebaseerde hostingservice voor Git-opslagruimten, zoals die welke worden gebruikt om [docs.adobe.com](https://docs.adobe.com)-inhoud op te slaan. Voor om het even welk project, gastheren GitHub de belangrijkste bewaarplaats, waarvan de contribuanten exemplaren voor hun eigen werk kunnen maken.
+GitHub is een webgebaseerde hostingservice voor Git-opslagruimten, zoals die welke worden gebruikt om [docs.adobe.com](https://docs.adobe.com) inhoud. Voor om het even welk project, gastheren GitHub de belangrijkste bewaarplaats, waarvan de contribuanten exemplaren voor hun eigen werk kunnen maken.
 
 ## Git
 
@@ -28,13 +27,13 @@ Git heeft een unieke workflow en terminologie voor bijdragen die het gedistribue
 
 Git gebruikt ook een gelaagde structuur om inhoud voor een project op te slaan en te beheren:
 
-- *Bewaarplaats*: Dit is ook wel een  *repo* genoemd, de hoogste opslageenheid. Een gegevensopslagruimte bevat een of meer vertakkingen.
-- *Vertakking*: Alle opslagruimten bevatten een standaardvertakking (doorgaans &quot;master&quot; genoemd) en een of meer vertakkingen die bestemd zijn om weer in de master vertakking te worden samengevoegd. De master vertakking fungeert als de huidige versie en bron waaruit de inhoud wordt gepubliceerd. Het is het bovenliggende element waarvan alle andere vertakkingen in de repository worden gemaakt.
+- *Bewaarplaats*: Ook bekend als a *repo* Dit is de hoogste opslageenheid. Een gegevensopslagruimte bevat een of meer vertakkingen.
+- *Branch*: Alle opslagruimten bevatten een standaardvertakking (doorgaans &quot;main&quot; genoemd) en een of meer vertakkingen die bestemd zijn om weer in de hoofdvertakking te worden samengevoegd. De hoofdvertakking fungeert als de huidige versie en bron van waaruit inhoud wordt gepubliceerd. Het is het bovenliggende element waarvan alle andere vertakkingen in de repository worden gemaakt.
 
 Medewerkers werken met Git samen om opslagruimten op zowel het lokale niveau als het niveau van GitHub bij te werken en te manipuleren:
 
 - Lokaal door hulpmiddelen zoals de Desktop GitHub.
-- Via [www.github.com](https://www.github.com), die Git integreert om de afstemming van bijdragen te beheren die terugvloeien naar de hoofdopslagplaats.
+- Via [www.github.com](https://www.github.com), die Git integreert om de afstemming te beheren van bijdragen die terugvloeien naar de hoofdopslagplaats.
 
 ## GitHub
 
@@ -42,15 +41,15 @@ Alle werkschema&#39;s beginnen en eindigen op het niveau GitHub, waar de belangr
 
 ### Directoryorganisatie
 
-De standaard/master vertakking van een project fungeert als de huidige versie van de inhoud voor het project. De inhoud in de master vertakking - en takken die van het worden gecreeerd - richt zich op de organisatie van de artikelonderwerpen. Submappen worden gebruikt voor het ordenen van inhoud en afbeeldingselementen.
+De standaard/hoofdvertakking van een project fungeert als de huidige versie van de inhoud voor het project. De inhoud in de hoofdvertakking - en takken die van het worden gecreeerd - richt zich op de organisatie van de artikelonderwerpen. Submappen worden gebruikt voor het ordenen van inhoud en afbeeldingselementen.
 
-Doorgaans vindt u een hoofdmap `help` van de hoofdmap van de opslagplaats. De artikelmap bevat een set submappen. Artikelen in de submappen worden opgemaakt als Markeringsbestanden die de extensie *.md* gebruiken.
+Doorgaans kunt u een hoofdmap vinden `help` directory van de basis van de repository. De artikelmap bevat een set submappen. Artikelen in de submappen worden opgemaakt als Markeringsbestanden die een *.md* extensie.
 
 Binnen de wortel van deze folder, kunt u algemene artikelen vinden die op de algemene dienst of het product betrekking hebben. En typisch, kunt u een andere reeks subdirectories dan vinden die de eigenschappen/de diensten of gemeenschappelijke scenario&#39;s aanpassen.
 
 ### Map Middelen
 
-De gidsen van de gebruiker bevatten `/assets` subdirectories voor beelddossiers die binnen een folder van verwijzingen worden voorzien.
+De gidsen van de gebruiker bevatten `/assets` submappen voor afbeeldingsbestanden waarnaar in een map wordt verwezen.
 
 <!--
 
@@ -68,6 +67,6 @@ For convenience, the root directory of each repository typically contains a Mark
 
 ## Pull-aanvragen
 
-Een *pull request* verstrekt een geschikte manier voor een medewerker om een reeks veranderingen voor te stellen die op de standaardtak zullen worden toegepast. De veranderingen (die ook als *komma* worden bekend) worden opgeslagen in de tak van een contribuant, zodat kan GitHub het effect van *het samenvoegen* hen in de standaardtak eerst modelleren. Een pull-verzoek fungeert ook als een mechanisme om de contribuant feedback te geven van een build/validatieproces, de controleur van de pull-aanvraag, om mogelijke problemen of vragen op te lossen voordat de wijzigingen worden samengevoegd in de standaardvertakking.
+A *pull-verzoek* biedt een handige manier voor een contribuant om een set wijzigingen voor te stellen die op de standaardvertakking worden toegepast. De wijzigingen (ook wel bekend als *verbintenissen*) worden opgeslagen in de tak van een contribuant, zodat kan GitHub het effect van *samenvoegen* ze in de standaardvertakking. Een pull-verzoek fungeert ook als een mechanisme om de contribuant feedback te geven van een build/validatieproces, de controleur van de pull-aanvraag, om mogelijke problemen of vragen op te lossen voordat de wijzigingen worden samengevoegd in de standaardvertakking.
 
-Er zijn twee manieren om door trekpleverzoek bij te dragen, afhankelijk van de grootte van veranderingen die u wilt voorstellen. Wij zullen dit in detail later, in de [GitHub werkschema](local-repo.md) sectie van deze gids behandelen.
+Er zijn twee manieren om door trekpleverzoek bij te dragen, afhankelijk van de grootte van veranderingen die u wilt voorstellen. We zullen dit later in detail bespreken, in het [GitHub-workflow](local-repo.md) van deze handleiding.
