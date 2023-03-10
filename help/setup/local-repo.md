@@ -1,21 +1,20 @@
 ---
 title: Git-opslagplaats lokaal instellen
 description: Dit artikel biedt richtlijnen voor het maken van uw lokale Git-opslagplaats en het bijdragen aan Adobe-documentatie, waaronder het proces van forken en klonen.
-translation-type: tm+mt
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+exl-id: 679c07a2-030b-4a30-ba14-7780f88dae11
+source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 0%
 
 ---
 
-
 # Git-opslagplaats lokaal instellen voor documentatie
 
 In dit artikel worden de stappen beschreven voor het instellen van een git-opslagplaats op uw lokale computer, met de bedoeling om bij te dragen aan de documentatie van Adobe. Medewerkers kunnen een lokaal gekloonde opslagplaats gebruiken om nieuwe artikelen toe te voegen, bestaande artikelen ingrijpend te bewerken of illustraties te wijzigen.
 
 >[!IMPORTANT]
->Als u slechts kleine veranderingen in een artikel aanbrengt, moet u *niet* de stappen in dit artikel voltooien. U kunt eenvoudig op het pictogram Bewerken klikken en tekst bewerken in uw browser.
+>Als u slechts kleine veranderingen in een artikel aanbrengt, *niet* moet de stappen in dit artikel voltooien. U kunt eenvoudig op het pictogram Bewerken klikken en tekst bewerken in uw browser.
 
 ## Overzicht
 
@@ -29,9 +28,9 @@ Om aan de documentatie van Adobe bij te dragen, kunt u de aangewezen bewaarplaat
 
 ## De opslagplaats bepalen
 
-U vork de aangewezen bewaarplaats in uw eigen rekening GitHub zodat u gelezen/schrijftoestemmingen daar hebt om uw voorgestelde veranderingen op te slaan. [!UICONTROL Adobe Experience Cloud] documentatie bevindt zich in verschillende opslagplaatsen op  [github.com](https://www.github.com/adobedocs).
+U vork de aangewezen bewaarplaats in uw eigen rekening GitHub zodat u gelezen/schrijftoestemmingen daar hebt om uw voorgestelde veranderingen op te slaan. [!UICONTROL Adobe Experience Cloud] documentatie bevindt zich in verschillende opslagplaatsen op [github.com](https://www.github.com/adobedocs).
 
-1. Als u niet zeker weet welke repository u moet gebruiken, gaat u naar het artikel met uw webbrowser. Selecteer de koppeling **Bewerken** (potloodpictogram) in de rechterbovenhoek van het artikel. (Als u geen Edit verbinding ziet, is die inhoud nog niet beschikbaar in GitHub.)
+1. Als u niet zeker weet welke repository u moet gebruiken, gaat u naar het artikel met uw webbrowser. Selecteer **Bewerken** koppeling (potloodpictogram) rechtsboven in het artikel. (Als u geen Edit verbinding ziet, is die inhoud nog niet beschikbaar in GitHub.)
 
 Als u een bijdrage wilt leveren aan de Adobe-documentatie, kunt u Markeringen lokaal maken en bewerken door de corresponderende documentatieopslagplaats te klonen. Vervolgens gebruikt u trekkingsverzoeken om wijzigingen samen te voegen in de alleen-lezen centrale gedeelde opslagplaats.
 
@@ -47,9 +46,9 @@ If you're new to GitHub, watch the following video for a conceptual overview of 
 
 Gebruikend de aangewezen bewaarplaats, creeer een vork van de bewaarplaats in uw eigen rekening GitHub door de website te gebruiken GitHub.
 
-Een persoonlijke vork is vereist omdat alle hoofddocumentatieruimten alleen-lezen toegang bieden, wat betekent dat u geen wijzigingen rechtstreeks kunt aanbrengen in de inhoud in de opslagruimten. Als u wijzigingen wilt aanbrengen, moet u een pull-aanvraag (PR) van uw vork indienen in de hoofdopslagplaats. Om dit proces te vergemakkelijken, hebt u eerst uw eigen exemplaar van de bewaarplaats nodig, waarin u schrijftoegang hebt. Een GitHub *vork* dient dat doel.
+Een persoonlijke vork is vereist omdat alle hoofddocumentatieruimten alleen-lezen toegang bieden, wat betekent dat u geen wijzigingen rechtstreeks kunt aanbrengen in de inhoud in de opslagruimten. Als u wijzigingen wilt aanbrengen, moet u een pull-aanvraag (PR) van uw vork indienen in de hoofdopslagplaats. Om dit proces te vergemakkelijken, hebt u eerst uw eigen exemplaar van de bewaarplaats nodig, waarin u schrijftoegang hebt. Een GitHub *vork* daartoe dient.
 
-1. Ga naar de GitHub-pagina van de hoofdopslagplaats en klik op de knop **Fork** rechtsboven.
+1. Ga naar de GitHub-pagina van de hoofdopslagplaats en klik op de knop **Vork** rechtsboven.
 
    ![GitHub-vork](assets/fork-simple.png)
 
@@ -69,10 +68,10 @@ Door een kloon van de geforceerde opslagplaats te maken, downloadt u een kopie v
 
 Deze stappen veronderstellen u de Desktop GitHub gebruikt. Als u een andere client gebruikt, brengt u de gewenste aanpassingen aan.
 
-1. Klik op **Klonen of downloaden** en kies **Openen in bureaublad** om een kopie van de opslagplaats (uw vork) naar de computer in de huidige directory te halen.
+1. Klikken **Klonen of downloaden** en kies vervolgens **Openen op bureaublad** om een kopie van de opslagplaats (uw vork) naar de computer over te brengen in de huidige directory.
 
-  ![Kloonrepo](assets/clone-pulldown.png)
+   ![Kloonrepo](assets/clone-pulldown.png)
 
 1. De Desktop van GitHub van het gebruik om de lokale dossiers in synchronisatie met de forked bewaarplaats te houden.
 
-Voor details, zie [Documentatie van de Desktop GitHub](https://help.github.com/desktop/).
+Zie voor meer informatie [GitHub Desktop-documentatie](https://help.github.com/desktop/).

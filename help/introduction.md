@@ -4,9 +4,9 @@ seo-title: Contributor guide overview for Adobe Experience Cloud technical docum
 description: In de handleiding wordt beschreven hoe u suggesties en toevoegingen kunt toevoegen aan de documentatiesite Adobe.
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: 8e7d5fb9dc5686df32f7d917ebfb290547d299be
+source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,15 @@ Dit open-sourcemodel verbetert de kwaliteit van de inhoud en de communicatie tus
 
 ## Werken met documentatie voor samenwerken
 
-Als gebruiker van dit materiaal - ongeacht of u een werknemer, partner, klant of zelfs potentiële klanten bent - hebt u de keus om aan deze documentatie op verscheidene eenvoudige manieren bij te dragen;
+Als gebruiker van dit materiaal - ongeacht als u een werknemer, een partner, een klant of zelfs potentiële klanten bent - hebt u de keus om aan deze documentatie op verscheidene eenvoudige manieren bij te dragen.
 
-* De bruikbaarheid van de pagina beoordelen
-* Een probleem op een specifieke pagina vastleggen
-* Breng snel wijzigingen aan in het ontwerpen van volledige artikelen, compleet met elementen en codevoorbeelden.
+* De vraag of de pagina nuttig ❶ en een optionele opmerking ❷
+* Een probleem rapporteren op een specifieke pagina (vereist aanmelding bij it) ❸
+* Plaats een snelle bewerking voor het ontwerpen van gehele artikelen, compleet met elementen en codevoorbeelden (hiervoor is Git-aanmelding vereist) ❹
+
+![Feedback](assets/feedback-options.png)
+
+Deze opties worden een paar seconden na het openen onder aan de pagina weergegeven. Als u het feedbackgebied sluit, kunt u de pagina opnieuw laden om deze terug te halen.
 
 In deze handleiding wordt alles beschreven wat u moet weten om te communiceren met en bij te dragen aan deze materiaalset.
 
@@ -38,16 +42,23 @@ In deze handleiding wordt alles beschreven wat u moet weten om te communiceren m
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
 -->
 
+## De bruikbaarheid van de pagina beoordelen en een opmerking schrijven
+
+Een paar seconden nadat u een pagina hebt geopend, wordt onder aan de pagina een feedbackgebied weergegeven. Klik omhoog of omlaag om aan te geven of de pagina nuttig was.
+
+Voel u vrij om een opmerking te geven voor extra feedback.
+
 ## Snelle bewerkingen uitvoeren op bestaande documenten
 
-Het maken van snelle bewerkingen is een goede manier om kleine fouten en omissies in documenten te corrigeren. Als in een artikel een bewerkknop wordt weergegeven zoals hieronder wordt weergegeven, kunt u een snelle correctie zelf uitvoeren. Wanneer u het document bewerkt, verzendt u een pull-verzoek (PR) om de correctie/suggestie naar ons te verzenden en kunnen we de suggestie doorlichten, goedkeuren en publiceren.
+Als u gedetailleerdere feedback wilt geven, kunt u met behulp van snelle bewerkingen kleine fouten en weglatingen in documenten corrigeren. Wanneer u een bewerking voorstelt, verzendt u een pull-verzoek (PR) om de correctie/suggestie naar ons te verzenden en kunnen we de suggestie doorlichten, goedkeuren en publiceren.
 
 1. Onderteken de [Licentieovereenkomst voor contribuanten (CLA)](http://opensource.adobe.com/cla.html) indien aanvaardbaar.
 
    U hoeft slechts één keer een Adobe CLA in te dienen.
-1. Klikken **[!UICONTROL Edit this page]** in de juiste kolom om naar het van de prijsverhogingsbron dossier op GitHub te gaan.
 
-   ![Dit paginapictogram bewerken](/help/assets/git_edit.png)
+1. Klik in het feedbackgebied onder aan het artikel op **[!UICONTROL Detailed feedback options]** en klik vervolgens op **[!UICONTROL Suggest an edit]** om naar het markdown brondossier op GitHub te gaan.
+
+   ![Dit paginapictogram bewerken](/help/assets/feedback-suggest-edit.png)
 
 1. Klik op het potloodpictogram om het artikel te bewerken.
 
@@ -55,11 +66,12 @@ Het maken van snelle bewerkingen is een goede manier om kleine fouten en omissie
    >
    >Als het potloodpictogram grijs uit is, moet u login aan uw rekening GitHub, of een nieuwe rekening tot stand brengen.
 
-   ![Locatie van het potloodpictogram](assets/edit-icon.png)
+   ![Locatie van het potloodpictogram](assets/git_edit.png)
 
 1. Breng de gewenste wijzigingen aan in de webeditor.
 
    U kunt op de knop **[!UICONTROL Preview changes]** om de opmaak van de wijziging te controleren.
+
 1. Blader naar de onderkant van de pagina nadat u de wijzigingen hebt aangebracht.
 
    Voer een titel en beschrijving in voor uw PR en klik vervolgens op **[!UICONTROL Propose file change]** zoals weergegeven in de volgende afbeelding:
@@ -72,17 +84,17 @@ Het maken van snelle bewerkingen is een goede manier om kleine fouten en omissie
 
 Dat is alles wat er aan te pas komt. De leden van het documentatieteam zullen uw trekkrachtverzoek herzien en samenvoegen. Bedankt!
 
-## Een probleem aanmelden
+## Een probleem melden
 
-Een andere gemakkelijke manier om ons op de hoogte te brengen van een probleem met een stuk inhoud is gebruik te maken **[!UICONTROL Log an Issue]**.
+Een andere gemakkelijke manier om ons op de hoogte te brengen van een probleem met een stuk inhoud is gebruik te maken **[!UICONTROL Report an issue]**.
 
-1. Als u een probleem met een stuk inhoud ziet, klikt u op de knop **[!UICONTROL Log an Issue]** in de rechterkolom.
+1. Klik in het feedbackgebied onder aan het artikel op **[!UICONTROL Detailed feedback options]** en klik vervolgens op **[!UICONTROL Report an issue]** om naar het markdown brondossier op GitHub te gaan.
 
-   ![](assets/git_log_issue.png)
+   ![Rapportprobleem](assets/feedback-report-issue.png)
 
    >[!NOTE]
    >
-   >Om een kwestie te registreren, moet u login aan uw rekening GitHub, of een rekening creëren.
+   >Om een kwestie te melden, moet u login aan uw rekening GitHub, of een rekening creëren.
 
    Als u op deze koppeling klikt, kunt u een snel ticket aanmelden bij het Experience League via de interface voor Github Issue.
 

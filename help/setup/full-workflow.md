@@ -2,7 +2,7 @@
 title: GitHub-bijdrageworkflow voor grote wijzigingen
 description: Leer hoe u kunt bijdragen aan de documentatie van Adobe op Experience League.
 exl-id: ad467ad4-abd2-4166-8659-e29c48d268ec
-source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
+source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -38,6 +38,7 @@ Als u met de concepten Git en GitHub zoals een bewaarplaats of tak onbekend bent
 ## Workflow
 
 >[!IMPORTANT]
+>
 > Als u dit nog niet hebt gedaan, moet u de stappen in het dialoogvenster [Instellen](github-signup.md) sectie.
 
 In deze workflow worden wijzigingen doorgevoerd in een herhalingscyclus. Beginnend van de lokale bewaarplaats van uw apparaat, stromen zij terug naar uw vork GitHub, in de belangrijkste bewaarplaats GitHub, en terug plaatselijk terug aangezien u veranderingen van andere contribuanten opneemt.
