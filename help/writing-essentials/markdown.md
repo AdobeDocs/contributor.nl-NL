@@ -2,9 +2,9 @@
 title: Hoe te om Markdown voor het schrijven van documentatie te gebruiken
 description: Leer de grondbeginselen van Markdown authoring. Zoek naar informatie voor de taal Markering die wordt gebruikt voor het schrijven van artikelen.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: e9cd46132a673d5acd1e3db2f05a9c3c8e5bc30b
+source-git-commit: 065e43d5251f80050deef02e9c18b3fb4e9c1204
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1430'
 ht-degree: 1%
 
 ---
@@ -86,11 +86,13 @@ U kunt ook lijsten insluiten in lijsten en inhoud toevoegen tussen lijstitems.
 1. Perform this step.
 
    ![screen](assets/no-localize/adobe_standard_logo.png)
+
 1. Make sure that your table looks like this: 
 
    | Hello | World |
    |---|---|
    | How | are you? |  
+
 1. This is the fourth step.
 
    >[!NOTE]
@@ -106,11 +108,13 @@ Weergegeven:
 1. Voer deze stap uit.
 
    ![scherm](assets/no-localize/adobe_standard_logo.png)
+
 1. Zorg ervoor dat uw tabel er zo uitziet:
 
    | Hallo | Wereld |
    |---|---|
    | Hoe | Ben je dat? |
+
 1. Dit is de vierde stap.
 
    >[!NOTE]
@@ -177,8 +181,6 @@ Weergegeven:
 
 ![Adobe Logo](assets/no-localize/adobe_standard_logo.png "Tekst boven")
 
-**OPMERKING:** Voor afbeeldingen die niet moeten worden gelokaliseerd, maakt u een aparte `do-not-localize` in de map assets. Afbeeldingen zonder tekst of afbeeldingen die alleen voorbeeldinhoud bevatten, worden daar gewoonlijk geplaatst. Hiermee verwijdert u alle &#39;ruis&#39; uit de map met middelen en vermindert u het aantal vragen.
-
 ### Codeblokken
 
 Markering ondersteunt de plaatsing van codeblokken, zowel inline in een zin als als een apart &#39;afgezonderd&#39; blok tussen zinnen. Zie voor meer informatie [Eigen ondersteuning van markeringen voor codeblokken](https://daringfireball.net/projects/markdown/syntax#precode)
@@ -208,10 +210,10 @@ Adobe-artikelen gebruiken standaardmarkeringen voor de meeste artikelopmaak, zoa
 
 * Notitieblokken
 * Ingesloten video&#39;s
-* Niet lokaliseren
-* Componenteigenschappen, zoals een andere kop-id toewijzen aan een kop
+* Tags voor omzetting
+* Componenteigenschappen, zoals een andere kop-id toewijzen aan een kop en een afbeeldingsgrootte opgeven
 
-Gebruik het blokcitaat van de Prijsverhoging ( >) aan het begin van elke lijn om een uitgebreide component, zoals een nota samen te voegen. Als u subcomponenten binnen componenten moet gebruiken, voeg een extra niveau van blokcitaten (> >) voor die subcomponentensectie toe. Een NOTITIE in een DONOTLOCALIZE-sectie moet bijvoorbeeld beginnen met > >.
+Gebruik het blokcitaat van de Prijsverhoging ( >) aan het begin van elke lijn om een uitgebreide component, zoals een nota samen te voegen.
 
 Enkele gebruikelijke opmaakelementen, zoals koppen en codeblokken, bevatten uitgebreide eigenschappen. Als u de standaardeigenschappen moet wijzigen, voegt u de parameters tussen de franse accolades /{ /} toe na de component. Uitgebreide eigenschappen worden in context beschreven.
 
@@ -229,7 +231,6 @@ U kunt uit deze typen notitieblokken kiezen om de aandacht op specifieke inhoud 
 * `[!PREREQUISITES]`
 
 Over het algemeen moeten notenblokken spaarzaam worden gebruikt omdat ze verstorend kunnen zijn. Hoewel ze ook ondersteuning bieden voor codeblokken, afbeeldingen, lijsten en koppelingen, kunt u proberen om de notitieblokken eenvoudig en eenvoudig te houden.
-
 
 ```markdown
 >[!NOTE]
@@ -273,6 +274,7 @@ De component &quot;Meer als dit&quot; in AEM wordt aan het einde van een artikel
 
 ```markdown
 >[!MORELIKETHIS]
+>
 >* [Article 1](https://helpx.adobe.com/support/analytics.html)
 >* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
 ```
@@ -280,6 +282,7 @@ De component &quot;Meer als dit&quot; in AEM wordt aan het einde van een artikel
 Weergegeven:
 
 >[!MORELIKETHIS]
+>
 >* [Artikel 1](https://helpx.adobe.com/nl/support/analytics.html)
 >* [Artikel 2](https://helpx.adobe.com/nl/support/audience-manager.html)
 
@@ -334,7 +337,7 @@ Alt-tekst met onderstrepingstekens wordt niet correct gerenderd. In plaats van d
 ![Settings_Step_2](/assets/settings_step_2.png)
 ```
 
-U kunt het beste afbreekstreepjes (-) gebruiken in plaats van onderstrepingstekens (_) in bestandsnamen.
+We raden u aan afbreekstreepjes (-) te gebruiken in plaats van onderstrepingstekens (_) in bestandsnamen.
 
 ```markdown
 ![Settings-Step-2](/assets/settings-step-2.png)
