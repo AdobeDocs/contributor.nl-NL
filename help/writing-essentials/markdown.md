@@ -2,9 +2,9 @@
 title: Hoe te om Markdown voor het schrijven van documentatie te gebruiken
 description: Leer de grondbeginselen van Markdown authoring. Zoek naar informatie voor de taal Markering die wordt gebruikt voor het schrijven van artikelen.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 065e43d5251f80050deef02e9c18b3fb4e9c1204
+source-git-commit: 19ea281ffce60c91edd0a47449152fc1138031c5
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1420'
 ht-degree: 1%
 
 ---
@@ -229,8 +229,13 @@ U kunt uit deze typen notitieblokken kiezen om de aandacht op specifieke inhoud 
 * `[!ADMINISTRATION]`
 * `[!AVAILABILITY]`
 * `[!PREREQUISITES]`
+* `[!ERROR]`
+* `[!ADMINISTRATION]`
+* `[!INFO]`
+* `[!SUCCESS]`
 
 Over het algemeen moeten notenblokken spaarzaam worden gebruikt omdat ze verstorend kunnen zijn. Hoewel ze ook ondersteuning bieden voor codeblokken, afbeeldingen, lijsten en koppelingen, kunt u proberen om de notitieblokken eenvoudig en eenvoudig te houden.
+
 
 ```markdown
 >[!NOTE]
@@ -238,23 +243,21 @@ Over het algemeen moeten notenblokken spaarzaam worden gebruikt omdat ze verstor
 >This is a standard NOTE block.
 ```
 
-Weergegeven:
-
->[!NOTE]
->
->Dit is een standaardblok van de NOOT.
-
 ```markdown
 >[!TIP]
 >
->This is a standard tip.
+>This is a standard TIP.
+```
+
+```markdown
+>[!IMPORTANT]
+>
+>This is an IMPORTANT note.
 ```
 
 Weergegeven:
 
->[!TIP]
->
->Dit is een standaardtip.
+![Gerenderde notities](assets/notes-rendered.png)
 
 ### Video&#39;s
 
