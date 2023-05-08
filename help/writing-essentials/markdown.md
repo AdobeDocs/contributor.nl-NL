@@ -2,9 +2,9 @@
 title: Hoe te om Markdown voor het schrijven van documentatie te gebruiken
 description: Leer de grondbeginselen van Markdown authoring. Zoek naar informatie voor de taal Markering die wordt gebruikt voor het schrijven van artikelen.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 19ea281ffce60c91edd0a47449152fc1138031c5
+source-git-commit: aec38dde9195855f96e7469c91c28d50ad516ae6
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1419'
 ht-degree: 1%
 
 ---
@@ -285,9 +285,8 @@ De component &quot;Meer als dit&quot; in AEM wordt aan het einde van een artikel
 Weergegeven:
 
 >[!MORELIKETHIS]
->
->* [Artikel 1](https://helpx.adobe.com/nl/support/analytics.html)
->* [Artikel 2](https://helpx.adobe.com/nl/support/audience-manager.html)
+* [Artikel 1](https://helpx.adobe.com/nl/support/analytics.html)
+* [Artikel 2](https://helpx.adobe.com/nl/support/audience-manager.html)
 
 
 ### UICONTROL en DNL
@@ -312,7 +311,8 @@ Tijdens machinevertaling, items getagd met `` worden gecontroleerd aan de hand v
 1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**OPMERKING:** Van de drie coderingsopties is dit de meest cruciale optie voor een hoge kwaliteit en is dit verplicht.
+>[!NOTE]
+Van de drie coderingsopties is dit de meest cruciale optie voor een hoge kwaliteit en is dit verplicht.
 
 **`[!DNL]`**
 
