@@ -1,24 +1,23 @@
 ---
 lastModified: 2018-06-28T00:00:00Z
 title: Koppelingen gebruiken in documentatie
-seo-title: Koppelingen gebruiken in de Adobe Git/Markdown-documentatie
+seo-title: Using links in Adobe Git/Markdown documentation
 description: In dit artikel vindt u richtlijnen voor het maken van koppelingen naar inhoud en afbeeldingen.
-seo-description: In dit artikel vindt u richtlijnen voor het maken van koppelingen naar inhoud en afbeeldingen voor Adobe-documentatie.
-translation-type: tm+mt
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+seo-description: This article provides guidance on creating links to content and images for Adobe documentation.
+exl-id: f9d61aa9-931c-4654-ab21-c6e47936954e
+source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
-
 
 # Koppelingen gebruiken in documentatie
 
 In dit artikel wordt het gebruik van hyperlinks in documentatiepagina&#39;s beschreven. Koppelingen zijn eenvoudig toe te voegen aan markering met een aantal verschillende conventies. Koppelingen wijzen gebruikers naar inhoud op dezelfde pagina, wijzen naar andere aangrenzende pagina&#39;s of wijzen naar externe sites en URL&#39;s.
 
 >[!IMPORTANT]
->Alle verbindingen zouden, idealiter, veilige verbindingen (`https` versus `http`) moeten zijn wanneer het doel het steunt (die de grote meerderheid zou moeten).
+>Alle koppelingen moeten idealiter beveiligde koppelingen zijn (`https` vs `http`) wanneer het doel dit ondersteunt (en de overgrote meerderheid zou dat moeten doen).
 
 ## Koppeling naar URL&#39;s
 
@@ -82,12 +81,12 @@ U hoeft geen ankers te maken. Ze worden automatisch gegenereerd tijdens het publ
 
 ## Koppelen aan afbeeldingen
 
-Als beste praktijken, worden de beelden en de dossiers opgeslagen in een `assets` folder op het zelfde niveau zoals het dossier van de Prijsverhoging dat met het verbindt.
+U kunt het beste afbeeldingen en bestanden opslaan in een `assets` op hetzelfde niveau als het markeringsbestand dat ernaar is gekoppeld.
 
-- Een artikel verwijst naar een afbeelding in de submap `assets`:
+- Een artikel verwijst naar een afbeelding in het dialoogvenster `assets` submap:
 
    `![alt text](assets/image-name.png)`
 
-- Een artikel verwijst naar een afbeelding in de submap `assets/no-localize`:
+- Een artikel verwijst naar een afbeelding in het dialoogvenster `assets/no-localize` submap:
 
    `![alt text](assets/no-localize/image-name.png)`

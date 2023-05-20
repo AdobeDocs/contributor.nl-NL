@@ -5,7 +5,7 @@ description: Leer meer over creatie en redactionele richtlijnen voor externe med
 exl-id: 874f88d7-18ad-4ac8-bfa3-737255652bbc
 source-git-commit: 03d46c9ffb664824f9526f781d776069d486f271
 workflow-type: tm+mt
-source-wordcount: '2227'
+source-wordcount: '2224'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,7 @@ Hier volgen eenvoudige manieren om het ontwerp, de helderheid en de leesbaarheid
 | Wijzigen _klikken_ tot _ga naar_ of _selecteren_ | _Klikken_ Dit is een apparaatspecifiek woord (met toegankelijkheidsproblemen) en de trend is om ervan af te stappen. Hier volgen enkele suggesties voor het wijzigen ervan:<ul><li>Navigatie: _Ga naar Bestand > Afdrukken_.</li><li>Klikken: _Selecteer Bestand > Afdrukken_ of _Selecteer OK_. </li></ul>Zie [Interacties met de gebruikersinterface beschrijven](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/describing-interactions-with-ui) voor meer ideeën over de beste woordkeuze in verschillende situaties . |
 | Acrolinx uitvoeren in VSC | Acrolinx controleert op problemen met stijl en grammatica. Het controleert URLs, terminologie, spelling, en meer. Het helpt u uw helderheid te verbeteren en verbetert vertaling op de inhoud van het Experience League. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Nog een paar beste praktijken en bronnen:
 

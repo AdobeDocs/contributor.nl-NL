@@ -5,7 +5,7 @@ index: true
 source-git-commit: 1acc8373c778c65b378a7e74d5c41418ce069ffe
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 + Grondbeginselen schrijven {#writing-essentials}
    + [Markering gebruiken](writing-essentials/markdown.md)
    + [Algemene richtsnoeren voor schrijven](writing-essentials/general-writing-guidance.md)
-   + [Koppeling](writing-essentials/linking.md)
+   + [Koppelen](writing-essentials/linking.md)
 + Feedback op vertaling {#localization}
    + [Taalondersteuning voor Adobe Experience Cloud-productdocumentatie](localization/machine-translation.md)
 + [Git en GitHub leren bronnen](resources.md)
