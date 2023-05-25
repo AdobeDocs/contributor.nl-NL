@@ -185,7 +185,7 @@ Weergegeven:
 
 Markering ondersteunt de plaatsing van codeblokken, zowel inline in een zin als als een apart &#39;afgezonderd&#39; blok tussen zinnen. Zie voor meer informatie [Eigen ondersteuning van markeringen voor codeblokken](https://daringfireball.net/projects/markdown/syntax#precode)
 
-Achtertikken gebruiken (`` ` ``) om inline-codestijlen in een alinea te maken. Als u een specifiek codeblok met meerdere regels wilt maken, voegt u drie achtertikken toe (` ``` `) voor en na het codeblok (in Markdown een &quot;fenced codeblok&quot; genoemd en alleen een &quot;code block&quot; component in AEM). Voor afgezonderde codeblokken voegt u de codetaal toe na de eerste set backtikken, zodat de syntaxis van de code correct wordt gemarkeerd met Markering. Voorbeeld: ` ```javascript`
+Achtertikken gebruiken (`` ` ``) om inline-codestijlen in een alinea te maken. Als u een specifiek codeblok met meerdere regels wilt maken, voegt u drie achtertikken toe (` ` `` `) voor en na het codeblok (in Markdown een &quot;fenced codeblok&quot; genoemd en alleen een &quot;code block&quot; component in AEM). Voor afgezonderde codeblokken voegt u de codetaal toe na de eerste set backtikken, zodat de syntaxis van de code correct wordt gemarkeerd met Markering. Voorbeeld: ` `` `javascript`
 
 Voorbeelden:
 
@@ -280,17 +280,17 @@ De component &quot;Meer als dit&quot; in AEM wordt aan het einde van een artikel
 Weergegeven:
 
 >[!MORELIKETHIS]
-* [Artikel 1](https://helpx.adobe.com/nl/support/analytics.html)
-* [Artikel 2](https://helpx.adobe.com/nl/support/audience-manager.html)
+>* [Artikel 1](https://helpx.adobe.com/nl/support/analytics.html)
+>* [Artikel 2](https://helpx.adobe.com/nl/support/audience-manager.html)
 
 
 ### UICONTROL en DNL
 
 Al onze Help-inhoud voor Markdown is gelokaliseerd met behulp van in eerste instantie automatische vertaling. Als de hulp nooit is gelokaliseerd, dan houden wij de machinevertaling. Als de Help-inhoud echter in het verleden is gelokaliseerd, fungeert de machinaal vertaalde inhoud als plaatsaanduiding tijdens het vertalen van de inhoud.
 
-**``**
+**&grave;&grave;**
 
-Tijdens machinevertaling, items getagd met `` worden gecontroleerd aan de hand van een lokalisatiedatabase voor de juiste vertaling. Als de UI niet gelokaliseerd is, zal deze markering het systeem toestaan om de verwijzing UI in het Engels voor die bepaalde taal (d.w.z. te verlaten. Analytische verwijzingen in het Italiaans).
+Tijdens machinevertaling, items getagd met &grave;&grave; worden gecontroleerd aan de hand van een lokalisatiedatabase voor de juiste vertaling. Als de UI niet gelokaliseerd is, zal deze markering het systeem toestaan om de verwijzing UI in het Engels voor die bepaalde taal (d.w.z. te verlaten. Analytische verwijzingen in het Italiaans).
 
 **Voorbeeld:**
 
@@ -307,7 +307,7 @@ Tijdens machinevertaling, items getagd met `` worden gecontroleerd aan de hand v
 ```
 
 >[!NOTE]
-Van de drie coderingsopties is dit de meest cruciale optie voor een hoge kwaliteit en is dit verplicht.
+>Van de drie coderingsopties is dit de meest cruciale optie voor een hoge kwaliteit en is dit verplicht.
 
 **`[!DNL]`**
 
