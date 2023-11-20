@@ -1,19 +1,19 @@
 ---
-title: Hoe te om Markdown voor het schrijven van documentatie te gebruiken
+title: Markering gebruiken voor het schrijven van documentatie
 description: Leer de grondbeginselen van Markdown authoring. Zoek naar informatie voor de taal Markering die wordt gebruikt voor het schrijven van artikelen.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 73c2a6b0abb9b0c8e1febc4b7dc5d74a3753ebac
+source-git-commit: bd0a7b34320435e1cebae95bc267ddf05b06a0f9
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1431'
 ht-degree: 1%
 
 ---
 
-# Hoe te om Markdown voor het schrijven van technische documentatie te gebruiken
+# Hoe wordt Markdown gebruikt voor het schrijven van technische documentatie
 
-De artikelen in de technische documentatie van Adobe zijn geschreven in een lichte opmaaktaal die [Markering](https://daringfireball.net/projects/markdown/), wat zowel gemakkelijk leesbaar als gemakkelijk te leren is.
+De artikelen in de technische documentatie van de Adobe worden geschreven in een lichte opmaaktaal die [Markering](https://daringfireball.net/projects/markdown/), wat zowel gemakkelijk leesbaar als gemakkelijk te leren is.
 
-Aangezien wij de inhoud van Docs van Adobe in GitHub opslaan, kan het een versie van Markdown gebruiken geroepen [GitHub Flavoed Markdown (GFM)](https://help.github.com/categories/writing-on-github/), die aanvullende functionaliteit biedt voor algemene opmaakbehoeften. Bovendien heeft Adobe Markdown op een aantal manieren uitgebreid om bepaalde aan Help gerelateerde functies zoals notities, tips en ingesloten video&#39;s te ondersteunen.
+Aangezien wij de inhoud van Docs van de Adobe in GitHub opslaan, kan het een versie van Markdown gebruiken geroepen [GitHub Flavoed Markdown (GFM)](https://help.github.com/categories/writing-on-github/), die aanvullende functionaliteit biedt voor veelvoorkomende opmaakbehoeften. Bovendien heeft de Adobe Markdown op een aantal manieren uitgebreid om bepaalde aan Help gerelateerde functies zoals notities, tips en ingesloten video&#39;s te ondersteunen.
 
 ## Basisprincipes voor markdown
 
@@ -79,7 +79,7 @@ Weergegeven:
 * Nog een item.
 * Hier gaan we weer.
 
-U kunt ook lijsten insluiten in lijsten en inhoud toevoegen tussen lijstitems.
+U kunt lijsten binnen lijsten ook insluiten en inhoud tussen lijstpunten toevoegen.
 
 ```markdown
 1. Set up your table and code blocks.
@@ -125,7 +125,7 @@ Weergegeven:
 
 ### Tabellen
 
-Tabellen maken geen deel uit van de kernspecificatie Markering, maar Adobe ondersteunt ze tot op zekere hoogte. Markering ondersteunt geen lijsten met meerdere regels in cellen. U kunt het beste voorkomen dat meerdere regels in tabellen worden gebruikt. U kunt tabellen maken door het verticale streepje (|) te gebruiken om kolommen en rijen te definiëren. Bij deze optie wordt de kolomkop gemaakt, bij elke kolom worden de leidingen van elkaar gescheiden. Neem een lege regel voor de tabel op, zodat deze correct wordt weergegeven.
+Tabellen maken geen deel uit van de kernspecificatie Markering, maar de Adobe ondersteunt ze in zekere mate. Markering ondersteunt geen lijsten met meerdere regels in cellen. U kunt het beste voorkomen dat meerdere regels in tabellen worden gebruikt. U kunt tabellen maken door het verticale streepje (|) te gebruiken om kolommen en rijen te definiëren. Bij deze optie wordt de kolomkop gemaakt, bij elke kolom worden de leidingen van elkaar gescheiden. Neem een lege regel voor de tabel op, zodat deze correct wordt weergegeven.
 
 ```markdown
 | Header | Another header | Yet another header |
@@ -151,7 +151,7 @@ Zie voor meer informatie over het maken van tabellen:
 
 ### Koppelingen
 
-De syntaxis Markdown voor een gealigneerde verbinding bestaat uit `[link text]` deel, dat de tekst is die zal worden hyperlinked, gevolgd door `(file-name.md)` gedeelte, dat de URL of bestandsnaam is waarnaar wordt gekoppeld:
+De syntaxis Markdown voor een gealigneerde verbinding bestaat uit `[link text]` deel, dat de tekst is die zal worden met hyperlink, gevolgd door `(file-name.md)` gedeelte, dat de URL of bestandsnaam is waarnaar wordt gekoppeld:
 
 `[link text](file-name.md)`
 
@@ -163,7 +163,7 @@ Weergegeven:
 
 [Adobe](https://www.adobe.com)
 
-Gebruik relatieve koppelingen voor koppelingen naar artikelen (kruisverwijzingen) in de opslagplaats. U kunt alle relatieve koppelingsoperanden gebruiken, zoals ./ (huidige map), ../ (één map terug) en ../../ (twee directory&#39;s terug).
+Gebruik relatieve koppelingen voor koppelingen naar artikelen (kruisverwijzingen) in de opslagplaats. U kunt alle relatieve koppelingsoperanden gebruiken, zoals ./ (huidige map), ../ (één map terug) en ../../ (twee mappen terug).
 
 ```markdown
 See [Overview example article](../../overview.md)
@@ -179,13 +179,13 @@ Zie voor meer informatie over koppelen de [Koppelingen](linking.md) artikel van 
 
 Weergegeven:
 
-![Adobe Logo](assets/no-localize/adobe_standard_logo.png "Tekst boven")
+![Logo Adobe](assets/no-localize/adobe_standard_logo.png "Tekst boven")
 
 ### Codeblokken
 
 Markering ondersteunt de plaatsing van codeblokken, zowel inline in een zin als als een apart &#39;afgezonderd&#39; blok tussen zinnen. Zie voor meer informatie [Eigen ondersteuning van markeringen voor codeblokken](https://daringfireball.net/projects/markdown/syntax#precode)
 
-Achtertikken gebruiken (`` ` ``) om inline-codestijlen in een alinea te maken. Als u een specifiek codeblok met meerdere regels wilt maken, voegt u drie achtertikken toe (` ` `` `) voor en na het codeblok (in Markdown een &quot;fenced codeblok&quot; genoemd en alleen een &quot;code block&quot; component in AEM). Voor afgezonderde codeblokken voegt u de codetaal toe na de eerste set backtikken, zodat de syntaxis van de code correct wordt gemarkeerd met Markering. Voorbeeld: ` `` `javascript`
+Achtertikken gebruiken (`` ` ``) om inline-codestijlen in een alinea te maken. Als u een specifiek codeblok met meerdere regels wilt maken, voegt u drie achtertikken toe (` ``` `) voor en na het codeblok (in Markdown een &quot;fenced codeblok&quot; genoemd en alleen een &quot;code block&quot; component in AEM). Voor afgezonderde codeblokken voegt u de codetaal toe na de eerste set backtikken, zodat de syntaxis van de code correct wordt gemarkeerd met Markering. Voorbeeld: ` ```javascript`
 
 Voorbeelden:
 
@@ -206,7 +206,7 @@ function test() {
 
 ## Extensies voor aangepaste markeringen
 
-Adobe-artikelen gebruiken standaardmarkeringen voor de meeste artikelopmaak, zoals alinea&#39;s, koppelingen, lijsten en koppen. Voor een rijkere opmaak kunnen artikelen uitgebreide opmaakfuncties gebruiken, zoals:
+Artikelen in Adoben maken gebruik van de standaardopmaak voor de meeste artikelen, zoals alinea&#39;s, koppelingen, lijsten en koppen. Voor een rijkere opmaak kunnen artikelen uitgebreide opmaakfuncties gebruiken, zoals:
 
 * Notitieblokken
 * Ingesloten video&#39;s
@@ -280,34 +280,35 @@ De component &quot;Meer als dit&quot; in AEM wordt aan het einde van een artikel
 Weergegeven:
 
 >[!MORELIKETHIS]
->* [Artikel 1](https://helpx.adobe.com/nl/support/analytics.html)
->* [Artikel 2](https://helpx.adobe.com/nl/support/audience-manager.html)
-
+>
+* [Artikel 1](https://helpx.adobe.com/nl/support/analytics.html)
+* [Artikel 2](https://helpx.adobe.com/nl/support/audience-manager.html)
 
 ### UICONTROL en DNL
 
-Al onze Help-inhoud voor Markdown is gelokaliseerd met behulp van in eerste instantie automatische vertaling. Als de hulp nooit is gelokaliseerd, dan houden wij de machinevertaling. Als de Help-inhoud echter in het verleden is gelokaliseerd, fungeert de machinaal vertaalde inhoud als plaatsaanduiding tijdens het vertalen van de inhoud.
+Al onze Help-inhoud voor Markdown is gelokaliseerd met behulp van in eerste instantie automatische vertaling. Als de hulp nooit is gelokaliseerd, dan houden wij de machinevertaling. Als de Help-inhoud echter in het verleden is gelokaliseerd, fungeert de door de computer vertaalde inhoud als plaatsaanduiding tijdens het vertalen van de inhoud.
 
-**&grave;&grave;**
+**``**
 
-Tijdens machinevertaling, items getagd met &grave;&grave; worden gecontroleerd aan de hand van een lokalisatiedatabase voor de juiste vertaling. Als de UI niet gelokaliseerd is, zal deze markering het systeem toestaan om de verwijzing UI in het Engels voor die bepaalde taal (d.w.z. te verlaten. Analytische verwijzingen in het Italiaans).
+Tijdens machinevertaling, items getagd met `` worden gecontroleerd aan de hand van een lokalisatiedatabase voor de juiste vertaling. Als de UI niet gelokaliseerd is, zal deze markering het systeem toestaan om de verwijzing UI in het Engels voor die bepaalde taal (d.w.z. te verlaten. Analytische verwijzingen in het Italiaans).
 
 **Voorbeeld:**
 
-1. Ga naar de **[!UICONTROL Run Process]** scherm.
-1. Kies **[!UICONTROL File > Print > Print All]** om alle bestanden op uw server af te drukken.
-1. De [!UICONTROL Processing Rules] wordt weergegeven.
+1. Ga naar de **Proces uitvoeren** scherm.
+1. Kies **Bestand** > **Afdrukken** > **Alles afdrukken** om alle bestanden op uw server af te drukken.
+1. Het dialoogvenster Verwerkingsregels wordt geopend.
 
 **Bron:**
 
 ```markdown
-1. Go to the **[!UICONTROL Run Process]** screen.
-1. Choose **[!UICONTROL File > Print > Print All]** to print all the files on your server.
-1. The [!UICONTROL Processing Rules] dialog box appears.
+1. Go to the **&lbrack;!UICONTROL Run Process&rbrack;** screen.
+1. Choose **&lbrack;!UICONTROL File&rbrack; > &lbrack;!UICONTROL Print&rbrack; > &lbrack;!UICONTROL Print All&rbrack;** to print all the files on your server.
+1. The &lbrack;!UICONTROL Processing Rules&rbrack; dialog box appears.
 ```
 
 >[!NOTE]
->Van de drie coderingsopties is dit de meest cruciale optie voor een hoge kwaliteit en is dit verplicht.
+>
+Van de drie coderingsopties is dit de meest cruciale optie voor een hoge kwaliteit en is dit verplicht.
 
 **`[!DNL]`**
 
@@ -315,14 +316,14 @@ In de regel gebruiken we een lijst &#39;Niet vertalen&#39; om de machinevertalin
 
 **Voorbeeld:**
 
-* Met [!DNL Target]kunt u A/B-tests maken om de optimale
-* Adobe Analytics is een krachtige oplossing voor het verzamelen van analyses op uw site. [!DNL Analytics] kan u ook helpen bij het rapporteren om die gegevens gemakkelijk te kunnen samenvatten.
+* Met Doel kunt u A/B-tests maken om de optimale
+* Adobe Analytics is een krachtige oplossing voor het verzamelen van analyses op uw site. Analyses kunnen u ook helpen bij het rapporteren om die gegevens gemakkelijk te kunnen samenvatten.
 
 **Bron:**
 
 ```markdown
-* With [!DNL Target], you can create A/B tests to find the optimal 
-* Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
+* With &lbrack;!DNL Target&rbrack;, you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. &lbrack;!DNL Analytics&rbrack; can also help you with reporting to easily digest that data.
 ```
 
 ## Gotchas en probleemoplossing
