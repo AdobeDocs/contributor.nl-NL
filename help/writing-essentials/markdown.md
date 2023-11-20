@@ -2,9 +2,9 @@
 title: Markering gebruiken voor het schrijven van documentatie
 description: Leer de grondbeginselen van Markdown authoring. Zoek naar informatie voor de taal Markering die wordt gebruikt voor het schrijven van artikelen.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: bd0a7b34320435e1cebae95bc267ddf05b06a0f9
+source-git-commit: d3d478f8745c14ee500a43021597eecfebc7b06b
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1466'
 ht-degree: 1%
 
 ---
@@ -292,23 +292,25 @@ Al onze Help-inhoud voor Markdown is gelokaliseerd met behulp van in eerste inst
 
 Tijdens machinevertaling, items getagd met `` worden gecontroleerd aan de hand van een lokalisatiedatabase voor de juiste vertaling. Als de UI niet gelokaliseerd is, zal deze markering het systeem toestaan om de verwijzing UI in het Engels voor die bepaalde taal (d.w.z. te verlaten. Analytische verwijzingen in het Italiaans).
 
-**Voorbeeld:**
+**Broninhoud voorbeeld:**
 
-1. Ga naar de **Proces uitvoeren** scherm.
-1. Kies **Bestand** > **Afdrukken** > **Alles afdrukken** om alle bestanden op uw server af te drukken.
-1. Het dialoogvenster Verwerkingsregels wordt geopend.
+1. Ga naar de **&amp;lbrack;!UICONTROL Run Process&amp;rbrack;** scherm.
+1. Kies **&amp;lbrack;!UICONTROL File&amp;rbrack; > &amp;lbrack;!UICONTROL Print&amp;rbrack; > &amp;lbrack;!UICONTROL Print All&amp;rbrack;** om alle bestanden op uw server af te drukken.
+1. Het &amp;lbrack;!UICONTROL-verwerkingsregels&amp;rbrack; dialoogvenster verschijnt.
 
-**Bron:**
+<!--
+**Source:**
 
 ```markdown
 1. Go to the **&lbrack;!UICONTROL Run Process&rbrack;** screen.
 1. Choose **&lbrack;!UICONTROL File&rbrack; > &lbrack;!UICONTROL Print&rbrack; > &lbrack;!UICONTROL Print All&rbrack;** to print all the files on your server.
 1. The &lbrack;!UICONTROL Processing Rules&rbrack; dialog box appears.
 ```
+-->
 
 >[!NOTE]
 >
-Van de drie coderingsopties is dit de meest cruciale optie voor een hoge kwaliteit en is dit verplicht.
+Van de twee coderingsopties is dit de meest cruciale optie voor een hoge kwaliteit en is dit verplicht.
 
 **`[!DNL]`**
 
@@ -316,15 +318,17 @@ In de regel gebruiken we een lijst &#39;Niet vertalen&#39; om de machinevertalin
 
 **Voorbeeld:**
 
-* Met Doel kunt u A/B-tests maken om de optimale
-* Adobe Analytics is een krachtige oplossing voor het verzamelen van analyses op uw site. Analyses kunnen u ook helpen bij het rapporteren om die gegevens gemakkelijk te kunnen samenvatten.
+* Met &amp;lbrack;!DNL-doel&amp;rbrack; kunt u A/B-tests maken om de optimale
+* Adobe Analytics is een krachtige oplossing voor het verzamelen van analyses op uw site. &amp;Lbrack;!DNL Analytics&amp;rbrack; kan u ook helpen bij het rapporteren om die gegevens gemakkelijk te kunnen samenvatten.
 
-**Bron:**
+<!--
+**Source:**
 
 ```markdown
 * With &lbrack;!DNL Target&rbrack;, you can create A/B tests to find the optimal 
 * Adobe Analytics is a powerful solution to collect analytics on your site. &lbrack;!DNL Analytics&rbrack; can also help you with reporting to easily digest that data.
 ```
+-->
 
 ## Gotchas en probleemoplossing
 
