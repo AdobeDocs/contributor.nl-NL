@@ -2,9 +2,9 @@
 title: Markering gebruiken voor het schrijven van documentatie
 description: Leer de grondbeginselen van Markdown authoring. Zoek naar informatie voor de taal Markering die wordt gebruikt voor het schrijven van artikelen.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 109b2b72bd842a8d3f45bd5667690d8e71a6e329
+source-git-commit: fff920c9e98ca821a4180157174c2a2ee1b84cb8
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1361'
 ht-degree: 1%
 
 ---
@@ -304,11 +304,11 @@ Tijdens machinevertaling, items getagd met `` worden gecontroleerd aan de hand v
 1. Choose **[!UICONTROL File] > [!UICONTROL Print] > [!UICONTROL Print All]** to print all the files on your server.
 1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
--->
 
 >[!NOTE]
 >
-Van de twee coderingsopties is dit de meest cruciale optie voor een hoge kwaliteit en is dit verplicht.
+>Of the two tagging options, this is the most crucial to deliver high quality and is mandatory.
+-->
 
 **`[!DNL]`**
 
