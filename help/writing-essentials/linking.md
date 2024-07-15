@@ -17,7 +17,7 @@ ht-degree: 0%
 In dit artikel wordt het gebruik van hyperlinks in documentatiepagina&#39;s beschreven. Koppelingen zijn eenvoudig toe te voegen aan markering met een aantal verschillende conventies. Koppelingen wijzen gebruikers naar inhoud op dezelfde pagina, wijzen naar andere aangrenzende pagina&#39;s of wijzen naar externe sites en URL&#39;s.
 
 >[!IMPORTANT]
->Alle koppelingen moeten idealiter beveiligde koppelingen zijn (`https` vs `http`) wanneer het doel dit ondersteunt (en de overgrote meerderheid zou dat moeten doen).
+>In het ideale geval moeten alle koppelingen beveiligde koppelingen zijn ( `https` vs `http` ) wanneer het doel dit ondersteunt (wat de overgrote meerderheid zou moeten doen).
 
 ## Koppeling naar URL&#39;s
 
@@ -29,33 +29,33 @@ De woorden die u opneemt in koppelingstekst moeten de titel zijn van de pagina w
 
 - `For more details, see [Adobe Legal Concerns](https://www.adobe.com/legal).`
 
-## Koppeling van het ene artikel naar het andere
+## Koppeling maken tussen artikelen
 
 Gebruik de volgende syntaxis voor koppelingen om een inline koppeling te maken van het ene artikel naar het andere in dezelfde repository:
 
 - Een artikel in een map is gekoppeld aan een ander artikel in dezelfde map:
 
-   `[link text](article-name.md)`
+  `[link text](article-name.md)`
 
 - Een artikel verbindt van subdirectory aan een artikel in de wortelfolder:
 
-   `[link text](../article-name.md)`
+  `[link text](../article-name.md)`
 
 - Een artikel verbindt van subsubdirectory met een artikel in de wortelfolder:
 
-   `[link text](../../article-name.md)`
+  `[link text](../../article-name.md)`
 
-- Een artikel in de hoofdmap verwijst naar een artikel in een submap:
+- Een artikel in de hoofdmap is gekoppeld aan een artikel in een submap:
 
-   `[link text](./directory/article-name.md)`
+  `[link text](./directory/article-name.md)`
 
 - Een artikel in een submap is gekoppeld aan een artikel in een andere submap:
 
-   `[link text](../directory/article-name.md)`
+  `[link text](../directory/article-name.md)`
 
 - Een artikel in een subsubmap is gekoppeld aan een artikel in een andere submap:
 
-   `[link text](../../directory/article-name.md)`
+  `[link text](../../directory/article-name.md)`
 
 ## Koppeling naar ankers
 
@@ -63,30 +63,30 @@ U hoeft geen ankers te maken. Ze worden automatisch gegenereerd tijdens het publ
 
 - Een koppeling maken naar een kop in hetzelfde artikel:
 
-   `[link](#the-text-of-the-level2-section-separated-by-hyphens)`
+  `[link](#the-text-of-the-level2-section-separated-by-hyphens)`
 
-   `[Link to anchors](#links-to-anchors)`
+  `[Link to anchors](#links-to-anchors)`
 
 - Een koppeling maken naar een anker in een ander artikel in dezelfde submap:
 
-   `[link text](article-name.md#anchor-name)`
+  `[link text](article-name.md#anchor-name)`
 
-   `[Configure your profile](overview.md#getting-started)`
+  `[Configure your profile](overview.md#getting-started)`
 
 - Een koppeling maken naar een anker in een andere submap voor services:
 
-   `[link text](../directory/article-name.md#anchor-name)`
+  `[link text](../directory/article-name.md#anchor-name)`
 
-   `[Configure your profile](../overview.md#configure-your-profile)`
+  `[Configure your profile](../overview.md#configure-your-profile)`
 
 ## Koppelen aan afbeeldingen
 
-U kunt het beste afbeeldingen en bestanden opslaan in een `assets` op hetzelfde niveau als het markeringsbestand dat ernaar is gekoppeld.
+U kunt het beste afbeeldingen en bestanden opslaan in een map `assets` op hetzelfde niveau als het markeringsbestand dat ernaar is gekoppeld.
 
-- Een artikel verwijst naar een afbeelding in het dialoogvenster `assets` submap:
+- Een artikel verwijst naar een afbeelding in de submap `assets` :
 
-   `![alt text](assets/image-name.png)`
+  `![alt text](assets/image-name.png)`
 
-- Een artikel verwijst naar een afbeelding in het dialoogvenster `assets/no-localize` submap:
+- Een artikel verwijst naar een afbeelding in de submap `assets/no-localize` :
 
-   `![alt text](assets/no-localize/image-name.png)`
+  `![alt text](assets/no-localize/image-name.png)`

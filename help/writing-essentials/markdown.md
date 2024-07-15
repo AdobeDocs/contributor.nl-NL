@@ -4,18 +4,18 @@ description: Leer de grondbeginselen van Markdown authoring. Zoek naar informati
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: fff920c9e98ca821a4180157174c2a2ee1b84cb8
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 1%
+source-wordcount: '1340'
+ht-degree: 0%
 
 ---
 
 # Hoe wordt Markdown gebruikt voor het schrijven van technische documentatie
 
-De artikelen in de technische documentatie van de Adobe worden geschreven in een lichte opmaaktaal die [Markering](https://daringfireball.net/projects/markdown/), wat zowel gemakkelijk leesbaar als gemakkelijk te leren is.
+De technische documentatieartikelen van de Adobe worden geschreven in een lichtgewichtprijsverhogingstaal genoemd [ Markdown ](https://daringfireball.net/projects/markdown/), die zowel gemakkelijk te lezen en gemakkelijk is te leren.
 
-Aangezien wij de inhoud van Docs van de Adobe in GitHub opslaan, kan het een versie van Markdown gebruiken geroepen [GitHub Flavoed Markdown (GFM)](https://help.github.com/categories/writing-on-github/), die aanvullende functionaliteit biedt voor veelvoorkomende opmaakbehoeften. Bovendien heeft de Adobe Markdown op een aantal manieren uitgebreid om bepaalde aan Help gerelateerde functies zoals notities, tips en ingesloten video&#39;s te ondersteunen.
+Aangezien wij de inhoud van Docs van de Adobe in GitHub opslaan, kan het een versie van Markering gebruiken genoemd [ GitHub Gearomatiseerde Prijsverhoging (GFM) ](https://help.github.com/categories/writing-on-github/), die extra functionaliteit voor gemeenschappelijke het formatteren behoeften verstrekt. Bovendien heeft de Adobe Markdown op een aantal manieren uitgebreid om bepaalde aan Help gerelateerde functies zoals notities, tips en ingesloten video&#39;s te ondersteunen.
 
-## Basisprincipes voor markdown
+## Grondbeginselen van markeringen
 
 In de volgende secties worden de grondbeginselen van het ontwerpen in Markdown beschreven.
 
@@ -35,7 +35,7 @@ Als u een kop wilt maken, gebruikt u een hash-teken (#) aan het begin van een re
 
 Een alinea vereist geen speciale syntaxis in Markdown.
 
-Tekst opmaken als **vet**, plaatst u deze in twee sterretjes. Tekst opmaken als *cursief*, plaatst u deze in één sterretje:
+Om tekst als **vette letters** te formatteren, sluit u het in twee asterisks in. Om tekst als *cursief* te formatteren, sluit u het in één enkele asterisk in:
 
 ```markdown
    This text is **bold**.
@@ -51,7 +51,7 @@ This is not \*italicized\* type.
 
 ### Genummerde lijsten en lijsten met opsommingstekens
 
-Als u genummerde lijsten wilt maken, begint u met een regel met `1.` of `1)`, maar gebruik beide indelingen niet in dezelfde lijst. U hoeft de getallen niet op te geven. GitHub doet dat voor jou.
+Als u genummerde lijsten wilt maken, begint u met een regel met `1.` of `1)` , maar gebruikt u niet beide indelingen in dezelfde lijst. U hoeft de getallen niet op te geven. GitHub doet dat voor jou.
 
 ```markdown
 1. This is step 1.
@@ -77,7 +77,7 @@ Weergegeven:
 
 * Eerste item in een ongeordende lijst.
 * Nog een item.
-* Hier gaan we weer.
+* Hier gaan we  opnieuw.
 
 U kunt lijsten binnen lijsten ook insluiten en inhoud tussen lijstpunten toevoegen.
 
@@ -107,7 +107,7 @@ Weergegeven:
 1. Stel uw tabel- en codeblokken in.
 1. Voer deze stap uit.
 
-   ![scherm](assets/no-localize/adobe_standard_logo.png)
+   ![ scherm ](assets/no-localize/adobe_standard_logo.png)
 
 1. Zorg ervoor dat uw tabel er zo uitziet:
 
@@ -119,7 +119,7 @@ Weergegeven:
 
    >[!NOTE]
    >
-   >Dit is notitietekst.
+   >Dit is een opmerking  tekst.
 
 1. Doe nog een stap.
 
@@ -145,13 +145,13 @@ Eenvoudige tabellen werken naar behoren in Markering. Tabellen die meerdere alin
 
 Zie voor meer informatie over het maken van tabellen:
 
-* GitHub [Informatie organiseren met tabellen](https://help.github.com/articles/organizing-information-with-tables/)
-* De [Generator van tabellen voor opmaak](https://www.tablesgenerator.com/markdown_tables) webapp
-* [HTML-tabellen converteren naar Markering](https://jmalarcon.github.io/markdowntables/)
+* GitHub [ organiseert informatie met lijsten ](https://help.github.com/articles/organizing-information-with-tables/)
+* De ](https://www.tablesgenerator.com/markdown_tables) Web-app van de Generator van de Lijsten van de Vermindering [
+* [ zet de lijsten van HTML in Markering ](https://jmalarcon.github.io/markdowntables/) om
 
 ### Koppelingen
 
-De syntaxis Markdown voor een gealigneerde verbinding bestaat uit `[link text]` deel, dat de tekst is die zal worden met hyperlink, gevolgd door `(file-name.md)` gedeelte, dat de URL of bestandsnaam is waarnaar wordt gekoppeld:
+De syntaxis voor de markering van een inline-koppeling bestaat uit het `[link text]` -gedeelte. Dit is de tekst die aan hyperlinks wordt gekoppeld, gevolgd door het `(file-name.md)` -gedeelte. Dit is de URL of de bestandsnaam waarnaar wordt gekoppeld:
 
 `[link text](file-name.md)`
 
@@ -161,7 +161,7 @@ De syntaxis Markdown voor een gealigneerde verbinding bestaat uit `[link text]` 
 
 Weergegeven:
 
-[Adobe](https://www.adobe.com)
+[ Adobe ](https://www.adobe.com)
 
 Gebruik relatieve koppelingen voor koppelingen naar artikelen (kruisverwijzingen) in de opslagplaats. U kunt alle relatieve koppelingsoperanden gebruiken, zoals ./ (huidige map), ../ (één map terug) en ../../ (twee mappen terug).
 
@@ -169,7 +169,7 @@ Gebruik relatieve koppelingen voor koppelingen naar artikelen (kruisverwijzingen
 See [Overview example article](../../overview.md)
 ```
 
-Zie voor meer informatie over koppelen de [Koppelingen](linking.md) artikel van deze handleiding voor het koppelen van syntaxis.
+Voor meer informatie bij het verbinden, zie het [ 1} artikel van Verbindingen {van deze gids voor het verbinden van syntaxis.](linking.md)
 
 ### Afbeeldingen
 
@@ -179,13 +179,13 @@ Zie voor meer informatie over koppelen de [Koppelingen](linking.md) artikel van 
 
 Weergegeven:
 
-![Logo Adobe](assets/no-localize/adobe_standard_logo.png "Tekst boven")
+![ het Logo van de Adobe ](assets/no-localize/adobe_standard_logo.png " Hover tekst ")
 
 ### Codeblokken
 
-Markering ondersteunt de plaatsing van codeblokken, zowel inline in een zin als als een apart &#39;afgezonderd&#39; blok tussen zinnen. Zie voor meer informatie [Eigen ondersteuning van markeringen voor codeblokken](https://daringfireball.net/projects/markdown/syntax#precode)
+Markering ondersteunt de plaatsing van codeblokken, zowel inline in een zin als als een apart &#39;afgezonderd&#39; blok tussen zinnen. Voor details, zie {de inheemse steun van 0} Markering voor codeblokken ](https://daringfireball.net/projects/markdown/syntax#precode)[
 
-Achtertikken gebruiken (`` ` ``) om inline-codestijlen in een alinea te maken. Als u een specifiek codeblok met meerdere regels wilt maken, voegt u drie achtertikken toe (` ``` `) voor en na het codeblok (in Markdown een &quot;fenced codeblok&quot; genoemd en alleen een &quot;code block&quot; component in AEM). Voor afgezonderde codeblokken voegt u de codetaal toe na de eerste set backtikken, zodat de syntaxis van de code correct wordt gemarkeerd met Markering. Voorbeeld: ` ```javascript`
+Gebruik backtikken (`` ` ``) om inline-codestijlen in een alinea te maken. Om een specifiek multi-line codeblok tot stand te brengen, voeg drie achtertikken (` ``` `) vóór en na het codeblok (genoemd een &quot;omheind codeblok&quot;in Markdown en enkel een &quot;codeblok&quot;component in AEM) toe. Voor afgezonderde codeblokken voegt u de codetaal toe na de eerste set backtikken, zodat de syntaxis van de code correct wordt gemarkeerd met Markering. Voorbeeld: ` ```javascript`
 
 Voorbeelden:
 
@@ -257,7 +257,7 @@ Over het algemeen moeten notenblokken spaarzaam worden gebruikt omdat ze verstor
 
 Weergegeven:
 
-![Gerenderde notities](assets/notes-rendered.png)
+![ Gegenereerde nota&#39;s ](assets/notes-rendered.png)
 
 ### Video&#39;s
 
@@ -275,14 +275,14 @@ Weergegeven:
 
 De component &quot;Meer als dit&quot; in AEM wordt aan het einde van een artikel weergegeven. Gerelateerde koppelingen worden weergegeven. Als het artikel wordt gerenderd, kan het dezelfde opmaak krijgen als niveau 2-koppen (##) zonder dat het aan de miniinhoudsopgave wordt toegevoegd.
 
-![morelikethis, syntaxis](assets/more-like-this-syntax.png)
+![ morelikethis syntax ](assets/more-like-this-syntax.png)
 
 Weergegeven:
 
 >[!MORELIKETHIS]
 >
-* [Artikel 1](https://helpx.adobe.com/nl/support/analytics.html)
-* [Artikel 2](https://helpx.adobe.com/nl/support/audience-manager.html)
+>* [ Artikel  1 ](https://helpx.adobe.com/support/analytics.html)
+>* [ Artikel  2 ](https://helpx.adobe.com/support/audience-manager.html)
 
 ### UICONTROL en DNL
 
@@ -290,11 +290,11 @@ Al onze Help-inhoud voor Markdown is gelokaliseerd met behulp van in eerste inst
 
 **``**
 
-Tijdens machinevertaling, items getagd met `` worden gecontroleerd aan de hand van een lokalisatiedatabase voor de juiste vertaling. Als de UI niet gelokaliseerd is, zal deze markering het systeem toestaan om de verwijzing UI in het Engels voor die bepaalde taal (d.w.z. te verlaten. Analytische verwijzingen in het Italiaans).
+Tijdens het vertalen van computers worden items die zijn getagd met `` gecontroleerd op basis van een lokalisatiedatabase voor de juiste vertaling. Als de UI niet gelokaliseerd is, zal deze markering het systeem toestaan om de verwijzing UI in het Engels voor die bepaalde taal (d.w.z. te verlaten. Analytische verwijzingen in het Italiaans).
 
-**Broninhoud voorbeeld:**
+**broninhoud van het Voorbeeld:**
 
-![voorbeeldbesturingstekst](assets/sample-uicontrol.png)
+![ tekst van de steekproefcontrole ](assets/sample-uicontrol.png)
 
 <!--
 **Source:**
@@ -314,9 +314,9 @@ Tijdens machinevertaling, items getagd met `` worden gecontroleerd aan de hand v
 
 In de regel gebruiken we een lijst &#39;Niet vertalen&#39; om de machinevertalingsprogramma&#39;s te vertellen wat ze in het Engels moeten houden. De meest voorkomende items zijn de lange namen van oplossingen, zoals &quot;Adobe Analytics&quot;, &quot;Adobe Campaign&quot; en &quot;Adobe Target&quot;. Er kunnen zich echter gevallen voordoen waarin de motor gedwongen moet worden het Engels te gebruiken, omdat de term in kwestie op een specifieke of algemene manier kan worden gebruikt. Dit zou het meest voor de hand liggende geval zijn: korte namen voor oplossingen zoals &quot;Analytics&quot;, &quot;Campaign&quot;, &quot;Target&quot; enz. Het zou voor een machine moeilijk zijn om te begrijpen dat dit oplossingsnamen en geen algemene termen zijn. De tag kan ook worden gebruikt voor namen/functies van derden die altijd in het Engels overblijven of voor kortere tekstgedeelten zoals woordgroepen of zinnen die in het Engels moeten blijven staan.
 
-**Broninhoud voorbeeld:**
+**broninhoud van het Voorbeeld:**
 
-![voorbeeld-dnl-tekst](assets/sample-dnl.png)
+![ steekproef dnl- tekst ](assets/sample-dnl.png)
 
 <!--
 **Source:**
@@ -349,24 +349,24 @@ Als u tekst kopieert naar een Markeringen-editor, kan de tekst &#39;slimme&#39; 
 
 Hier volgen de coderingen voor de &quot;slimme&quot; versies van deze leestekens:
 
-* Aanhalingsteken links (openen): `&#8220;`
+* Linkeraanhalingsteken (openen): `&#8220;`
 * Rechteraanhalingsteken (sluiten): `&#8221;`
-* Recht (sluiten) enkel aanhalingsteken of apostrof: `&#8217;`
+* Rechteraanhalingsteken (sluiten) of apostrof: `&#8217;`
 * Eén enkel aanhalingsteken links (openen) (zelden gebruikt): `&#8216;`
 
 ### Hoekhaken
 
 Als u punthaken in tekst (geen code) in uw dossier-bijvoorbeeld gebruikt om placeholder te wijzen-moet u de punthaken manueel coderen. Anders denkt Markdown dat ze een HTML-tag moeten zijn.
 
-Coderen `<script name>` als `&lt;script name&gt;`
+Codeer `<script name>` bijvoorbeeld als `&lt;script name&gt;`
 
 ### Ampersanden in titels
 
-Ampersands (&amp;) zijn niet toegestaan in titels. Gebruik in plaats hiervan &quot;en&quot; of gebruik de `&amp;` coderen.
+Ampersands (&amp;) zijn niet toegestaan in titels. Gebruik in plaats hiervan &#39;en&#39; of gebruik de `&amp;` -codering.
 
 ## Zie ook
 
 ### Markeringsmiddelen
 
-* [Inleiding tot afwaardering](https://daringfireball.net/projects/markdown/syntax)
-* [De Grondbeginselen van de Verkoop van GitHub](https://help.github.com/articles/markdown-basics/)
+* [ Inleiding aan Markering ](https://daringfireball.net/projects/markdown/syntax)
+* [ Grondbeginselen van de Prijsverlaging van GitHub ](https://help.github.com/articles/markdown-basics/)

@@ -5,13 +5,13 @@ cloud: Experience Cloud
 index: true
 source-git-commit: d8a27428d0c264ae95740ad18231f96602a9136f
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 2%
+source-wordcount: '66'
+ht-degree: 3%
 
 ---
 
 
-# Handleiding voor contribuanten voor Adobe-documentatie{#contributor-guide}
+# Handleiding voor contribuanten voor Adobe{#contributor-guide}
 
 + [Inleiding](introduction.md)
 + Instellen met GitHub {#setup}
@@ -27,6 +27,6 @@ ht-degree: 2%
 + Feedback op vertaling {#localization}
    + [Taalondersteuning voor Adobe Experience Cloud-productdocumentatie](localization/machine-translation.md)
 + [Git en GitHub leren bronnen](resources.md)
-+ Gedragingen en bijdragen {#conduct-contributions}
++ Gedrag en bijdragen {#conduct-contributions}
    + [Gedragscode](conduct/code-of-conduct.md)
    + [Overzicht van bijdragen](conduct/contributing.md)

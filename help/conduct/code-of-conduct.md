@@ -1,10 +1,10 @@
 ---
 title: Gedragscode van Adobe
-description: Adobe Gedragscode voor het melden van problemen en het indienen van bewerkingswijzigingen
+description: Gedragscode van de Adobe voor het melden van problemen en het indienen van bewerkingswijzigingen
 exl-id: ff9c1cc5-8f65-40bb-8d5b-b7d42a5c08c2
 source-git-commit: 06b0a397f0612e5ecfca82fc7105a45ed167efc9
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '442'
 ht-degree: 97%
 
 ---
