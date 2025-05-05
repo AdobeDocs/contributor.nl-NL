@@ -281,8 +281,8 @@ Weergegeven:
 
 >[!MORELIKETHIS]
 >
->* [ Artikel  1 ](https://helpx.adobe.com/support/analytics.html)
->* [ Artikel  2 ](https://helpx.adobe.com/support/audience-manager.html)
+>* [ Artikel  1 ](https://helpx.adobe.com/nl/support/analytics.html)
+>* [ Artikel  2 ](https://helpx.adobe.com/nl/support/audience-manager.html)
 
 ### UICONTROL en DNL
 
