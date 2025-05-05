@@ -48,7 +48,7 @@ Gebruikend de aangewezen bewaarplaats, creeer een vork van de bewaarplaats in uw
 
 Een persoonlijke vork is vereist omdat alle hoofddocumentatieruimten alleen-lezen toegang bieden, wat betekent dat u geen wijzigingen rechtstreeks kunt aanbrengen in de inhoud in de opslagruimten. Als u wijzigingen wilt aanbrengen, moet u een pull-aanvraag (PR) van uw vork indienen in de hoofdopslagplaats. Om dit proces te vergemakkelijken, hebt u eerst uw eigen exemplaar van de bewaarplaats nodig, waarin u schrijftoegang hebt. A GitHub *vork* dient dat doel.
 
-1. Ga naar de pagina GitHub van de belangrijkste bewaarplaats en klik de **1} knoop van het Fork {op het hogere recht.**
+1. Ga naar de pagina GitHub van de belangrijkste bewaarplaats en klik de **1&rbrace; knoop van het Fork &lbrace;op het hogere recht.**
 
    ![ GitHub vork ](assets/fork-simple.png)
 
@@ -74,4 +74,4 @@ Deze stappen veronderstellen u de Desktop GitHub gebruikt. Als u een andere clie
 
 1. De Desktop van GitHub van het gebruik om de lokale dossiers in synchronisatie met de forked bewaarplaats te houden.
 
-Voor details, zie {de Documentatie van de Desktop van 0} GitHub ](https://help.github.com/desktop/).[
+Voor details, zie {de Documentatie van de Desktop van 0} GitHub [&#128279;](https://help.github.com/desktop/).

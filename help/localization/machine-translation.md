@@ -45,7 +45,7 @@ Automatische vertaling is alomtegenwoordig op het internet en het gebruik ervan 
 
 ### Automatische vertaling via de browser
 
-Als u uw browservoorkeuren zo hebt ingesteld dat pagina&#39;s automatisch in uw taal worden vertaald, moet u er rekening mee houden dat de resulterende vertalingen afwijken van de vertalingen die via de pagina Adobe worden verkregen. Dat komt omdat de dienst die door browser wordt aangeboden aandelenvertalingen kan zijn, terwijl de vertalingen van de Adobe zullen worden aangepast om aan de stijlrichtlijnen en de terminologie van de Adobe te houden. Om optimale automatische vertaalresultaten te verkrijgen, adviseren wij dat u of de browser optie voor deze specifieke plaats in uw browser voorkeur onbruikbaar maakt, of **** nooit vertalen wanneer het toont.
+Als u uw browservoorkeuren zo hebt ingesteld dat pagina&#39;s automatisch in uw taal worden vertaald, moet u er rekening mee houden dat de resulterende vertalingen afwijken van de vertalingen die via de pagina Adobe worden verkregen. Dat komt omdat de dienst die door browser wordt aangeboden aandelenvertalingen kan zijn, terwijl de vertalingen van de Adobe zullen worden aangepast om aan de stijlrichtlijnen en de terminologie van de Adobe te houden. Om optimale automatische vertaalresultaten te verkrijgen, adviseren wij dat u of de browser optie voor deze specifieke plaats in uw browser voorkeur onbruikbaar maakt, of **&#x200B;**&#x200B;nooit vertalen wanneer het toont.
 
 ### Bekende problemen
 

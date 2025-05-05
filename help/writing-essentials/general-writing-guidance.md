@@ -84,7 +84,7 @@ Het schrijven van een procedure (het _taak_ inhoudstype) is geen talent dat wij 
 **Begeleiding voor stappen**
 
 * Een procedure is een reeks stappen. Een stap is een kort, genummerd, _enig-zin_ bevel.
-* Begin elke stap of met een werkwoord of _aan_ infinitief (om de lezer aan het doel, zoals in te richten, _om binnen ondertekend te blijven, laat **binnen ondertekend blijven toe**_). Als een stap een specifiek doel binnen de algemene procedure heeft, vermeld het doel vóór de actie.
+* Begin elke stap of met een werkwoord of _aan_ infinitief (om de lezer aan het doel, zoals in te richten, _om binnen ondertekend te blijven, laat **binnen ondertekend blijven toe**&#x200B;_). Als een stap een specifiek doel binnen de algemene procedure heeft, vermeld het doel vóór de actie.
 * Als u informatie over de stap (een inhoudstype genoemd _stapinfo_ hebt, voeg het na de stap (ingesprongen met de stap) of na de activa (een het schermschot, video, of een lijst van interfacebeschrijvingen) toe.
 * Als uw stap twee acties (zoals heeft, _selecteer dit, toen dat_), het als enige, korte zin schrijven.
 * Beperk uw taak tot ongeveer zeven tot tien stappen. Als u meer dan tien stappen in één taak creeert, zult u het in twee taken waarschijnlijk moeten breken. Gebruik hier je beste oordeel.

@@ -146,7 +146,7 @@ Eenvoudige tabellen werken naar behoren in Markering. Tabellen die meerdere alin
 Zie voor meer informatie over het maken van tabellen:
 
 * GitHub [ organiseert informatie met lijsten ](https://help.github.com/articles/organizing-information-with-tables/)
-* De ](https://www.tablesgenerator.com/markdown_tables) Web-app van de Generator van de Lijsten van de Vermindering [
+* De [&#128279;](https://www.tablesgenerator.com/markdown_tables) Web-app van de Generator van de Lijsten van de Vermindering 
 * [ zet de lijsten van HTML in Markering ](https://jmalarcon.github.io/markdowntables/) om
 
 ### Koppelingen
@@ -169,7 +169,7 @@ Gebruik relatieve koppelingen voor koppelingen naar artikelen (kruisverwijzingen
 See [Overview example article](../../overview.md)
 ```
 
-Voor meer informatie bij het verbinden, zie het [ 1} artikel van Verbindingen {van deze gids voor het verbinden van syntaxis.](linking.md)
+Voor meer informatie bij het verbinden, zie het [ 1&rbrace; artikel van Verbindingen &lbrace;van deze gids voor het verbinden van syntaxis.](linking.md)
 
 ### Afbeeldingen
 
@@ -183,9 +183,9 @@ Weergegeven:
 
 ### Codeblokken
 
-Markering ondersteunt de plaatsing van codeblokken, zowel inline in een zin als als een apart &#39;afgezonderd&#39; blok tussen zinnen. Voor details, zie {de inheemse steun van 0} Markering voor codeblokken ](https://daringfireball.net/projects/markdown/syntax#precode)[
+Markering ondersteunt de plaatsing van codeblokken, zowel inline in een zin als als een apart &#39;afgezonderd&#39; blok tussen zinnen. Voor details, zie {de inheemse steun van 0} Markering voor codeblokken [&#128279;](https://daringfireball.net/projects/markdown/syntax#precode)
 
-Gebruik backtikken (`` ` ``) om inline-codestijlen in een alinea te maken. Om een specifiek multi-line codeblok tot stand te brengen, voeg drie achtertikken (` ``` `) vóór en na het codeblok (genoemd een &quot;omheind codeblok&quot;in Markdown en enkel een &quot;codeblok&quot;component in AEM) toe. Voor afgezonderde codeblokken voegt u de codetaal toe na de eerste set backtikken, zodat de syntaxis van de code correct wordt gemarkeerd met Markering. Voorbeeld: ` ```javascript`
+Gebruik backtikken (`` ` ``) om inline-codestijlen in een alinea te maken. Om een specifiek multi-line codeblok tot stand te brengen, voeg drie achtertikken (` ` `` `) vóór en na het codeblok (genoemd een &quot;omheind codeblok&quot;in Markdown en enkel een &quot;codeblok&quot;component in AEM) toe. Voor afgezonderde codeblokken voegt u de codetaal toe na de eerste set backtikken, zodat de syntaxis van de code correct wordt gemarkeerd met Markering. Voorbeeld: ` `` `javascript`
 
 Voorbeelden:
 
@@ -226,11 +226,11 @@ U kunt uit deze typen notitieblokken kiezen om de aandacht op specifieke inhoud 
 * `[!IMPORTANT]`
 * `[!CAUTION]`
 * `[!WARNING]`
-* `[!ADMINISTRATION]`
+* `[ !ADMINISTRATION]`
 * `[!AVAILABILITY]`
 * `[!PREREQUISITES]`
 * `[!ERROR]`
-* `[!ADMINISTRATION]`
+* `[ !ADMINISTRATION]`
 * `[!INFO]`
 * `[!SUCCESS]`
 
@@ -288,9 +288,9 @@ Weergegeven:
 
 Al onze Help-inhoud voor Markdown is gelokaliseerd met behulp van in eerste instantie automatische vertaling. Als de hulp nooit is gelokaliseerd, dan houden wij de machinevertaling. Als de Help-inhoud echter in het verleden is gelokaliseerd, fungeert de door de computer vertaalde inhoud als plaatsaanduiding tijdens het vertalen van de inhoud.
 
-**``**
+**&grave;&grave;**
 
-Tijdens het vertalen van computers worden items die zijn getagd met `` gecontroleerd op basis van een lokalisatiedatabase voor de juiste vertaling. Als de UI niet gelokaliseerd is, zal deze markering het systeem toestaan om de verwijzing UI in het Engels voor die bepaalde taal (d.w.z. te verlaten. Analytische verwijzingen in het Italiaans).
+Tijdens het vertalen van computers worden items die zijn getagd met &grave;&grave; gecontroleerd op basis van een lokalisatiedatabase voor de juiste vertaling. Als de UI niet gelokaliseerd is, zal deze markering het systeem toestaan om de verwijzing UI in het Engels voor die bepaalde taal (d.w.z. te verlaten. Analytische verwijzingen in het Italiaans).
 
 **broninhoud van het Voorbeeld:**
 
@@ -310,7 +310,7 @@ Tijdens het vertalen van computers worden items die zijn getagd met `` gecontrol
 >Of the two tagging options, this is the most crucial to deliver high quality and is mandatory.
 -->
 
-**`[!DNL]`**
+**``**
 
 In de regel gebruiken we een lijst &#39;Niet vertalen&#39; om de machinevertalingsprogramma&#39;s te vertellen wat ze in het Engels moeten houden. De meest voorkomende items zijn de lange namen van oplossingen, zoals &quot;Adobe Analytics&quot;, &quot;Adobe Campaign&quot; en &quot;Adobe Target&quot;. Er kunnen zich echter gevallen voordoen waarin de motor gedwongen moet worden het Engels te gebruiken, omdat de term in kwestie op een specifieke of algemene manier kan worden gebruikt. Dit zou het meest voor de hand liggende geval zijn: korte namen voor oplossingen zoals &quot;Analytics&quot;, &quot;Campaign&quot;, &quot;Target&quot; enz. Het zou voor een machine moeilijk zijn om te begrijpen dat dit oplossingsnamen en geen algemene termen zijn. De tag kan ook worden gebruikt voor namen/functies van derden die altijd in het Engels overblijven of voor kortere tekstgedeelten zoals woordgroepen of zinnen die in het Engels moeten blijven staan.
 
