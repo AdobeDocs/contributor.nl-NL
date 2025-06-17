@@ -1,13 +1,13 @@
 ---
-source-git-commit: 99540be2c2310e2250a0ceb14fb133b630ec397e
+source-git-commit: 2b359dd199979fbba8c0491490d9d071b0e5db50
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 72%
+source-wordcount: '402'
+ht-degree: 69%
 
 ---
 # Bijdragen aan een artikel
 
-Wij verwelkomen de bijdragen van onze gemeenschap en Adobe werknemers buiten de documentatieteams.
+Wij zijn blij met de bijdragen van onze gemeenschap en Adobe-medewerkers buiten de documentatieteams.
 
 ## Adobe Open-Source-gedragscode
 
@@ -15,15 +15,16 @@ Dit project heeft de [Adobe-gedragscode voor open source](code-of-conduct.md) of
 
 ## Over uw bijdragen aan Adobe-content
 
-Zie de [Adobe Docs Contributor Guide](https://docs.adobe.com/help/nl-NL/contributor/contributor-guide/introduction.html).
+
+Zie de [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 Hoe u een bijdrage levert, hangt af van wie u bent en van het soort wijzigingen dat u wilt bijdragen:
 
 ### Kleine wijzigingen of verzoeken
 
-Als u een aanvraag wilt verzenden, klikt u op de knop **Een probleem aanmelden** verbinding in een artikel, dat een kwestie in GitHub opent. Geef een titel en beschrijving op en klik vervolgens op **Nieuwe uitgave verzenden**.
+Om een verzoek voor te leggen, klik het **Logboek een kwestie** verbinding in een artikel, dat een kwestie in GitHub opent. Specificeer een titel en een beschrijving, en klik dan **voorleggen nieuwe kwestie**.
 
-Als u kleine updates wilt aanvragen, klikt u op de knop **Deze pagina bewerken** verbinding in een artikel, dat het bronartikel in GitHub opent. Gebruik GitHub UI om uw updates te maken. Raadpleeg de algemene handleiding voor [Adobe Docs-contributors](https://docs.adobe.com/help/nl-NL/contributor/contributor-guide/introduction.html) voor meer informatie.
+Om minder belangrijke updates te verzoeken, klik **deze pagina** verbinding in een artikel uitgeven, dat het bronartikel in GitHub opent. Gebruik GitHub UI om uw updates te maken. Raadpleeg de algemene handleiding voor [Adobe Docs-contributors](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) voor meer informatie.
 
 Kleine correcties of verduidelijkingen die u verzendt voor documentatie en codevoorbeelden in deze repository, worden gedekt door de gebruiksvoorwaarden van Adobe.
 
@@ -37,7 +38,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Belangrijke wijzigingen van Adobe-medewerkers
 
-Als u een technisch schrijver, programmamanager of ontwikkelaar van het productteam voor een [!UICONTROL Adobe Experience Cloud] en het is uw taak om een bijdrage te leveren aan technische artikelen of technische artikelen te ontwerpen. Gebruik hiervoor de privéopslagruimte op `https://git.corp.adobe.com/AdobeDocs`. Zie de [Handleiding voor interne samenwerking](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html?lang=nl-NL).
+Als u een technisch schrijver, programmamanager, of ontwikkelaar van het productteam voor een [!UICONTROL Adobe Experience Cloud] oplossing bent, en het uw baan is om aan of auteur technische artikelen bij te dragen, zou u de privé bewaarplaats bij `https://git.corp.adobe.com/AdobeDocs` moeten gebruiken. Zie de [ Interne Gids van Collaboration ](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html).
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -45,7 +46,7 @@ Als u een technisch schrijver, programmamanager of ontwikkelaar van het productt
 
 Community-contributors kunnen de GitHub-interface gebruiken voor eenvoudige bewerkingen of kunnen de repository als beginpunt gebruiken voor belangrijke bijdragen.
 
-Zie de handleiding [Adobe Docs Contributor](https://docs.adobe.com/help/nl-NL/contributor/contributor-guide/introduction.html) voor meer informatie.
+Zie de handleiding [Adobe Docs Contributor](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) voor meer informatie.
 
 ## Markdown gebruiken voor de opmaak van uw onderwerp
 
