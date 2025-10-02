@@ -14,10 +14,10 @@ ht-degree: 0%
 
 Deze pagina bevat redactionele richtlijnen voor externe auteurs die inhoud maken of bestaande inhoud op Experience League bijwerken. Voordat u begint, moet u controleren of:
 
-* Krijg vertrouwd met [ Markdown ](markdown.md) authoring
+* Krijg vertrouwd met [&#x200B; Markdown &#x200B;](markdown.md) authoring
 * Spelling en grammatica in uw artikelen controleren
 * Gebruik een vriendelijke toon, een consistente presentatie en eenvoudige zinnen om computervertaling te verbeteren
-* Volg [ best-practices ](#writing-tips) en redactionele normen op deze pagina
+* Volg [&#x200B; best-practices &#x200B;](#writing-tips) en redactionele normen op deze pagina
 
 ## Richtlijnen voor stijl{#style-guidelines}
 
@@ -40,7 +40,7 @@ Als u twee koppen hebt zonder tekst die ze scheidt, voegt u ontbrekende tekst to
 
 Bijvoorbeeld, *het Overzicht* dient geen doel hier:
 
-![ Dubbele rubrieken ](assets/headings-double.png)
+![&#x200B; Dubbele rubrieken &#x200B;](assets/headings-double.png)
 
 * Ook, als uw tweede rubriek *Overzicht* toevallig is, is het waarschijnlijk onnodig. Uw H1 en eerste paragraaf dienen als conceptueel overzicht over het onderwerp van het artikel.
 
@@ -50,7 +50,7 @@ Bijvoorbeeld, *het Overzicht* dient geen doel hier:
 
 Gebruik *Meer informatie* rubrieken voor verwijzingslijsten (of kaarten). Voorbeeld:
 
-![ Lijst van de Verwijzing van de Kruisverwijzing ](assets/headings-more-info.png)
+![&#x200B; Lijst van de Verwijzing van de Kruisverwijzing &#x200B;](assets/headings-more-info.png)
 
 **Begeleiding voor verwijzingslijsten**
 
@@ -110,7 +110,7 @@ Met parallelle constructie voor lijsten kunt u gemakkelijk lezen en scannen. Lij
 
 Voorbeeld-inhoudsopgave met parallelle items:
 
-![ Parallelle TOC ](assets/parallel-toc.png)
+![&#x200B; Parallelle TOC &#x200B;](assets/parallel-toc.png)
 
 De voorafgaande inhoudsopgave is een goed voorbeeld omdat:
 
@@ -155,20 +155,20 @@ Hier volgen eenvoudige manieren om het ontwerp, de helderheid en de leesbaarheid
 | Actieve stem gebruiken | De passieve stem van de verandering in actieve stem |
 | Huidige spanningen gebruiken | **Zwakke:** *de Campagne v8 zal in Juni vrijgeven.* <p>**Sterk:** *de versies van de Campagne v8 in Juni.*<p>De huidige spanningen zijn altijd beter leesbaar voor klanten. |
 | Vermijd zwakke, onnodige adverbare | *Zeer*, *extreem*, *ongelooflijk*... <p>Adverbs zijn extra woorden die geen significante betekenis toevoegen als u sterke en nauwkeurige woorden, clausules, en adjectieven gebruikt. |
-| De sterke werkwoorden van het gebruik voor titels en [ ingangen TOC ](#using-toc) | Voorbeelden:<p>**Zwakke:** *de verwezenlijking en het beheer van het Rand* <p>**Sterk:** *creeer en beheer eigenschappen* |
-| De zin [ kapitalisatie van het gebruik ](https://docs.microsoft.com/en-us/style-guide/capitalization) | In twijfel, kapitaliseer niet. Gebruik in koppen hoofdletters in de stijl van de zin. Plaats de juiste nummers in hoofdletters en het eerste woord na een dubbele punt. In procedures, pas kapitalisatie aan die u in de interface ziet. |
+| De sterke werkwoorden van het gebruik voor titels en [&#x200B; ingangen TOC &#x200B;](#using-toc) | Voorbeelden:<p>**Zwakke:** *de verwezenlijking en het beheer van het Rand* <p>**Sterk:** *creeer en beheer eigenschappen* |
+| De zin [&#x200B; kapitalisatie van het gebruik &#x200B;](https://docs.microsoft.com/en-us/style-guide/capitalization) | In twijfel, kapitaliseer niet. Gebruik in koppen hoofdletters in de stijl van de zin. Plaats de juiste nummers in hoofdletters en het eerste woord na een dubbele punt. In procedures, pas kapitalisatie aan die u in de interface ziet. |
 | Lees deze kleine tips voor meer duidelijkheid | <ul><li>Vermijd *om* (het voegt geen betekenis toe). Al u nodig is *aan.*</li><li>Vermijd *Gebruik.* Het klinkt misschien technisch, maar dat is het niet. *gebruik* middelen *om goed gebruik van, vooral van iets te maken dat niet bedoeld voor het doel was maar* zal dienen.</li><li>Geen puntkomma&#39;s: gebruik in plaats daarvan een punt en begin een nieuwe zin. Halfdubbele punten zorgen voor onnodige complexiteit.</li><li>Dubbele punten: gebruik dubbele punten om een lijst te introduceren. Gebruik spaarzaam dubbele punten binnen zinnen. Plaats het eerste woord na een dubbele punt in een zin met een hoofdletter.</li><li>Gebruik de komma van Oxford (drie komma&#39;s in een lijst).</li><li>De lengte van de zin moet minder dan 39 woorden zijn.</li><li>Navigatie: het gebruik *gaat* of *navigeren aan*.</li><li>Gebruik geen onbewerkte URL-tekst (gebruiksvriendelijke koppelingstekst), tenzij het weergeven van het pad belangrijke informatie is.</li></ul> |
 | Spellingcontrole gebruiken in VSC | Installeer de Controle van de Spellingcontrole van de Code (uitbreiding) in de Code van Visual Studio. |
-| De verandering *klikt* aan *gaat* of *uitgezocht* | *klik* is een apparaat-specifiek woord (met toegankelijkheidskwesties), en de trend moet zich van het bewegen. Hier volgen enkele suggesties voor het wijzigen van de code:<ul><li>Navigatie: *ga naar Dossier > Druk*.</li><li>Het klikken: *Uitgezochte Dossier > Druk* of *Uitgezochte O.K.*. </li></ul>Zie [ beschrijvend interactie met UI ](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/describing-interactions-with-ui) voor meer ideeën over de beste woordkeus in diverse situaties. |
+| De verandering *klikt* aan *gaat* of *uitgezocht* | *klik* is een apparaat-specifiek woord (met toegankelijkheidskwesties), en de trend moet zich van het bewegen. Hier volgen enkele suggesties voor het wijzigen van de code:<ul><li>Navigatie: *ga naar Dossier > Druk*.</li><li>Het klikken: *Uitgezochte Dossier > Druk* of *Uitgezochte O.K.*. </li></ul>Zie [&#x200B; beschrijvend interactie met UI &#x200B;](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/describing-interactions-with-ui) voor meer ideeën over de beste woordkeus in diverse situaties. |
 | Acrolinx uitvoeren in VSC | Acrolinx controleert op problemen met stijl en grammatica. Het controleert URLs, terminologie, spelling, en meer. Zo kunt u uw helderheid verbeteren en de vertaling op Experience League-inhoud verbeteren. |
 
 Nog een paar beste praktijken en bronnen:
 
-* [ Scannable inhoud ](https://docs.microsoft.com/en-us/style-guide/scannable-content/): De lezers van de hulp vinden wat zij snel nodig hebben, of erkennen enkel zo snel wanneer zij niet waar zij moeten zijn. Het schrijven om het scannen te vergemakkelijken kan u helpen.
-* **Aantallen:** in lichaamstekst, spelt gehele aantallen van nul tot negen, en gebruiksaantallen voor 10 of groter. Zie [ Aantallen ](https://docs.microsoft.com/en-us/style-guide/numbers).
+* [&#x200B; Scannable inhoud &#x200B;](https://docs.microsoft.com/en-us/style-guide/scannable-content/): De lezers van de hulp vinden wat zij snel nodig hebben, of erkennen enkel zo snel wanneer zij niet waar zij moeten zijn. Het schrijven om het scannen te vergemakkelijken kan u helpen.
+* **Aantallen:** in lichaamstekst, spelt gehele aantallen van nul tot negen, en gebruiksaantallen voor 10 of groter. Zie [&#x200B; Aantallen &#x200B;](https://docs.microsoft.com/en-us/style-guide/numbers).
 * Schrijf zoals je spreekt, projectvriendelijkheid en kom snel tot het punt.
 
-Zie [ Hoogste 10 het Schrijven Tips ](https://docs.microsoft.com/en-us/style-guide/top-10-tips-style-voice) in de [ Gids van de Stijl Microsoft® ](https://docs.microsoft.com/en-us/style-guide/welcome/) voor meer informatie.
+Zie [&#x200B; Hoogste 10 het Schrijven Tips &#x200B;](https://docs.microsoft.com/en-us/style-guide/top-10-tips-style-voice) in de [&#x200B; Gids van de Stijl Microsoft® &#x200B;](https://docs.microsoft.com/en-us/style-guide/welcome/) voor meer informatie.
 
 ## Alt-tekst{#alt-text}
 
