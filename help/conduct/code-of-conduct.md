@@ -1,11 +1,11 @@
 ---
 title: Gedragscode van Adobe
-description: Gedragscode van de Adobe voor het melden van problemen en het indienen van bewerkingswijzigingen
+description: Adobe-gedragscode voor het melden van problemen en het indienen van bewerkingswijzigingen
 exl-id: ff9c1cc5-8f65-40bb-8d5b-b7d42a5c08c2
-source-git-commit: 06b0a397f0612e5ecfca82fc7105a45ed167efc9
+source-git-commit: 9b3e4e2a7a007d4e417a5bf156d2290ea60b64ec
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 97%
+source-wordcount: '441'
+ht-degree: 93%
 
 ---
 
@@ -65,8 +65,8 @@ nader gedefinieerd en verduidelijkt worden door projectbeheerders.
 
 ## Handhaving
 
-Gevallen van beledigend, intimiderend of anderszins onaanvaardbaar gedrag kunnen
-worden gemeld door contact op te nemen met het projectteam via Grp-opensourceoffice@adobe.com. Alle
+Mishandeling, pesterijen of anderszins onacceptabel gedrag kan
+gemeld door contact op te nemen met het projectteam op <Grp-opensourceoffice@adobe.com> . Alle
 klachten zullen worden beoordeeld en onderzocht en resulteren in een antwoord dat
 noodzakelijk en passend wordt geacht voor de omstandigheden. Het projectteam is
 verplicht tot geheimhouding met betrekking tot de melder van een incident.

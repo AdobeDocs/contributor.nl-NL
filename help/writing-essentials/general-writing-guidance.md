@@ -1,9 +1,9 @@
 ---
 lastModified: 2018-06-28T00:00:00Z
 title: Richtlijnen voor ontwerpstijl voor externe medewerkers
-description: Leer meer over creatie en redactionele richtlijnen voor externe medewerkers aan Experience League.
+description: Meer informatie over authoring en redactionele richtlijnen voor externe medewerkers van Experience League.
 exl-id: 874f88d7-18ad-4ac8-bfa3-737255652bbc
-source-git-commit: 03d46c9ffb664824f9526f781d776069d486f271
+source-git-commit: 9b3e4e2a7a007d4e417a5bf156d2290ea60b64ec
 workflow-type: tm+mt
 source-wordcount: '2203'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Richtlijnen voor ontwerpstijl voor externe medewerkers{#guidelines}
 
-Deze pagina bevat redactionele richtlijnen voor externe auteurs die inhoud maken of bestaande inhoud op het Experience League bijwerken. Voordat u begint, moet u controleren of:
+Deze pagina bevat redactionele richtlijnen voor externe auteurs die inhoud maken of bestaande inhoud op Experience League bijwerken. Voordat u begint, moet u controleren of:
 
 * Krijg vertrouwd met [ Markdown ](markdown.md) authoring
 * Spelling en grammatica in uw artikelen controleren
@@ -30,7 +30,7 @@ Houd rekening met het volgende wanneer u documentatie schrijft.
 
 ## Aanbevolen werkwijzen voor technisch schrijven{#writing-tips}
 
-Technisch schrijven, met name voor softwaredocumentatie, is een gespecialiseerde bedrijfstak. Zelfs wordt de meest productieve novelist flustered wanneer het proberen van technisch schrijven-niet omdat het materiaal complex of technisch is, maar omdat het niet gemakkelijk is makend complexe, technische informatie _eenvoudig_. Uw inhoud kan alleen succesvol zijn als deze structureel consistent, scannbaar, herbruikbaar en zonder structuur- en syntaxisfouten door de publicatiepijplijn loopt.
+Technisch schrijven, met name voor softwaredocumentatie, is een gespecialiseerde bedrijfstak. Zelfs wordt de meest productieve novelist flustered wanneer het proberen van technisch schrijven-niet omdat het materiaal complex of technisch is, maar omdat het niet gemakkelijk is makend complexe, technische informatie *eenvoudig*. Uw inhoud kan alleen succesvol zijn als deze structureel consistent, scannbaar, herbruikbaar en zonder structuur- en syntaxisfouten door de publicatiepijplijn loopt.
 
 In de volgende secties worden algemene problemen beschreven waarvoor nieuwe schrijvers moeten uitkijken:
 
@@ -38,17 +38,17 @@ In de volgende secties worden algemene problemen beschreven waarvoor nieuwe schr
 
 Als u twee koppen hebt zonder tekst die ze scheidt, voegt u ontbrekende tekst toe (om de tweede onderwerpkop in te voeren). U kunt ook een van de koppen verwijderen. Het tweede is waarschijnlijk overbodig.
 
-Bijvoorbeeld, _het Overzicht_ dient geen doel hier:
+Bijvoorbeeld, *het Overzicht* dient geen doel hier:
 
 ![ Dubbele rubrieken ](assets/headings-double.png)
 
-* Ook, als uw tweede rubriek _Overzicht_ toevallig is, is het waarschijnlijk onnodig. Uw H1 en eerste paragraaf dienen als conceptueel overzicht over het onderwerp van het artikel.
+* Ook, als uw tweede rubriek *Overzicht* toevallig is, is het waarschijnlijk onnodig. Uw H1 en eerste paragraaf dienen als conceptueel overzicht over het onderwerp van het artikel.
 
-* Op dezelfde manier, voor SEO doeleinden, zijn de stand-alone rubrieken zoals _Overzicht_ en _Inleiding_ niet nuttig door zich. Geef het product of de functie die u wilt introduceren een naam. (Voorbeeld: _Overzicht van de rapporten van de Uitval_)
+* Op dezelfde manier, voor SEO doeleinden, zijn de stand-alone rubrieken zoals *Overzicht* en *Inleiding* niet nuttig door zich. Geef het product of de functie die u wilt introduceren een naam. (Voorbeeld: *Overzicht van de rapporten van de Uitval*)
 
 ### Inconsistente kruisverwijzingskoppen{#maps}
 
-Gebruik _Meer informatie_ rubrieken voor verwijzingslijsten (of kaarten). Voorbeeld:
+Gebruik *Meer informatie* rubrieken voor verwijzingslijsten (of kaarten). Voorbeeld:
 
 ![ Lijst van de Verwijzing van de Kruisverwijzing ](assets/headings-more-info.png)
 
@@ -79,17 +79,17 @@ Het is moeilijk om te weerstaan aan het toevoegen van citaten rond een woord of 
 
 ### Procedures{#steps}
 
-Het schrijven van een procedure (het _taak_ inhoudstype) is geen talent dat wij met worden geboren. Het opbouwen van een leesbare, duidelijke procedure verloopt in de praktijk.
+Het schrijven van een procedure (het *taak* inhoudstype) is geen talent dat wij met worden geboren. Het opbouwen van een leesbare, duidelijke procedure verloopt in de praktijk.
 
 **Begeleiding voor stappen**
 
-* Een procedure is een reeks stappen. Een stap is een kort, genummerd, _enig-zin_ bevel.
-* Begin elke stap of met een werkwoord of _aan_ infinitief (om de lezer aan het doel, zoals in te richten, _om binnen ondertekend te blijven, laat **binnen ondertekend blijven toe**&#x200B;_). Als een stap een specifiek doel binnen de algemene procedure heeft, vermeld het doel vóór de actie.
-* Als u informatie over de stap (een inhoudstype genoemd _stapinfo_ hebt, voeg het na de stap (ingesprongen met de stap) of na de activa (een het schermschot, video, of een lijst van interfacebeschrijvingen) toe.
-* Als uw stap twee acties (zoals heeft, _selecteer dit, toen dat_), het als enige, korte zin schrijven.
+* Een procedure is een reeks stappen. Een stap is een kort, genummerd, *enig-zin* bevel.
+* Begin elke stap of met een werkwoord of *aan* infinitief (om de lezer aan het doel, zoals in te richten, *om binnen ondertekend te blijven, laat **binnen ondertekend blijven toe***). Als een stap een specifiek doel binnen de algemene procedure heeft, vermeld het doel vóór de actie.
+* Als u informatie over de stap (een inhoudstype genoemd *stapinfo*) hebt, voeg het na de stap (ingesprongen met de stap) of na de activa (een het schermschot, video, of een lijst van interfacebeschrijvingen) toe.
+* Als uw stap twee acties (zoals heeft, *selecteer dit, toen dat*), het als enige, korte zin schrijven.
 * Beperk uw taak tot ongeveer zeven tot tien stappen. Als u meer dan tien stappen in één taak creeert, zult u het in twee taken waarschijnlijk moeten breken. Gebruik hier je beste oordeel.
 * Gebruik in de productdocumentatie geen koppen als stappen. (Uitzondering hieronder voor zelfstudies.)
-* Voor zelfstudies met meerdere pagina&#39;s kunnen koppen als stappen worden toegestaan. Nochtans, maak geen aantal hen. Eerder, spreid uit _Stap 1:_, _Stap 2:_, etc.
+* Voor zelfstudies met meerdere pagina&#39;s kunnen koppen als stappen worden toegestaan. Nochtans, maak geen aantal hen. Eerder, spreid uit *Stap 1:*, *Stap 2:*, etc.
 
 **procedure van het Voorbeeld**
 
@@ -120,29 +120,29 @@ De voorafgaande inhoudsopgave is een goed voorbeeld omdat:
 
 ## Metagegevens voor titel en beschrijving{#metadata}
 
-_Titel_ en _beschrijvings_ meta-gegevens zijn belangrijk voor SEO, inhoudsontdekking, en de scores van de inhoudskwaliteit op Experience League.
+*Titel* en *beschrijvings* meta-gegevens zijn belangrijk voor SEO, inhoudsontdekking, en de scores van de inhoudskwaliteit op Experience League.
 
 Hier volgen voorbeelden van titels en beschrijvingen:
 
 **Beschrijvingen voor concepteartikelen**
 
-* _leer over segmenten in Adobe Analytics. Krijg hulp bij het vormen van het paneel van de Segmentatie in een werkruimte._
-* _vind hulp bij het gebruiken van segmenten in een rapport van de Mening van de Pagina in Adobe Analytics._
+* *leer over segmenten in Adobe Analytics. Krijg hulp bij het vormen van het paneel van de Segmentatie in een werkruimte.*
+* *vind hulp bij het gebruiken van segmenten in een rapport van de Mening van de Pagina in Adobe Analytics.*
 
 **Beschrijvingen voor procedure/taakartikelen**
 
-* _leer hoe te om een segment in Adobe Analytics tot stand te brengen._
-* _creeer een segment in Adobe Analytics. Leer hoe te om, een rapport te selecteren te vormen en in werking te stellen dat op het segment wordt gebaseerd u creeert._
+* *leer hoe te om een segment in Adobe Analytics tot stand te brengen.*
+* *creeer een segment in Adobe Analytics. Leer hoe te om, een rapport te selecteren te vormen en in werking te stellen dat op het segment wordt gebaseerd u creeert.*
 
 Het object dat u gebruikt, is afhankelijk van de grootte en het bereik van het artikel.
 
 **Titel voor een concepteartikel**
 
-* _Segmenten in de rapporten van de Mening van de Pagina_
+* *Segmenten in de rapporten van de Mening van de Pagina*
 
 **Titel voor een procedure/taakartikel**
 
-* _creeer een segment voor een rapport van de Mening van de Pagina_
+* *creeer een segment voor een rapport van de Mening van de Pagina*
 
 (Vergeet niet dat de verticale streep en de productnaam automatisch aan titels worden toegevoegd.)
 
@@ -157,12 +157,10 @@ Hier volgen eenvoudige manieren om het ontwerp, de helderheid en de leesbaarheid
 | Vermijd zwakke, onnodige adverbare | *Zeer*, *extreem*, *ongelooflijk*... <p>Adverbs zijn extra woorden die geen significante betekenis toevoegen als u sterke en nauwkeurige woorden, clausules, en adjectieven gebruikt. |
 | De sterke werkwoorden van het gebruik voor titels en [ ingangen TOC ](#using-toc) | Voorbeelden:<p>**Zwakke:** *de verwezenlijking en het beheer van het Rand* <p>**Sterk:** *creeer en beheer eigenschappen* |
 | De zin [ kapitalisatie van het gebruik ](https://docs.microsoft.com/en-us/style-guide/capitalization) | In twijfel, kapitaliseer niet. Gebruik in koppen hoofdletters in de stijl van de zin. Plaats de juiste nummers in hoofdletters en het eerste woord na een dubbele punt. In procedures, pas kapitalisatie aan die u in de interface ziet. |
-| Lees deze kleine tips voor meer duidelijkheid | <ul><li>Vermijd *om* (het voegt geen betekenis toe). Al u nodig is *aan.*</li><li>Vermijd *Gebruik.* Het klinkt misschien technisch, maar dat is het niet. *gebruik* middelen *om goed gebruik van, vooral van iets te maken dat niet bedoeld voor het doel was maar* zal dienen.</li><li>Geen puntkomma&#39;s: gebruik in plaats daarvan een punt en begin een nieuwe zin. Halfdubbele punten zorgen voor onnodige complexiteit.</li><li>Dubbele punten: gebruik dubbele punten om een lijst te introduceren. Gebruik spaarzaam dubbele punten binnen zinnen. Plaats het eerste woord na een dubbele punt in een zin met een hoofdletter.</li><li>Gebruik de komma van Oxford (drie komma&#39;s in een lijst).</li><li>De lengte van de zin moet minder dan 39 woorden zijn.</li><li>Navigatie: het gebruik _gaat_ of _navigeren aan_.</li><li>Gebruik geen onbewerkte URL-tekst (gebruiksvriendelijke koppelingstekst), tenzij het weergeven van het pad belangrijke informatie is.</li></ul> |
+| Lees deze kleine tips voor meer duidelijkheid | <ul><li>Vermijd *om* (het voegt geen betekenis toe). Al u nodig is *aan.*</li><li>Vermijd *Gebruik.* Het klinkt misschien technisch, maar dat is het niet. *gebruik* middelen *om goed gebruik van, vooral van iets te maken dat niet bedoeld voor het doel was maar* zal dienen.</li><li>Geen puntkomma&#39;s: gebruik in plaats daarvan een punt en begin een nieuwe zin. Halfdubbele punten zorgen voor onnodige complexiteit.</li><li>Dubbele punten: gebruik dubbele punten om een lijst te introduceren. Gebruik spaarzaam dubbele punten binnen zinnen. Plaats het eerste woord na een dubbele punt in een zin met een hoofdletter.</li><li>Gebruik de komma van Oxford (drie komma&#39;s in een lijst).</li><li>De lengte van de zin moet minder dan 39 woorden zijn.</li><li>Navigatie: het gebruik *gaat* of *navigeren aan*.</li><li>Gebruik geen onbewerkte URL-tekst (gebruiksvriendelijke koppelingstekst), tenzij het weergeven van het pad belangrijke informatie is.</li></ul> |
 | Spellingcontrole gebruiken in VSC | Installeer de Controle van de Spellingcontrole van de Code (uitbreiding) in de Code van Visual Studio. |
-| De verandering _klikt_ aan _gaat_ of _uitgezocht_ | _klik_ is een apparaat-specifiek woord (met toegankelijkheidskwesties), en de trend moet zich van het bewegen. Hier volgen enkele suggesties voor het wijzigen van de code:<ul><li>Navigatie: _ga naar Dossier > Druk_.</li><li>Het klikken: _Uitgezochte Dossier > Druk_ of _Uitgezochte O.K._. </li></ul>Zie [ beschrijvend interactie met UI ](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/describing-interactions-with-ui) voor meer ideeën over de beste woordkeus in diverse situaties. |
-| Acrolinx uitvoeren in VSC | Acrolinx controleert op problemen met stijl en grammatica. Het controleert URLs, terminologie, spelling, en meer. Het helpt u uw helderheid te verbeteren en verbetert vertaling op de inhoud van het Experience League. |
-
-{style="table-layout:auto"}
+| De verandering *klikt* aan *gaat* of *uitgezocht* | *klik* is een apparaat-specifiek woord (met toegankelijkheidskwesties), en de trend moet zich van het bewegen. Hier volgen enkele suggesties voor het wijzigen van de code:<ul><li>Navigatie: *ga naar Dossier > Druk*.</li><li>Het klikken: *Uitgezochte Dossier > Druk* of *Uitgezochte O.K.*. </li></ul>Zie [ beschrijvend interactie met UI ](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/describing-interactions-with-ui) voor meer ideeën over de beste woordkeus in diverse situaties. |
+| Acrolinx uitvoeren in VSC | Acrolinx controleert op problemen met stijl en grammatica. Het controleert URLs, terminologie, spelling, en meer. Zo kunt u uw helderheid verbeteren en de vertaling op Experience League-inhoud verbeteren. |
 
 Nog een paar beste praktijken en bronnen:
 
@@ -188,7 +186,7 @@ U hoeft zich geen zorgen te maken of uw product gelokaliseerd is of welke talen 
 
 * `DNL`
 
-  DNL middelen _lokaliseren niet_. U gebruikt deze alleen voor productnamen van gedeponeerde Adoben, die allemaal in het Engels moeten blijven staan.
+  DNL middelen *lokaliseren niet*. U gebruikt deze alleen voor handelsmerken van Adobe-producten, die allemaal in het Engels moeten blijven staan.
 
   Syntaxisvoorbeelden: `[!DNL Adobe Campaign]` of `[!DNL Workfront]`
 
@@ -204,9 +202,9 @@ U hoeft zich geen zorgen te maken of uw product gelokaliseerd is of welke talen 
 >
 >U moet deze labels toepassen voordat u de inhoud lokaliseert.
 
-### Adobe in productnamen gebruiken{#product-names}
+### Adobe gebruiken in productnamen{#product-names}
 
-Voor collectieve identiteit, omvatten wij gewoonlijk _Adobe_ in de eerste verwijzing van een product op het hulplijnniveau. Afhankelijk van de ruimte, kunt u Adobe in een rubriek laten vallen, maar dan zou de eerste verwijzing in het lichaamskopie de volledige naam moeten omvatten. Bepaalde producten, zoals _Adobe Audition_ en _Adobe Premiere Pro_, vereisen het gebruik van Adobe op eerste of meest prominente verwijzing in elk stuk van onderpand omdat het deel van de wettelijke, gemerkte naam uitmaakt.
+Voor collectieve identiteit, omvatten wij gewoonlijk *Adobe* in de eerste verwijzing van een product op het hulplijnniveau. Afhankelijk van de ruimte, kunt u Adobe in een rubriek laten vallen, maar dan zou de eerste verwijzing in het lichaamskopie de volledige naam moeten omvatten. Bepaalde producten, zoals *Adobe Audition* en *Adobe Premiere Pro*, vereisen het gebruik van Adobe op eerste of meest prominente verwijzing in elk stuk van onderpand omdat het deel van de wettelijke, gemerkte naam uitmaakt.
 
 ## Eerste alinea{#firstparas}
 
@@ -214,23 +212,23 @@ In de eerste alinea moet het onderwerp worden gedefinieerd en moet worden beschr
 
 Voorbeeld eerste alinea (concept):
 
-_publiek is inzamelingen van bezoekers (een lijst van bezoekers IDs). De publieksservice van Adobe beheert de vertaling van bezoekersgegevens in publiekssegmentatie. Als dusdanig, is het creëren van en het leiden van publiek gelijkaardig aan het creëren van en het gebruiken van segmenten, met de toegevoegde capaciteit om het publiekssegment aan het Experience Cloud te delen._
+*publiek is inzamelingen van bezoekers (een lijst van bezoekers IDs). De Adobe-publieksservice beheert de vertaling van bezoekersgegevens naar publiekssegmentatie. Als dusdanig, is het creëren van en het leiden van publiek gelijkaardig aan het creëren van en het gebruiken van segmenten, met de toegevoegde capaciteit om het publiekssegment aan Experience Cloud te delen.*
 
 Voorbeeld van de eerste alinea (taak):
 
-_creeer de bron van het klantenattribuut (CSV en FIN dossiers) en upload de gegevens. U kunt de gegevensbron activeren wanneer u klaar bent. Nadat de gegevensbron actief is, deel de attributengegevens aan Analytics en Doel._
+*creeer de bron van het klantenattribuut (CSV en FIN dossiers) en upload de gegevens. U kunt de gegevensbron activeren wanneer u klaar bent. Nadat de gegevensbron actief is, deel de attributengegevens aan Analytics en Doel.*
 
 ### SEO-tips voor eerste alinea&#39;s{#seo}
 
 * Neem zoektermen op in de eerste alinea.
 * Gebruik termen die door lezers worden gebruikt.
-* Synoniemen en, indien nodig, eerder gebruik van termen opnemen. Bijvoorbeeld, &quot;de Dienst van identiteitskaart van het Experience Cloud (ECID), die eerder als _bezoekersidentiteitskaart_ of als acroniemen zoals MID, MCVID wordt bekend, verstrekt een universele, blijvende identiteitskaart die bezoekers identificeert.&quot;
+* Synoniemen en, indien nodig, eerder gebruik van termen opnemen. Bijvoorbeeld, &quot;de Dienst van identiteitskaart van Experience Cloud (ECID), die eerder als *bezoekersidentiteitskaart* of als acroniemen zoals MID, MCVID wordt bekend, verstrekt een universele, blijvende identiteitskaart die bezoekers identificeert.&quot;
 * SEO-termen opnemen in koppelingen.
 * Plaats geen essentiële termen in complexe tabellen. Complexe tabellen leveren geen betrouwbare zoekresultaten op. Tekst in afbeeldingen wordt niet doorzocht. Bijschriften worden doorzocht.
 
 ## Kapitalisatie{#capitalization}
 
-* Bij de stijl van de Adobe wordt voor alle titels, koppen, subkoppen en pagina-navigatie-elementen gebruikgemaakt van een hoofdlettergebruik in de stijl van een zin.
+* In de Adobe-stijl wordt voor alle titels, koppen, subkoppen en pagina-navigatie-elementen gebruikgemaakt van hoofdletters en kleine letters.
 * Alle woorden zijn in kleine letters behalve het eerste woord en de juiste nummers, zoals de namen van merken, oplossingen en services.
 * Identiek aan het hoofdlettergebruik in de productnamen van gereedschappen, opties, menu-items, dialoogvensters en velden.
 
